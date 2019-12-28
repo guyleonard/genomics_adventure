@@ -24,8 +24,16 @@ conda install -c bioconda spades #pip, python-3.8
 conda install -c bioconda blast 
 conda install -c bioconda emboss 
 conda install -c bioconda pfam_scan #hmmer
+```
 
+### Data
 
+#### Reference Data
+```
+mkdir reference_sequence && cd reference_sequence
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.fna.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.gff.gz
+gunzip *.gz
 
 ```
 
