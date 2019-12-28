@@ -11,6 +11,7 @@ conda activate genomics_tutorial
 conda install -c bioconda sra-tools #perl, zlib
 conda install -c bioconda fastqc #openjdk
 conda install -c bioconda ea-utils #blas
+conda install -c bioconda seqtk
 conda install -c bioconda bwa
 conda install -c bioconda samtools #htslib
 conda install -c bioconda qualimap
