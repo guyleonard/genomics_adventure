@@ -1,46 +1,43 @@
-# genomics_workshop
+# A Genomics Adventure
+Thanks to:
+ * Konrad Paszkiewicz
+ * Josie Paris
+ * Sophie Shaw
+ * Workshop on Genomics - evomics.org
 
-## Set Up
-### Programs
+## Getting Started
+We will need to install some common software packages, and download some data to use for this tutorial. For the software we will use a program called 'conda', it will allow us to easily install lots of common bioinformatics software in a special 'environment' without the need for root/sudo access. For the data, we will use several methods - explained below.
 
+### Software
+You may copy and paste the commands below.
 ```
+# Make sure we are up to date
 conda update -n base conda
-conda create --name genomics_workshop
-conda activate genomics_tutorial
-
-conda install -c bioconda sra-tools #perl, zlib
-conda install -c bioconda fastqc #openjdk
-conda install -c bioconda ea-utils #blas
-conda install -c bioconda seqtk
-conda install -c bioconda bwa
-conda install -c bioconda samtools #htslib
-conda install -c bioconda qualimap
-conda install -c bioconda igv
-conda install -c bioconda igvtools
-conda install -c bioconda bcftools
-conda install -c bioconda vcftools
-conda install -c bioconda bedtools
-conda install -c bioconda spades #pip, python-3.8
-conda install -c bioconda blast 
-conda install -c bioconda emboss 
-conda install -c bioconda pfam_scan #hmmer
+# Create our environment
+conda create --name genomics_adventure
+# Activate our environment
+conda activate genomics_adventure
+# Install the software
+conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap samtools seqtk spades sra-tools vcftools
 ```
 
 ### Data
-
 #### Reference Data
+We will be working with two different bacterial species for this adventure; Escherichia coli & Vibrio parahaemolyticus, they are two relatively small genomes, but the techniques you will learn here can be used with smaller & larger, and Eukaryotic genomes too.
+
 ```
+# Create a directtory to store our data
 mkdir reference_sequence && cd reference_sequence
 
-# E.coli
+# Download the E. coli reference genome in FASTA and GFF formats
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz
 
-# Vibrio
+# Download the Vibrio reference genome in FASTA and GFF formats
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.gff.gz
 
-#
+# Unzip the files
 gunzip *.gz
 
 ```
