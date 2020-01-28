@@ -11,7 +11,7 @@ We will need to install some common software packages, and download some data to
 ### Software
 This section will create the 'environment' in which we will be running the tutorial, this allows us to keep all our software and data in on place for easy access and repeatability (e.g. you may wish to run different versions of software in other analyses). We won't explore which programs that are installed right now, but the tutorial will explain each as we get to them. 
 
-You may copy and paste one-by-one the commands below.
+You may copy and paste one-by-one the commands below:
 ```bash
 # Make sure we are up to date
 conda update -n base conda
@@ -24,6 +24,12 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 ```
 
 ### Data
+We will need to rerieve two sets of data for our adventure, this is similar to how you may collate data for your own analyses.
+ 1) Reference Data
+  * If you are lucky to a reference genome...
+ 2) Sequence Data
+  * Either directlty from a Sequencing Service or from public access databases.
+
 #### Reference Data
 We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timing of our tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too.
 
@@ -51,7 +57,9 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM1
 # Unzip the files
 gunzip *.gz
 ```
+#### Sequencing Data
 
+## Let's have some Genomics Fun!
 [Continue the adventure...]
 
 # Deprecated / Outdated / No Conda?
