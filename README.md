@@ -44,18 +44,25 @@ We will now download the data, as we are working with the command line we have a
 You may copy and paste one-by-one the commands below:
 ```bash
 # Create a directory to store our data
-mkdir reference_sequence && cd reference_sequence
+mkdir reference_sequences && cd reference_sequences
 
 # Download the E. coli reference genome in FASTA and GFF formats
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz
 
+# Make ecoli directory, move files there and unzip
+mkdir ecoli && mv *.gz ecoli && gunzip ecoli/*.gz
+
 # Download the Vibrio reference genome in FASTA and GFF formats
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.gff.gz
 
-# Unzip the files
-gunzip *.gz
+# Make vibrio directory, move files there and unzip
+mkdir vibrio && mv *.gz vibrio && gunzip vibrio/*.gz
+
+# Change write permissions
+chmod -R 444 *.fna
+chmod -R 444 *.gff
 ```
 #### Sequencing Data
 
