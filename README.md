@@ -11,7 +11,7 @@ We will need to install some common software packages, and download some data to
 ### Software
 This section will create the 'environment' in which we will be running the tutorial, this allows us to keep all our software and data in on place for easy access and repeatability (e.g. you may wish to run different versions of software in other analyses). We won't explore which programs that are installed right now, but the tutorial will explain each as we get to them. 
 
-You may copy and paste the commands below.
+You may copy and paste one-by-one the commands below.
 ```bash
 # Make sure we are up to date
 conda update -n base conda
@@ -25,7 +25,7 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 
 ### Data
 #### Reference Data
-We will be working with two different bacterial species for this adventure; Escherichia coli & Vibrio parahaemolyticus, they are two relatively small genomes, but the techniques you will learn here can be used with smaller & larger, and Eukaryotic genomes too.
+We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for our tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too.
 
 ```bash
 # Create a directtory to store our data
