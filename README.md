@@ -25,11 +25,13 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 
 ### Data
 #### Reference Data
-We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for our tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too.
+We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timing of our tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too.
 
-We will access the data from the National Center for Biotechnology Information (NCBI)
+We will access the data from the National Center for Biotechnology Information (NCBI), check out the links below:
  * *[E. coli](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)*
  * *[V. parahaemolyticus](https://www.ncbi.nlm.nih.gov/genome/691?genome_assembly_id=167995)*
+
+There is a lot of information on these pages, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format.
 
 ```bash
 # Create a directory to store our data
@@ -45,7 +47,6 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM1
 
 # Unzip the files
 gunzip *.gz
-
 ```
 
 ## Deprecated / Outdated / No Conda?
