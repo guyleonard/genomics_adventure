@@ -85,9 +85,24 @@ We will also need some sequencing data! Back at home you will likely retrieve th
 
 For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself.
 
-NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading whilst you wait...
+The raw data that we will use for the *E. coli* genome is available from [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=ERR2789854) and [EMBL-EBI](https://www.ebi.ac.uk/ena/data/view/ERR2789854) with the accession ERR2789854. This is the same data but it is mirrored between the two sites, however each site has a different way of accessing the data.
+
+With NCBI you need to use a tool called '[fastq-dump](https://ncbi.github.io/sra-tools/fastq-dump.html)':mag:, which given an accession and several other options will download the 'fastq' data files - it can be notoriously tricky and difficult at times and has some issues with downloading PacBio data. Nonetheless, you can give it a try below.
+
+Whilst over at the EMBL-EBI they provide direct links to the 'fastq' files that were submitted to the archive ("Submitted files (FTP)").
+
+NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait...
 
 ```bash
+# fastq-dump from NCBI
+fastq-dump --split-files --origfmt --gzip ERR2789854
+
+# or with wget from EMBL-EBI
+wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R2.fastq.gz
+
+#
+chmod 444 *.gz
 ```
 
 ## Let's have some Genomics Fun!
