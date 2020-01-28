@@ -33,6 +33,8 @@ We will access the data from the National Center for Biotechnology Information (
 
 There is a lot of information on these pages, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format.
 
+We will now download the data, as we are working with the command line we have already copied the links to the data below for you. Using the '[wget](https://www.gnu.org/software/wget/)' command we can download files directly from the web to our local dicrectory. The files are '*gzipped*', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted. We will need to *unzip* them with the program '[gunzip](https://linux.die.net/man/1/gunzip)'.
+
 ```bash
 # Create a directory to store our data
 mkdir reference_sequence && cd reference_sequence
@@ -49,7 +51,9 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM1
 gunzip *.gz
 ```
 
-## Deprecated / Outdated / No Conda?
+[Continue the adventure...]
+
+# Deprecated / Outdated / No Conda?
  * samtools rmdup
    * samtools fixmate -m | markdup -r
  * ea-utils - fastq-mcf
