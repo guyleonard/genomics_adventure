@@ -1,17 +1,24 @@
 # A Genomics Adventure
-Thanks to:
- * Konrad Paszkiewicz
- * Josie Paris
- * Sophie Shaw
- * Workshop on Genomics - evomics.org
+This tutorial is based on a workshop written many years ago by Konrad Paszkiewicz, whilst he was the head of Exeter University's Sequencing Service. Over the years it has been updated and modified by several colleages, taught at Exeter Universtity and also at the evomics.org Workshop on Genomics since 2014. It has now been reproduced here, in a new form with many updates.
 
-## Getting Started
-We will need to install some common software packages, and download some data to use for this tutorial. For the software we will use a program called 'conda', it will allow us to easily install lots of common bioinformatics software in a special 'environment' without the need for root/sudo access. For the data, we will use several methods - explained below.
+Many thanks to:
+ * [Konrad Paszkiewicz](https://scholar.google.com/citations?user=yrHDETIAAAAJ&hl=en), CTO Hummingbird Biosciences.
+ * [Sophie Shaw](https://www.abdn.ac.uk/people/s.shaw), Centre for Genome Enabled Biology and Medicine, Aberdeen University. 
+ * [Josie Paris](https://biosciences.exeter.ac.uk/staff/profile/index.php?web_id=Josephine_Paris), Postdoctoral Research Associate, Exeter University.
+ * Workshop on Genomics, [evomics.org](https://evomics.org/)
+
+## A Few Notes on Style
+Throughout this adventure you will see various styles of text. Some will be links to further and expanded reading, some will be instructions and explanations and some will be commands for you to type. We try to discourage 'copy and paste' from this tutorial as we feel you will learn more by typing the commands yourself. In fact, some of the commands will intentionally fail if you copy and paste them. :stuck_out_tongue_closed_eyes: The tutorial (sorry adventure), like any good story, is designed to be long and you likely won't finish it in less than 3 hours in one sitting. Don't worry though, you can come back to it anytime! :nerd_face:
+
+<p align="center">Shall we begin? - Daenerys Targaryen</p>
+
+## Once Upon a Time...
+We will need to install some common software packages, and download some data to use for this tutorial. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)', it will allow us to easily install lots of common bioinformatics software in a special 'environment' without the need for root/sudo access. For the data, we will use several methods - explained below. If you are attending the Workshop on Genomics then 'conda' is already installed for you! :smiley:
 
 ### Software
-This section will create the 'environment' in which we will be running the tutorial, this allows us to keep all our software and data in on place for easy access and repeatability (e.g. you may wish to run different versions of software in other analyses). We won't explore which programs that are installed right now, but the tutorial will explain each as we get to them. 
+This section will create the 'environment' in which we will be running the tutorial, this allows us to keep all our software and data in one place for easy access and repeatability (e.g. you may wish to run different versions of software in other analyses). We won't explore which programs that are installed right now, but the tutorial will explain each as we get to them. 
 
-You may copy and paste one-by-one the commands below:
+You may copy and paste, one-by-one, the commands below:
 ```bash
 # Make sure we are up to date
 conda update -n base conda
@@ -37,11 +44,11 @@ We will access the data from the National Center for Biotechnology Information (
  * *[E. coli](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)*
  * *[V. parahaemolyticus](https://www.ncbi.nlm.nih.gov/genome/691?genome_assembly_id=167995)*
 
-There is a lot of information on these pages, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format.
+There is a lot of information on these pages, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format. Can you see where these are? :eyes:
 
 We will now download the data, as we are working with the command line we have already copied the links to the data below for you. Using the '[wget](https://www.gnu.org/software/wget/)' command we can download files directly from the web to our local dicrectory. The files are '*gzipped*', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted during the transfer. We will also need to *unzip* them with the program '[gunzip](https://linux.die.net/man/1/gunzip)'.
 
-You may copy and paste one-by-one the commands below:
+You may copy and paste, one-by-one, the commands below:
 ```bash
 # Create a directory to store our data
 mkdir reference_sequences && cd reference_sequences
