@@ -85,6 +85,8 @@ We will also need some sequencing data! Back at home you will likely retrieve th
 
 For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself.
 
+NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading whilst you wait...
+
 ```bash
 ```
 
