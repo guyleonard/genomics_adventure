@@ -27,8 +27,12 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 #### Reference Data
 We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for our tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too.
 
+We will access the data from the National Center for Biotechnology Information (NCBI)
+ * *[E. coli](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)*
+ * *[V. parahaemolyticus](https://www.ncbi.nlm.nih.gov/genome/691?genome_assembly_id=167995)*
+
 ```bash
-# Create a directtory to store our data
+# Create a directory to store our data
 mkdir reference_sequence && cd reference_sequence
 
 # Download the E. coli reference genome in FASTA and GFF formats
