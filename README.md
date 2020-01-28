@@ -63,8 +63,17 @@ mkdir vibrio && mv *.gz vibrio && gunzip vibrio/*.gz
 # Change write permissions
 chmod -R 444 *.fna
 chmod -R 444 *.gff
+
+# Go back to the main directory
+cd ../
 ```
 #### Sequencing Data
+We will also need some sequencing data! Back at home you will likely retreive this from either your institute's sequencing service or an outside provider - however there is also a wealth of sequenced genomic data stored in publically accesible places like NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are where you will be required to deposit your sequencing efforts during publication.
+
+We will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their service, however it is up to you whether you want to use that data directly or process it yourself.
+
+```bash
+```
 
 ## Let's have some Genomics Fun!
 [Continue the adventure...]
