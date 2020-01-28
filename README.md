@@ -9,8 +9,10 @@ Thanks to:
 We will need to install some common software packages, and download some data to use for this tutorial. For the software we will use a program called 'conda', it will allow us to easily install lots of common bioinformatics software in a special 'environment' without the need for root/sudo access. For the data, we will use several methods - explained below.
 
 ### Software
+This section will create the 'environment' in which we will be running the tutorial, this allows us to keep all our software and data in on place for easy access and repeatability (e.g. you may wish to run different versions of software in other analyses). We won't explore which programs that are installed right now, but the tutorial will explain each as we get to them. 
+
 You may copy and paste the commands below.
-```
+```bash
 # Make sure we are up to date
 conda update -n base conda
 # Create our environment
@@ -25,7 +27,7 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 #### Reference Data
 We will be working with two different bacterial species for this adventure; Escherichia coli & Vibrio parahaemolyticus, they are two relatively small genomes, but the techniques you will learn here can be used with smaller & larger, and Eukaryotic genomes too.
 
-```
+```bash
 # Create a directtory to store our data
 mkdir reference_sequence && cd reference_sequence
 
