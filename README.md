@@ -8,17 +8,22 @@ Many thanks to:
  * Workshop on Genomics, [evomics.org](https://evomics.org/)
 
 ## A Few Notes on Style
-Throughout this adventure you will see various styles of text. Some will be links to further and expanded reading, some will be instructions and explanations and some will be commands for you to type. We try to discourage 'copy and paste' from this tutorial as we feel you will learn more by typing the commands yourself. In fact, some of the commands will intentionally fail if you copy and paste them. :stuck_out_tongue_closed_eyes: The tutorial (sorry adventure), like any good story, is designed to be long and you likely won't finish it in less than 3 hours in one sitting. Don't worry though, you can come back to it anytime! :nerd_face:
+Throughout this adventure you will see various styles of text. Mostly it will be the main story - as you are reading now - but some will be links to further and expanded reading (shown with a magnifying glass - :mag: - this is optional reading for the super curious :nerd_face:). However, there will also be commands for you to type. These will look something like:
+```bash
+# Comment line - do not type this
+command -options
+```
+We try to discourage you from using 'copy and paste' as we feel you will learn more by typing the commands yourself. In fact, some of the commands will intentionally fail if you copy and paste them. :stuck_out_tongue_closed_eyes: The tutorial (sorry adventure), like any good story, is designed to be long and you likely won't finish it in less than 3 hours in one sitting. Don't worry though, you can always come back to it anytime!
 
-<p align="center">Shall we begin? - Daenerys Targaryen</p>
+<p align="center">:dragon_face: Shall we begin? - Daenerys Targaryen :dragon_face:</p>
 
 ## Once Upon a Time...
-We will need to install some common software packages, and download some data to use for this tutorial. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)', it will allow us to easily install lots of common bioinformatics software in a special 'environment' without the need for root/sudo access. For the data, we will use several methods - explained below. If you are attending the Workshop on Genomics then 'conda' is already installed for you! :smiley:
+Before our adventure begins we will need to install some common software, and download some data to help us on our way. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)':mag:, this will allow us to easily install lots of common bioinformatics software in a special 'environment' (think of it like a box :package:) without the need for admin access. For the data, we will use several methods - explained later. If you are attending the Workshop on Genomics then 'conda' is already installed for you! :smiley:
 
 ### Software
-This section will create the 'environment' in which we will be running the tutorial, this allows us to keep all our software and data in one place for easy access and repeatability (e.g. you may wish to run different versions of software in other analyses). We won't explore which programs that are installed right now, but the tutorial will explain each as we get to them. 
+This section will create the 'environment' :package: in which we will be having our adventure, this allows us to keep all the software in one place for easy access and repeatability (e.g. you may wish to run different versions of software for other analyses). We won't explore each of the programs that we will install right now, but the adventure will explain each as we get to them.
 
-You may copy and paste, one-by-one, the commands below:
+:squirrel: This time you may copy and paste, one-by-one, the commands below:
 ```bash
 # Make sure we are up to date
 conda update -n base conda
@@ -33,7 +38,7 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 ### Data
 We will need to rerieve two sets of data for our adventure, this is similar to how you may collate data for your own analyses.
  1) Reference Data
-  * If you are lucky to a reference genome...
+  * If you are lucky to have a reference genome...
  2) Sequence Data
   * Either directlty from a Sequencing Service or from public access databases.
 
@@ -46,9 +51,9 @@ We will access the data from the National Center for Biotechnology Information (
 
 There is a lot of information on these pages, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format. Can you see where these are? :eyes:
 
-We will now download the data, as we are working with the command line we have already copied the links to the data below for you. Using the '[wget](https://www.gnu.org/software/wget/)' command we can download files directly from the web to our local dicrectory. The files are '*gzipped*', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted during the transfer. We will also need to *unzip* them with the program '[gunzip](https://linux.die.net/man/1/gunzip)'.
+We will now download the data, as we are working with the command line we have already copied the links to the data below for you :slightly_smiling_face:. Using the '[wget](https://www.gnu.org/software/wget/)':mag: command we can download files directly from the web to our local dicrectory. The files are '*gzipped*', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted during the transfer. We will also need to *unzip* them with the program '[gunzip](https://linux.die.net/man/1/gunzip)':mag:.
 
-You may copy and paste, one-by-one, the commands below:
+:squirrel: This time you may copy and paste, one-by-one, the commands below:
 ```bash
 # Create a directory to store our data
 mkdir reference_sequences && cd reference_sequences
@@ -57,27 +62,28 @@ mkdir reference_sequences && cd reference_sequences
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz
 
-# Make ecoli directory, move files there and unzip
+# Make an ecoli directory, move the files there and unzip
 mkdir ecoli && mv *.gz ecoli && gunzip ecoli/*.gz
 
 # Download the Vibrio reference genome in FASTA and GFF formats
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.gff.gz
 
-# Make vibrio directory, move files there and unzip
+# Make a vibrio directory, move the files there and unzip
 mkdir vibrio && mv *.gz vibrio && gunzip vibrio/*.gz
 
-# Change write permissions
+# Change write permissions, so we can't edit by accident
 chmod -R 444 *.fna
 chmod -R 444 *.gff
 
 # Go back to the main directory
 cd ../
 ```
-#### Sequencing Data
-We will also need some sequencing data! Back at home you will likely retreive this from either your institute's sequencing service or an outside provider - however there is also a wealth of sequenced genomic data stored in publically accesible places like NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are where you will be required to deposit your sequencing efforts during publication.
 
-We will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their service, however it is up to you whether you want to use that data directly or process it yourself.
+#### Sequencing Data
+We will also need some sequencing data! Back at home you will likely retrieve this from either your institute's sequencing service or a private provider - however there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible places like NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are where you will be required to deposit your sequencing efforts during publication.
+
+For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself.
 
 ```bash
 ```
