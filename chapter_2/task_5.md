@@ -1,4 +1,4 @@
-# Task 6 - Generating an Index
+# Task 5 - Generating an Index
 Now let's change to our *E. coli* reference sequence directory, do you remember where it is? Can you get there in one command? Also let's remind ourselves what is actually in the directory.
 ```bash
 cd ~/genomics_adventure/reference_sequences/ecoli
