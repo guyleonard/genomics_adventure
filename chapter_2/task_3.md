@@ -37,7 +37,7 @@ You will see something similat to this:
 
 There is always a lot of information to understand, but don't worry these walls of text will become your new best friends soon enough! :handshake:
 
-### Input
+### Inputs
 First of all, let's ask the question - What do we know about our data? There's a few things:
 
  1. It is Illumina HiSeq
@@ -59,6 +59,21 @@ trim_galore --paired --fastqc --gzip --cores 4 file_r1.fq.gz file_r2.fq.gz
 
 Notice that I have removed the '--illumina' and '--phred33' options, this is because 'Trim Galore!' is pretty smart and will now guess the encoding and adaptor type for you :crossed_fingers: (but if you are 100% sure, then you can leave them in). It will also output the results in a 'gzip' format and run 'FastQC' on them. But be careful, as other default parameters are set, such as the '-q' option which sets the quality trim option at a Phred score of 20. This is sufficient for our needs here, but may differ depending on your input libraries.
 
+Running the above command should take roughly XX minutes. Read on below whilst you wait, or try and take in some of the output messages the program is telling you. :hourglass_flowing_sand:
 
+### Outputs
+Let's see what the program has produced! Returning to our terminal, you can now list the contents of the directory, and you should see something similar to this:
 
+[IMAGE]
 
+You will notice that the original files are exactly the same size, but the R2 filtered file is smaller than R1. Why might this be?
+
+Now you should count the lines in all the files:
+```bash
+zcat *.fq.gz | wc -l
+```
+Although the reads have been trimmed differently - the number of reads in the R1 and R2 files are identical. This is required for all the tools we will use to analyse paired end data.
+
+Now you should check the quality scores and sequence distribution from the 'FastQC' outputs. You should notice very little change (since comparatively few reads were filtered). However, you should notice a significant improvement in quality and the absence of adaptor sequences.
+
+# [Task 4]()
