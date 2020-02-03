@@ -32,7 +32,7 @@ conda create --name genomics_adventure
 # Activate our environment
 conda activate genomics_adventure
 # Install the software
-conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap samtools seqtk spades sra-tools vcftools
+conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap samtools seqtk spades sra-tools trim-galore vcftools
 ```
 
 ### Data
