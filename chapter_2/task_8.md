@@ -30,13 +30,6 @@ There's a lot to take in here, so go back over the steps a few times to make sur
 
 Now that we have a position sorted, mate fixed and removed duplicates BAM file, we are nearly ready for some actual analysis. Are you excited yet? :upside_down_face:
 
-It is generally good practice to keep your intermediary files whilst you are continuing your analysis, but in this case we don't really need the three extra files we have created during this process, we are only interested in the final file 'XX_markdup.bam'. Therefore, you can remove the others:
-```bash
-rm XXX_namesort.bam
-rm XXX_fixmate.bam
-rm XXX_positionsort.bam
-```
-
 ## One Last Thing...
 Most programs used to 'view' BAM formatted data require an 'index file' to locate the reads mapping to a particular location quickly. You can think of this as an index in a book, telling you where to go to find particular phrases or words. We'll use the 'samtools index' command to do this.
 ```bash
