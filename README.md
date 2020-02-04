@@ -137,6 +137,8 @@ chmod -R 444 *.fna
 chmod -R 444 *.gff
 ```
 
+When the downloads are finished you may continue on to the adventure by clicking the title below.
+
 # [Adventure Time](https://github.com/guyleonard/genomics_adventure/blob/master/chapter_2/task_1.md)
 
 
