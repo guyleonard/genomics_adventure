@@ -19,16 +19,17 @@ Often, you will see commands written in the style below, that is with a back-sla
 
 ```bash
 # Large command that you can't fully see without scrolling
-bwa mem -t 4 ecoli/GCF_000005845.2_ASM584v2_genomic.fna ecoli/XX_val1.fq.gz ecoli/XX_val2.fq.gz > XXX.sam
+bwa mem -t 4 ~/genomics_adventure/ecoli/GCF_000005845.2_ASM584v2_genomic.fna ~/genomics_adventure/ecoli/XX_val1.fq.gz ~/genomics_adventure/ecoli/XX_val2.fq.gz > XXX.sam
 
+# Much easier to read command
 bwa mem -t 4 \
-GCF_000005845.2_ASM584v2_genomic.fna \
-ecoli/XX_val1.fq.gz \
-ecoli/XX_val2.fq.gz \
+~/genomics_adventure/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+~/genomics_adventure/ecoli/XX_val1.fq.gz \
+~/genomics_adventure/ecoli/XX_val2.fq.gz \
 > XXX.sam
 ```
 
-The tutorial (sorry adventure), like any good story, is designed to be long and you likely won't finish it in less than 3 hours in one sitting. Don't worry though, you can always come back to it anytime!
+The tutorial (sorry adventure), like any good story, is designed to be long and you likely won't finish it in less than 3 hours or even in one sitting. Don't worry though, you can always come back to it anytime!
 
 <p align="center">:dragon_face: Shall we begin? - Daenerys Targaryen :dragon_face:</p>
 
@@ -52,11 +53,35 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 
 ### Data
 We will need to rerieve two sets of data for our adventure, this is similar to how you may collate data for your own analyses.
- 1) Reference Data
+ 1) Sequence Data
+  * Either directlty from a Sequencing Service or from a public access database.
+ 2) Reference Data
   * If you are lucky to have a reference genome...
- 2) Sequence Data
-  * Either directlty from a Sequencing Service or from public access databases.
 
+#### Sequencing Data
+We will also need some sequencing data! Back at home you will likely retrieve this from either your institute's sequencing service or a private provider - however there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible places like NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are where you will be required to deposit your sequencing efforts during publication.
+
+For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself.
+
+The raw data that we will use for the *E. coli* genome is available from [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=ERR2789854) and [EMBL-EBI](https://www.ebi.ac.uk/ena/data/view/ERR2789854) with the accession ERR2789854. This is the same data but it is mirrored between the two sites, however each site has a different way of accessing the data.
+
+With NCBI you need to use a tool called '[fastq-dump](https://ncbi.github.io/sra-tools/fastq-dump.html)':mag:, which given an accession and several other options will download the 'fastq' data files - it can be notoriously tricky and difficult at times and has some issues with downloading PacBio data. Nonetheless, you can give it a try below.
+
+Whilst over at the EMBL-EBI they provide direct links to the 'fastq' files that were submitted to the archive ("Submitted files (FTP)").
+
+NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait...
+
+```bash
+# fastq-dump from NCBI
+fastq-dump --split-files --origfmt --gzip ERR2789854
+
+# or with wget from EMBL-EBI
+wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R2.fastq.gz
+
+#
+chmod 444 *.gz
+```
 #### Reference Data
 We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timing of our tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too.
 
@@ -93,31 +118,6 @@ chmod -R 444 *.gff
 
 # Go back to the main directory
 cd ../
-```
-
-#### Sequencing Data
-We will also need some sequencing data! Back at home you will likely retrieve this from either your institute's sequencing service or a private provider - however there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible places like NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are where you will be required to deposit your sequencing efforts during publication.
-
-For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself.
-
-The raw data that we will use for the *E. coli* genome is available from [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=ERR2789854) and [EMBL-EBI](https://www.ebi.ac.uk/ena/data/view/ERR2789854) with the accession ERR2789854. This is the same data but it is mirrored between the two sites, however each site has a different way of accessing the data.
-
-With NCBI you need to use a tool called '[fastq-dump](https://ncbi.github.io/sra-tools/fastq-dump.html)':mag:, which given an accession and several other options will download the 'fastq' data files - it can be notoriously tricky and difficult at times and has some issues with downloading PacBio data. Nonetheless, you can give it a try below.
-
-Whilst over at the EMBL-EBI they provide direct links to the 'fastq' files that were submitted to the archive ("Submitted files (FTP)").
-
-NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait...
-
-```bash
-# fastq-dump from NCBI
-fastq-dump --split-files --origfmt --gzip ERR2789854
-
-# or with wget from EMBL-EBI
-wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R1.fastq.gz
-wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R2.fastq.gz
-
-#
-chmod 444 *.gz
 ```
 
 ## Let's have some Genomics Fun!
