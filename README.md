@@ -137,8 +137,7 @@ chmod -R 444 *.fna
 chmod -R 444 *.gff
 ```
 
-## Let's have some Genomics Fun!
-[Continue the adventure...]
+# [Adventure Time](https://github.com/guyleonard/genomics_adventure/blob/master/chapter_2/task_1.md)
 
 
 # CLEAN UP Deprecated / Outdated / No Conda?
