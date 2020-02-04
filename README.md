@@ -13,10 +13,10 @@ Throughout this adventure you will see various styles of text. Mostly they will 
 # Comment line - do not type this
 command -options
 ```
+
 It will always be indicated when you need to run a command or just look at them. We also try to heavily discourage you from using 'copy and paste'. This is because we feel that you will learn much more by actually typing the commands yourself, and making mistakes. In fact, some of the commands are designed to intentionally fail if you copy and paste them. :stuck_out_tongue_closed_eyes: 
 
 Often, you will see commands written in the style below, that is with a back-slash '\' at the end of lines, this is simply to break up the command for ease of reading. You would not normally type commands like this. You can see the actual command as you would type it below too.
-
 ```bash
 # Large command that you can't fully see without scrolling
 bwa mem -t 4 ~/genomics_adventure/ecoli/GCF_000005845.2_ASM584v2_genomic.fna ~/genomics_adventure/ecoli/XX_val1.fq.gz ~/genomics_adventure/ecoli/XX_val2.fq.gz > XXX.sam
@@ -54,38 +54,38 @@ conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv
 ### Data
 We will need to rerieve two sets of data for our adventure, this is similar to how you may collate data for your own analyses.
  1) Sequence Data
-  * Either directlty from a Sequencing Service or from a public access database.
+  * Either directly from a Sequencing Service or from a public access database.
  2) Reference Data
   * If you are lucky to have a reference genome...
 
+We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timings of this tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too!
+
 #### Sequencing Data
-We will also need some sequencing data! Back at home you will likely retrieve this from either your institute's sequencing service or a private provider - however there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible places like NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are where you will be required to deposit your sequencing efforts during publication.
+Back at your home institute you will likely retrieve your data from either the institute's sequencing service or a private outside provider. However, there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible repositories such as NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are also where you will be required to deposit your sequencing efforts during publication.
 
-For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself.
+For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself. Always ask: are their methods directly suited to your analysis needs?
 
-The raw data that we will use for the *E. coli* genome is available from [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=ERR2789854) and [EMBL-EBI](https://www.ebi.ac.uk/ena/data/view/ERR2789854) with the accession ERR2789854. This is the same data but it is mirrored between the two sites, however each site has a different way of accessing the data.
+The raw data that we will use for the *E. coli* genome is available from [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=ERR2789854) or [EMBL-EBI](https://www.ebi.ac.uk/ena/data/view/ERR2789854) with the accession ERR2789854 (they are also archived at the [DDBJ-DRA](https://www.ddbj.nig.ac.jp/dra/index-e.html) too). This is the same data but it is mirrored between the sites, however each site has a different way of accessing the data. We will focus on NCBI and EMBL-EBI for now.
 
-With NCBI you need to use a tool called '[fastq-dump](https://ncbi.github.io/sra-tools/fastq-dump.html)':mag:, which given an accession and several other options will download the 'fastq' data files - it can be notoriously tricky and difficult at times and has some issues with downloading PacBio data. Nonetheless, you can give it a try below.
+With NCBI you need to use a tool called '[fastq-dump](https://ncbi.github.io/sra-tools/fastq-dump.html)':mag:, which given an accession and several other options will download the 'fastq' data files - it can be notoriously tricky and difficult at times and has some issues with downloading PacBio data. You can give it a try below if you wish, however the EMBL-EBI downloads will be much faster for this tutorial, so we strongly suggest you start there.
 
-Whilst over at the EMBL-EBI they provide direct links to the 'fastq' files that were submitted to the archive ("Submitted files (FTP)").
+At EMBL-EBI they provide direct links to the 'fastq' files that were submitted to the archive ("Submitted files (FTP)"), and so you can use tools such as 'wget' or 'curl' to retrieve them.
 
-NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait...
-
+NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait... don't forget to come back soon!
 ```bash
-# fastq-dump from NCBI
+# fastq-dump from NCBI - slow
 fastq-dump --split-files --origfmt --gzip ERR2789854
 
-# or with wget from EMBL-EBI
+# or with wget from EMBL-EBI - faster
 wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R2.fastq.gz
 
 #
 chmod 444 *.gz
 ```
-#### Reference Data
-We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timing of our tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too.
 
-We will access the data from the National Center for Biotechnology Information (NCBI), check out the links below:
+#### Reference Data
+We will access the reference data from the National Center for Biotechnology Information (NCBI), check out the links below:
  * *[E. coli](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)*
  * *[V. parahaemolyticus](https://www.ncbi.nlm.nih.gov/genome/691?genome_assembly_id=167995)*
 
@@ -102,28 +102,28 @@ mkdir reference_sequences && cd reference_sequences
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz
 
-# Make an ecoli directory, move the files there and unzip
+# Make an ecoli directory, and move the files there, and then unzip them
 mkdir ecoli && mv *.gz ecoli && gunzip ecoli/*.gz
+
 
 # Download the Vibrio reference genome in FASTA and GFF formats
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.fna.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.gff.gz
 
-# Make a vibrio directory, move the files there and unzip
+# Make an vibrio directory, and move the files there, and then unzip them
 mkdir vibrio && mv *.gz vibrio && gunzip vibrio/*.gz
 
-# Change write permissions, so we can't edit by accident
+
+# Change write permissions, so that we can't edit them by accident
 chmod -R 444 *.fna
 chmod -R 444 *.gff
-
-# Go back to the main directory
-cd ../
 ```
 
 ## Let's have some Genomics Fun!
 [Continue the adventure...]
 
-# Deprecated / Outdated / No Conda?
+
+# CLEAN UP Deprecated / Outdated / No Conda?
  * samtools rmdup
    * samtools fixmate -m | markdup -r
  * ea-utils - fastq-mcf
