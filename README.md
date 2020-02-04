@@ -34,31 +34,49 @@ The tutorial (sorry adventure), like any good story, is designed to be long and 
 <p align="center">:dragon_face: Shall we begin? - Daenerys Targaryen :dragon_face:</p>
 
 ## Once Upon a Time...
-Before our adventure begins we will need to install some common software, and download some data to help us on our way. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)':mag:, this will allow us to easily install lots of common bioinformatics software in a special 'environment' (think of it like a box :package:) without the need for admin access. For the data, we will use several methods - explained later. If you are attending the Workshop on Genomics then 'conda' is already installed for you! :smiley:
+Before our adventure begins we will need to install some common software, and download some data to help us on our way. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)':mag:, this will allow us to easily install lots of common bioinformatics software in a special 'environment' (think of it like a box :package:) without the need for admin access. For the data, we will use several methods - explained later. If you are attending the Workshop on Genomics then 'conda' is already installed for you! :smiley:.
+
+Firstly we need to enter or create a directory called "workshop_materials" in your home directory and then clone this repository. All further commands will be run within the "genomics_adventure" directory.
+```bash
+cd workshop_materials
+# or
+mkdir workshop_materials && cd workshop_materials
+
+# clone this repository
+git clone https://github.com/guyleonard/genomics_adventure.git
+
+# enter genomics_adventure
+cd genomics_adventure
+```
 
 ### Software
-This section will create the 'environment' :package: in which we will be having our adventure, this allows us to keep all the software in one place for easy access and repeatability (e.g. you may wish to run different versions of software for other analyses). We won't explore each of the programs that we will install right now, but the adventure will explain each as we get to them.
+This section will create the 'environment' :package: in which we will be having our adventure, this allows us to keep all the software in one place for easy access and repeatability (e.g. you may wish to run different versions of software for other analyses, you can do that in other environments). We won't explore each of the programs that we will install right now, but the adventure will explain each as we get to them.
 
 :squirrel: This time you may copy and paste, one-by-one, the commands below:
 ```bash
 # Make sure we are up to date
 conda update -n base conda
+
 # Create our environment
 conda create --name genomics_adventure
+
 # Activate our environment
 conda activate genomics_adventure
+
 # Install the software
 conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap samtools seqtk spades sra-tools trim-galore vcftools
 ```
 
+Make sure that the environment is manually activated everytime you come back to this adventure. You should see '(genomics_adventure)' before your normal terminal prompt. If it is not activated, use the 'activate' command from above.
+
 ### Data
-We will need to rerieve two sets of data for our adventure, this is similar to how you may collate data for your own analyses.
+We will need to retrieve two sets of data for our adventure, this is similar to how you may collate data for your own analyses.
  1) Sequence Data
   * Either directly from a Sequencing Service or from a public access database.
  2) Reference Data
   * If you are lucky to have a reference genome...
 
-We will be working with two different bacterial species for this adventure; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timings of this tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too!
+We will be working with two different bacterial species; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timings of this tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too!
 
 #### Sequencing Data
 Back at your home institute you will likely retrieve your data from either the institute's sequencing service or a private outside provider. However, there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible repositories such as NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are also where you will be required to deposit your sequencing efforts during publication.
