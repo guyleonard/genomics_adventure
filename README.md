@@ -89,7 +89,7 @@ With NCBI you need to use a tool called '[fastq-dump](https://ncbi.github.io/sra
 
 At EMBL-EBI they provide direct links to the 'fastq' files that were submitted to the archive ("Submitted files (FTP)"), and so you can use tools such as 'wget' or 'curl' to retrieve them.
 
-NB - These commands may take a little bit of time to complete (~ XX minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait... don't forget to come back soon!
+NB - These commands may take a little bit of time to complete (NCBI: XX minutes, EMBL-EBI: ~40m), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait... don't forget to come back soon!
 ```bash
 # fastq-dump from NCBI - slow
 fastq-dump --split-files --origfmt --gzip ERR2789854
