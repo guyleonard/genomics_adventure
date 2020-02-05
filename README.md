@@ -34,9 +34,11 @@ The tutorial (sorry adventure), like any good story, is designed to be long and 
 <p align="center">:dragon_face: Shall we begin? - Daenerys Targaryen :dragon_face:</p>
 
 ## Once Upon a Time...
-Before our adventure begins we will need to install some common software, and download some data to help us on our way. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)':mag:, this will allow us to easily install lots of common bioinformatics software in a special 'environment' (think of it like a box :package:) without the need for admin access. For the data, we will use several methods - explained later. If you are attending the Workshop on Genomics then 'conda' is already installed for you! :smiley:.
+Before our adventure begins we will need to install some common software, and download some data to help us on our way. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)':mag:, which will allow us to easily install lots of common bioinformatics software in a special 'environment' (think of it like a box :package:) without the need for admin access or other complications. For the data, we will download this from some publiic repositories.
 
-Firstly we need to enter or create a directory called "workshop_materials" in your home directory and then clone this repository. All further commands will be run within the "genomics_adventure" directory.
+NB - If you are attending the Workshop on Genomics then 'conda', the software and all data is already installed for you! So you can continue to the next section called ['Adventure Time'](https://github.com/guyleonard/genomics_adventure#adventure-time) :smiley:. Although you might like to read the next bit just for reference.
+
+Firstly, we need to enter or create a directory called "workshop_materials" in your home directory and then clone this repository. All further commands will be run within the "genomics_adventure" directory.
 ```bash
 cd workshop_materials
 # or
