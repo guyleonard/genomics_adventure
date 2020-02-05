@@ -12,7 +12,6 @@ Check it out..
 ```bash
 seqtk
 
-# and
 seqtk sample
 ```
 
