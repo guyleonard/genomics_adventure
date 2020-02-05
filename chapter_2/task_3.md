@@ -4,7 +4,7 @@ Sometimes you may find that you have sequenced too much data! :open_mouth: Howev
 There are several methods of reducing your data, here we will discuss two:
 
 ### 1. Random Subsampling
-As easy as the naming suggests, we take a random subsampling of the original dataset, e.g. 10% of the data and then we use that data to perform an assembly, but importantly, the original data to do mapping.
+As easy as the naming suggests, we take a random subsampling of the original dataset, e.g. 10% of the data and then we can use that data to perform an assembly, but remember we should really use the original data to do any mapping.
 
 For this we will use the program ['seqtk'](https://github.com/lh3/seqtk) :mag: which is an excellent little toolkit of all kinds of FASTA/Q processing ability.
 
@@ -25,9 +25,9 @@ seqtk sample read_1.fq.gz 0.1 > read_1_subsample_two.fq
 head read_1_subsample*
 ```
 
-What do the headers look like? Do they look random? It doesn't look like it huh? So what is going on? 'seqtk sample', by default, sets a 'seed' value of '11' - so in this case both files are the same random subsampled selection! dizzy_face:
+What do the headers look like, do they look random to you? Ha ha! I played another trick on you! :stuck_out_tongue: Don't worry though, these are common pitfalls when you start out learning. So, what is going on? Well 'seqtk sample', by default, sets a 'seed' value of '11' - it's sneakily there in the help section - so in this case both files happen to be the same random subsampled selection! :dizzy_face:
 
-This may seem somewhat counter-intertuitive at first - how can something be random if you can repeat it exactly? Well, the program uses a special trick (called [Reservoir sampling](https://en.wikipedia.org/wiki/Reservoir_sampling) :mag:) that can take the same 'random' sample when given a starting 'seed' - in this case '11' - which allows it to start the random selection at the same place each time. Change the 'seed' and you will get a different subsampled selection! Neat. :sunglasses:
+This may seem somewhat counter-intertuitive at first - how can something be random if you can repeat it exactly - but it is immensely useful, as you will see. The program uses a special trick (called [Reservoir sampling](https://en.wikipedia.org/wiki/Reservoir_sampling) :mag:) that will take the same 'random' sample when given a starting 'seed' - in this case '11' - allowing it to start the random selection process at the same place each time. Change the 'seed', and you will get a different subsampled selection! Neat. :sunglasses:
 
 Using the '-s' option allows us to set the 'seed' starting position of the random subsampling. So, if we change the value to '1234' and '5678' we should have two different random samples. But you can choose any numbers you like.
 ```bash
@@ -40,17 +40,29 @@ head read_1_subsample*
 
 How do they look now? Much better right!? :thumbsup:
 
-There's just one final thing we need to do, although 'seqtk' can read 'gzipped' files, it does not produce them. So we should 'gzip' them now. You can use the program 'gzip' or it's speedier cousin 'pigz'.
+Let's tidy up our testing files now, and then repeat the process one last time - we will need this next set of files later on in our adventure. Please use the 'seed' value that is indicated, or your analyses will look very different to the examples shown here.
+```bash
+rm *.fq
+
+seqtk sample -s 1234 read_1.fq.gz 0.1 > read_1_subsampled.fq
+
+seqtk sample -s 1234 read_2.fq.gz 0.1 > read_2_subsampled.fq
+```
+
+There's just one final thing we need to do, although 'seqtk' can read 'gzipped' files, it does not produce them. So we should 'gzip' them now. You can either use the program 'gzip' or it's speedier cousin 'pigz'.
 ```bash
 pigz XX.fq
 ```
+
+When randomly subsampling data like this we may, by accident, artificially subsample regions in our genome that are more or less sequenced than others - especially if our coverage is not even across the sequencing libraries. This can lead to issues with downstream analysis, especially if for example, the libraries come from Multiple Displacement Amplification (e.g. Single Cells). So always be careful with this approach, one method to minimise this potential source of bias is Digital Normalisation.
+
 ### 2. Digital Normalisation
 
 
 ## Contaminant Checking
 A number of tools are available which also enable to you to quickly search through your reads and assign them to particular taxa or taxonomic group. These can serve as a quick check to make sure your samples or libraries are not contaminated with DNA from other sources. If you are performing a de-novo assembly, for example, and have DNA sequences present from multiple organisms, you will risk poor results and chimeric contigs.
 
-Some ‘contaminants’ may turn out to be inevitable by-products of sampling and DNA extraction, and this is often the case with algae, and/or other symbionts but some groups have made amazing discoveries such as the discovery of a third symbiont (which turned out to be a yeast) in lichen, [here](http://science.sciencemag.org/content/353/6298/488.full).
+Some ‘contaminants’ may turn out to be inevitable by-products of sampling and DNA extraction, and this is often the case with algae, and/or other symbionts but some groups have made amazing discoveries such as the discovery of a third symbiont (which turned out to be a yeast) in lichen, [here](http://science.sciencemag.org/content/353/6298/488.full) :mag:.
 
 Some tools you can use to check the taxonomic classification of reads include:
  * [Kraken](https://ccb.jhu.edu/software/kraken2/)
