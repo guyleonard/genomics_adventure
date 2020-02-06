@@ -1,8 +1,8 @@
 # Chapter Two
 ## Task 1 - Evaluating the Quality of Illumina Data
-From your terminal (command line), navigate to the 'sequencing_data' directory (you may be there already) and list the contents of the directory.
+From your terminal (command line), navigate to the 'sequencing_data/ecoli' directory (you may be there already) and list the contents of the directory.
 ```bash
-cd genomics_adventure/sequencing_data
+cd genomics_adventure/sequencing_data/ecoli
 
 ls -lath
 ```
@@ -10,30 +10,30 @@ ls -lath
 
 These are the paired-end read data that were previously downloaded in the introduction section. The filenames are a bit long and boring to continue to type out - so let's make them a little easier by making a symbolic link to them (this is a type of special file that acts as a pointer to the real file).
 ```bash
-ln -s 1975_LIB23320_LDI20611_TGACCA_R1.fastq.gz read_1.fastq.gz
-ln -s 1975_LIB23320_LDI20611_TGACCA_R2.fastq.gz read_2.fastq.gz
+ln -s SRR857279_1.fastq.gz read_1.fastq.gz
+ln -s SRR857279_1.fastq.gz read_2.fastq.gz
 ```
 
 Now we have nice and easy file names to work with :smile:. You should always record or note down what your original filenames are, so that you can refer to the correct data in the future! Just like keeping notes in a lab book. :open_book:
 
 Most programs that work with sequence data require that the 'read 1' and 'read 2' files have the reads in the same order. You can identify reads from the same pair because they will have the same header followed by either a "1" or a "2". We will now look at the raw reads to make sure they look 'correct'. To view the first few headers we can use the 'zcat' command (this is similar to 'cat' but works with zipped files), 'head' to see the top three lines, and then 'grep' to catch the header lines (in this case we know they start with "@HWI" - you may need to check your own files for a suitable header).
 ```bash
-zcat read_1.fastq.gz | head | grep @HWI
-zcat read_2.fastq.gz | head | grep @HWI
+zcat read_1.fastq.gz | head | grep @SRR
+zcat read_2.fastq.gz | head | grep @SRR
 ```
 
 [IMAGE]
 
 The only difference in the headers for the two reads is the read number. Of course, this is no guarantee that all the headers in the file are consistent. To get some more confidence, lets repeat the above commands using 'tail' instead of 'head' to compare reads at the end of the files. This will take a little longer, as tail has to read all the way through to the end of the file!
 ```bash
-zcat read_1.fastq.gz | tail | grep @HWI
-zcat read_2.fastq.gz | tail | grep @HWI
+zcat read_1.fastq.gz | tail | grep @SRR
+zcat read_2.fastq.gz | tail | grep @SRR
 ```
 
 You can also check that there is an identical number of reads in each file using 'zcat', 'grep' and 'wc -l'. This should take about 4 minutes for each.
 ```bash
-zcat read_1.fastq.gz | grep @HWI | wc –l
-zcat read_2.fastq.gz | grep @HWI | wc –l
+zcat read_1.fastq.gz | grep @SRR | wc –l
+zcat read_2.fastq.gz | grep @SRR | wc –l
 ```
 
 Oops! :trollface: Did you just copy and paste that and receive and error saying "wc: –l: No such file or directory" :stuck_out_tongue_winking_eye:. That's okay! Remember, typing the commands so that you get used to using them, and so that you understand what the options do is a much better way of learning! Don't forget you can use 'Tab complete' to automatically complete filenames. Anyway, the answer you should have received is '13,743,830'. Try again, with the correct command, and see what you get! :hugs: Hint: the "–" was wrong in the above command...
