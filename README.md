@@ -94,11 +94,11 @@ At EMBL-EBI they provide direct links to the 'fastq' files that were submitted t
 NB - These commands may take a little bit of time to complete (NCBI: XX minutes, EMBL-EBI: ~40m), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait... don't forget to come back soon!
 ```bash
 # fastq-dump from NCBI - slow
-fastq-dump --split-files --origfmt --gzip ERR2789854
+fastq-dump --split-files --origfmt --gzip SRR857279
 
 # or with wget from EMBL-EBI - faster
-wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R1.fastq.gz
-wget ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR278/ERR2789854/1975_LIB23320_LDI20611_TGACCA_R2.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_2.fastq.gz
 
 #
 chmod 444 *.gz
