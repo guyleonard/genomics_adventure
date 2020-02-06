@@ -86,7 +86,7 @@ Have a look at them and at what the author of FastQC has to say [here](https://w
 
 Remember the error and warning flags are his (albeit experienced) judgement of what typical data should look like. It is up to you to use some initiative and understand whether what you are seeing is typical for your dataset and how that might affect any analysis you are performing.
 
-# Task 1 - Evaluating the Quality of Illumina Data Continued...
+## Task 1 - Evaluating the Quality of Illumina Data Continued...
 Do the same for 'read 2' as you did for 'read 1', have a look at the various plots and metrics which are generated. How similar are they?
 
 Note that the number of reads reported in both files is identical. Overall, both 'read 1' and 'read 2' can be regarded as 'good' data-sets.
