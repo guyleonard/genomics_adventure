@@ -106,7 +106,8 @@ chmod 444 *.gz
 
 #### Reference Data
 We will access the reference data from the National Center for Biotechnology Information (NCBI), check out the links below:
- * *[Escherichia coli* str. K-12 substr. MG1655](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)
+
+[*Escherichia coli* str. K-12 substr. MG1655](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)
 
 There is a lot of information on this page, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format. Can you see where these are? :eyes:
 
