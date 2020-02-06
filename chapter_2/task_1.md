@@ -36,7 +36,7 @@ zcat read_1.fastq.gz | grep @SRR | wc –l
 zcat read_2.fastq.gz | grep @SRR | wc –l
 ```
 
-Oops! :trollface: Did you just copy and paste that and receive and error saying "wc: –l: No such file or directory" :stuck_out_tongue_winking_eye:. That's okay! Remember, typing the commands so that you get used to using them, and so that you understand what the options do is a much better way of learning! Don't forget you can use 'Tab complete' to automatically complete filenames. Anyway, the answer you should have received is '13,743,830'. Try again, with the correct command, and see what you get! :hugs: Hint: the "–" was wrong in the above command...
+Oops! :trollface: Did you just copy and paste that and receive and error saying "wc: –l: No such file or directory" :stuck_out_tongue_winking_eye:. That's okay! Remember, typing the commands so that you get used to using them, and so that you understand what the options do is a much better way of learning! Don't forget you can use 'Tab complete' to automatically complete filenames. Anyway, the answer you should have received is '4273258. Try again, with the correct command, and see what you get! :hugs: Hint: the "–" was wrong in the above command...
 
 Now, let's run the 'fastqc' program on the raw reads. Runing 'fastqc' as below will bring up the Graphical User Interface version.
 ```bash
