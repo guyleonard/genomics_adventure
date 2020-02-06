@@ -78,7 +78,7 @@ We will need to retrieve two sets of data for our adventure, this is similar to 
  2) Reference Data
   * If you are lucky to have a reference genome...
 
-We will be working with two different bacterial species; *Escherichia coli* & *Vibrio parahaemolyticus*, as they are two relatively small genomes (which makes it easy for the timings of this tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too!
+We will be working with the bacterial species *Escherichia coli* as it is a relatively small genome (which makes it easy for the timings of this tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too!
 
 #### Sequencing Data
 Back at your home institute you will likely retrieve your data from either the institute's sequencing service or a private outside provider. However, there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible repositories such as NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are also where you will be required to deposit your sequencing efforts during publication.
@@ -106,10 +106,9 @@ chmod 444 *.gz
 
 #### Reference Data
 We will access the reference data from the National Center for Biotechnology Information (NCBI), check out the links below:
- * *[E. coli](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)*
- * *[V. parahaemolyticus](https://www.ncbi.nlm.nih.gov/genome/691?genome_assembly_id=167995)*
+ * *[Escherichia coli* str. K-12 substr. MG1655](https://www.ncbi.nlm.nih.gov/genome/167?genome_assembly_id=161521)
 
-There is a lot of information on these pages, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format. Can you see where these are? :eyes:
+There is a lot of information on this page, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format. Can you see where these are? :eyes:
 
 We will now download the data, as we are working with the command line we have already copied the links to the data below for you :slightly_smiling_face:. Using the '[wget](https://www.gnu.org/software/wget/)':mag: command we can download files directly from the web to our local dicrectory. The files are '*gzipped*', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted during the transfer. We will also need to *unzip* them with the program '[gunzip](https://linux.die.net/man/1/gunzip)':mag:.
 
@@ -124,15 +123,6 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM5
 
 # Make an ecoli directory, and move the files there, and then unzip them
 mkdir ecoli && mv *.gz ecoli && gunzip ecoli/*.gz
-
-
-# Download the Vibrio reference genome in FASTA and GFF formats
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.fna.gz
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/095/GCF_000196095.1_ASM19609v1/GCF_000196095.1_ASM19609v1_genomic.gff.gz
-
-# Make an vibrio directory, and move the files there, and then unzip them
-mkdir vibrio && mv *.gz vibrio && gunzip vibrio/*.gz
-
 
 # Change write permissions, so that we can't edit them by accident
 chmod -R 444 *.fna
