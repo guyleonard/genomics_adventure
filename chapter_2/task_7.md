@@ -26,7 +26,7 @@ samtools sort ecoli_mapped.bam -o ecoli_mapped_sorted.bam
 ## A Note on Efficiency
 In the previous set of tasks we have aligned the trimmed reads to the reference genome, converted the SAM to a BAM and then sorted the resulting BAM file. For clarity, and for the purposes of learning we have done this in individual steps. However, in 'real-life' :tm:, it is much faster and easier to do these steps in one single command using Unix pipes! There is no need to do the next steps, of course, as we have already done them above but the commands are given for you to compare.
 
-Compare for example, what we did previously
+For example, this is what we did previously:
 ```bash
 bwa mem -t 4 \
 ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
@@ -41,7 +41,7 @@ ecoli_mapped.sam > ecoli_mapped.bam
 samtools sort ecoli_mapped.bam -o ecoli_mapped_sorted.bam
 ```
 
-with
+but we can do it in one command, like this:
 ```bash
 bwa mem -t 4 \
 ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
