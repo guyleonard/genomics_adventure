@@ -3,7 +3,7 @@ The Integrative Genome Viewer (IGV) is a tool developed by the Broad Institute f
 
 To run IGV:
 ```bash
-igv.sh
+igv
 ```
 
 The IGV viewer should appear, as below, and you will notice that by default a human genome has been loaded.
@@ -33,7 +33,7 @@ Once loaded your screen should look similar to the image beow. Note that you can
 
 [IMAGE]
 
-Select the chromosome XXXXX if it is not already selected. Use the +/- keys to zoom in or use the zoom bar at the top right of the screen to zoom into about 1-2kbases as above.
+Use the +/- keys to zoom in or use the zoom bar at the top right of the screen to zoom into about 1-2kbases as above.
 
 Right click on the main area and select view as pairs.
 
@@ -43,7 +43,7 @@ The gray graph at the top of the figure indicates the coverage of the genome.
 
 [IMAGE]
 
-The more reads mapping to a certain location, the higher the peak on the graph. You'll see a coloured line of blue, green or red in this coverage plot if there are any SNPs (single-nucleotide polymorphisms) present (there are none in the plot). If there are any regions in the genome which are not covered by the reads, you will see these as gaps in the coverage graph. Sometimes these gaps are caused by repetitive regions; others are caused by genuine insertions/deletions in your new strain with respect to the reference.
+The more reads mapping to a certain location, the higher the peak on the graph. You'll see a coloured line of blue, green or red in this coverage plot if there are any SNPs (single-nucleotide polymorphisms) present. If there are any regions in the genome which are not covered by the reads, you will see these as gaps in the coverage graph. Sometimes these gaps are caused by repetitive regions; others are caused by genuine insertions/deletions in your new strain with respect to the reference.
 
 Below the coverage graph is a representation of each read pair as it is mapped to the genome. One pair is highlighted.
 
