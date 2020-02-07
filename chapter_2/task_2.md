@@ -44,7 +44,7 @@ First of all, let's ask the question - What do we know about our data?
 
 Here a few things to start:
 
- 1. It is Illumina HiSeq
+ 1. It is Illumina MiSeq
  2. It is in two FASTQ files - so we know it is probably paired-end data. 
  3. It is using Illumina 1.9+ enconding.
  
