@@ -30,6 +30,6 @@ The Insert Size Histogram displays the range of sizes of the DNA fragments. It s
 
 [IMAGE]
 
-You can have a look at some of the other graphs produced if you like and refer to the 'qualimap.txt' for similar statistics, but let's move on to a more interesting way of looking at our alignments...
+You can have a look at some of the other graphs produced if you like and refer to the 'genome_results.txt' for similar statistics, but let's move on to a more interesting way of looking at our alignments...
 
 # [Task 11]()
