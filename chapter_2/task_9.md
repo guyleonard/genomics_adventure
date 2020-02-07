@@ -7,21 +7,6 @@ This should only take a few seconds. Once complete you can view the 'mappingstat
 
 [IMAGE]
 
->5645403 + 0 in total (QC-passed reads + QC-failed reads)
-0 + 0 secondary
-4516 + 0 supplementary
-0 + 0 duplicates
-5531549 + 0 mapped (97.98% : N/A)
-5640887 + 0 paired in sequencing
-2820442 + 0 read1
-2820445 + 0 read2
-5503328 + 0 properly paired (97.56% : N/A)
-5526970 + 0 with itself and mate mapped
-63 + 0 singletons (0.00% : N/A)
-0 + 0 with mate mapped to a different chr
-0 + 0 with mate mapped to a different chr (mapQ>=5)
-
-
 On the first line we can see that we have 5,645,403 reads in total, and none of which failed QC. Next, 97.9% of the reads mapped to the reference genome and 97.56% mapped with the expected distance between them, as paired reads. And only 63 reads could not have their other read-pair mapped.
 
 0 reads have mapped to a different chromosome than their pair (0 have a mapping quality > 5 – this is a Phred scaled quality score much as we say in the FASTQ files). If there were any such reads they would likely be due to repetitive sequences (e.g phage insertion sites) or an insertion of plasmid or phage DNA into the main chromosome.
