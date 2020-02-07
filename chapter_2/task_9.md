@@ -1,11 +1,26 @@
 # Task 9 - Mapping Statistics
-Finally we can obtain some summary statistics.
+Finally, we can generate some summary statistics!
 ```bash
-samtools flagstat XXX_rmdup.bam > mappingstats.txt
+samtools flagstat ecoli_mapped_namesort_fixmate_sort_markdup.bam > mappingstats.txt
 ```
-This should only take a few seconds. Once complete view the mappingstats.txt file using your favourite text editor or command (e.g. nano, vi, more or cat).
+This should only take a few seconds. Once complete you can view the 'mappingstats.txt' file using your favourite text editor or command (e.g. nano, vi, more or cat).
 
 [IMAGE]
+
+>5645403 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+4516 + 0 supplementary
+0 + 0 duplicates
+5531549 + 0 mapped (97.98% : N/A)
+5640887 + 0 paired in sequencing
+2820442 + 0 read1
+2820445 + 0 read2
+5503328 + 0 properly paired (97.56% : N/A)
+5526970 + 0 with itself and mate mapped
+63 + 0 singletons (0.00% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
 
 Here we can see we have XXX reads in total, none of which failed QC. XX % of reads mapped to the reference genome and XX % mapped with the expected XXX-XXX bp distance between them. XXXX reads could not have their read-pair mapped.
 
