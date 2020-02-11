@@ -1,6 +1,6 @@
 # Task 12 - SNPs and Indels
 
-*The following 3 tasks are open-ended. Please take your time with these. Don't forget though, there's more adventures to be had!*
+*The following 3 tasks are open-ended. Please take your time with these but don't forget there are more adventures to be had!*
 
 ## Alignment Display Format
 Visit  the BROAD's website [here](http://www.broadinstitute.org/software/igv/AlignmentData) :mag: and have a brief read of the format.
