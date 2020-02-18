@@ -21,12 +21,12 @@ If you are run 'bcftools' on large numbers of datasets with limited coverage whe
 
 Now, lets type the following:
 ```bash
-bcftools mpileup -O v -P Illumina \
+bcftools mpileup -O v -P Illumina --threads 4 \
 -f ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
 ecoli_mapped_namesort_fixmate_sort_markdup.bam > var.raw.vcf
 ```
 
-This process may take 10 minutes or so, and will generate a '[VCF](https://en.wikipedia.org/wiki/Variant_Call_Format)' file containing the raw unfiltered variant calls for each position in the genome. Note that we are asking 'bcftools mpileup' to generate an uncompressed VCF output with the '-O v' option. '-P' tells 'bcftools' that it is dealing with Illumina data, so that it can apply to the correct model to help account for mis-calls or indels. 
+This process may take 20 minutes or so, and will generate a '[VCF](https://en.wikipedia.org/wiki/Variant_Call_Format)' file containing the raw unfiltered variant calls for each position in the genome. Note that we are asking 'bcftools mpileup' to generate an uncompressed VCF output with the '-O v' option. '-P' tells 'bcftools' that it is dealing with Illumina data, so that it can apply to the correct model to help account for mis-calls or indels. 
 
 This output by itself is not super useful on its own, as it contains information on each position in the genome. So let’s use 'bcftools' again to call what it thinks are the variant sites.
 
@@ -40,7 +40,7 @@ Note that we are asking 'bcftools' to call assuming a ploidy of 1, and to output
 grep -v -c  "^#" var.called.vcf
 ```
 
-You should find around XX sites. Don't worry if your number isn't exactly the same. Now we should filter this further, and with a tool made specifically to work with vcf files, in order to ensure we only retain regions where we have >90% allele frequency - we can do this with a tool called 'vcftools'.
+You should find around 174 sites. Don't worry if your number isn't exactly the same. Now we should filter this further, and with a tool made specifically to work with vcf files, in order to ensure we only retain regions where we have >90% allele frequency - we can do this with a tool called 'vcftools'.
 
 ```bash
 vcftools --minDP 10 --min-alleles 2 --max-alleles 2 \
@@ -48,7 +48,19 @@ vcftools --minDP 10 --min-alleles 2 --max-alleles 2 \
 --out var.called.filt 
 ```
 
-You are safe to ignore the warnings. This command creates a file called 'var.called.filt.vcf.recode.vcf'. Once complete, you can view the file using the 'more' command (or your favourite editor). You should see something similar to: (lines beginning with # are just comment lines explaining the output)
+You are safe to ignore any warnings. This command creates a file called 'var.called.filt.recode.vcf'. Once complete, you can view the file using the 'more' command (or your favourite editor). You should see something similar to below, (lines beginning with a '#' are just comment lines explaining the output):
 
+[IMAGE]
 
+You can see the chromosome, position, reference and alternate allele as well as a quality score for the SNP. This is a VCF file (Variant Call File),  a standard developed for the 1000 genomes project. The full specification is given [here](http://samtools.github.io/hts-specs/VCFv4.2.pdf) :PDF: :mag:.
 
+The lines starting with 'DP' and 'INDEL' contain various details concerning the variants. For haploid organisms, most of these details are not necessary. This forms our definitive list of variants for this sample.
+
+You can load the VCF file to IGV:
+
+[IMAGE]
+
+## Compare the Variants Found using this Method to Those You Found in the Manual Section
+Can you see any variants which may have been missed? Often variants within a few bp of indels are filtered out as they could be spurious SNPs thrown up by a poor alignment. This is especially the case if you use non-gapped aligners such as Bowtie.
+
+# [Task 15]()
