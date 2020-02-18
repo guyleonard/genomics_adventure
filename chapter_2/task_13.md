@@ -1,4 +1,4 @@
-##Task 13 - Identify SNPs and Indels Manually
+## Task 13 - Identify SNPs and Indels Manually
 
 Can you find any SNPs? Which genes (if any) are they in? How reliable do they look? (Hint – look at the number of reads mapping, their orientation - which strand they are on and how bright the base-calls are).
 
