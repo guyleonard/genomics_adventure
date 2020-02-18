@@ -27,3 +27,6 @@ Once completed, close the igvtools window and then you can load this TDF file:
 [IMAGE]
 
 You should then see the extra coverage track which remains visible even after you zoom out. 
+
+## Manually Identify a Region Containing Repetitive Sequences.
+Again try to use the QualiMap report to give you an idea. What is this region? Is there a gene close-by? What do you think this is? (Think about repetitive sequences, what does BWA do if a region in the genome has been duplicated?).
