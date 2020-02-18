@@ -56,10 +56,10 @@ Region U00096.3:565,965-566,489
 This last region is mor    e complex try to understand what genomic mutation could account for this pattern - discuss with a colleague or an instructor.
 
 ## Recap - SNP/Indel Identification
-Only changes from the reference sequence are displayed in IGV
-Genuine SNPs/Indels should be present on both read 1 and read 2
-Genuine SNPs/Indels should be present on both strands
-Genuine SNPs/Indels should be supported by a good (i.e. 20-30x) depth of coverage
-Very important mutations (i.e. ones relied upon in a paper) should be confirmed via PCR/Sanger sequencing.
+ * Only changes from the reference sequence are displayed in IGV
+ * Genuine SNPs/Indels should be present on both read 1 and read 2
+ * Genuine SNPs/Indels should be present on both strands
+ * Genuine SNPs/Indels should be supported by a good (i.e. 20-30x) depth of coverage
+ * Very important mutations (i.e. ones relied upon in a paper) should be confirmed via PCR/Sanger sequencing.
 
 # [Task 14]()
