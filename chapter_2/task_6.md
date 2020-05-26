@@ -34,10 +34,12 @@ bwa mem -t 4 \
 ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
 ~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_1_val_1.fq.gz \
 ~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_2_val_2.fq.gz \
-> ecoli_mapped.sam
+-o ecoli_mapped.sam
 ```
 
-This will take a couple of minutes to complete. There will be quite a lot of output on screen, but the end should look something similar to this:
+NB - We are using the explicit '-o filename.sam' as our output but you could also use a simple 
+
+This will take a couple of minutes to complete. You will be quite a lot of output on your terminal, but in the end it should look something similar to this:
 
 [IMAGE]
 
