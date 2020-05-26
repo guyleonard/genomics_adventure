@@ -20,11 +20,12 @@ The basic format of the command show as:
 From this we can see that we need to provide BWA with a set of FASTQ files containing the raw reads (denoted by
 '\<in.fq>' meaning required and '[in2.fq]' as optional) and a reference file (unhelpfully this is listed as '\<idxbase>') and any other options we wish to change. The most important options that we should take notice of, are the maximum number of differences in the seed ('-k' i.e. the first 32 bp of the sequence vs the reference) and the number of threads/processes the program should use ('-t').
   
-Our reference sequence is in:
+Our reference sequences are in the file:
 >~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna
 
-Our filtered reads are in:
+Our filtered reads are in the files:
 >~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/reqd_1_val_1.fq.gz
+
 >~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_2_val_2.fq.gz
 
 So, in order to align our paired reads using multi threading and output to a file ecoli_mapped.sam:
