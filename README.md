@@ -100,8 +100,12 @@ fastq-dump --split-files --origfmt --gzip SRR857279
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_2.fastq.gz
 
+# make a directory for them and move them there
+mkdir -p sequencing_data/ecoli
+mv *.gz sequencing_data/ecoli
+
 #
-chmod 444 *.gz
+chmod 444 sequencing_data/ecoli/*.gz
 ```
 
 #### Reference Data
