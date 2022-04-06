@@ -60,11 +60,6 @@ This is one of the most important metrics. If the quality scores are poor, eithe
 
 In this case this check is red - and it is true that the quality drops off at the end of the reads. It is normal for read quality to get worse towards the end of the read. You can see that at ~100 bases the quality is still vrelatively good.
 
-### Per tile Sequence Quality
-This is a purely technical view on the sequencing run, it is more important for the team running the sequencer. The sequencing flow cell is divided up into areas called cells. The colour of the tiles indicate the read quality and you can see that the quality drops off in some cells faster than others. This maybe because of the way the sample flowed over the flow cell or a mark or smear on the lens of the optics.
-
-[IMAGE]
-
 ### Per base Sequence Content
 For a completely randomly generated library with a GC content of 50% one expects that at any given position within a read there will be a 25% chance of finding an A,C,T or G base. Here we can see that our library satisfies these criteria, although there appears to be some minor bias at the beginning of the read. This may be due to PCR duplicates during amplification or during library preparation. It is unlikely that one will ever see a perfectly uniform distribution. See [here](http://sequencing.exeter.ac.uk/guide-to-your-data/quality-control/) for examples of good vs bad runs as well as the fastqc help for more details :mag:.
 
