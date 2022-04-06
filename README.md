@@ -126,8 +126,8 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM5
 mkdir ecoli && mv *.gz ecoli && gunzip ecoli/*.gz
 
 # Change write permissions, so that we can't edit them by accident
-chmod -R 444 *.fna
-chmod -R 444 *.gff
+chmod -R 444 ecoli/*.fna
+chmod -R 444 ecoli/*.gff
 ```
 
 When the downloads are finished you may continue on to the adventure by clicking the title below.
