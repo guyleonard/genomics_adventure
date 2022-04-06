@@ -11,7 +11,7 @@ ls -lath
 These are the paired-end read data that were previously downloaded in the introduction section. The filenames are a bit long and boring to continue to type out - so let's make them a little easier by making a symbolic link to them (this is a type of special file that acts as a pointer to the real file).
 ```bash
 ln -s SRR857279_1.fastq.gz read_1.fastq.gz
-ln -s SRR857279_1.fastq.gz read_2.fastq.gz
+ln -s SRR857279_2.fastq.gz read_2.fastq.gz
 ```
 
 Now we have nice and easy file names to work with :smile:. You should always record or note down what your original filenames are, so that you can refer to the correct data in the future! Just like keeping notes in a lab book. :open_book:
