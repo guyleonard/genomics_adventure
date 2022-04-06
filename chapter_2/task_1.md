@@ -1,5 +1,5 @@
 # Chapter Two
-## Task 1 - Evaluating the Quality of Illumina Data
+## Task 1a - Evaluating the Quality of Illumina Data
 From your terminal (command line), navigate to the 'sequencing_data/ecoli' directory (you may be there already) and list the contents of the directory.
 ```bash
 cd genomics_adventure/sequencing_data/ecoli
@@ -51,7 +51,7 @@ For example, if you have a high AT or high GC organism it may fail the 'per sequ
 
 [IMAGE]
 
-In this case we have a number of errors and warnings which at first sight suggest that there has been a problem - but don't worry too much yet. Let's go through them in turn.
+In this case we have a number of errors and warnings which at first sight suggest that there has been a problem - but don't worry too much yet. Let's go through a few of them.
 
 ### Per base sequence quality
 This is one of the most important metrics. If the quality scores are poor, either the wrong FASTQ encoding has been guessed by fastqc (see the Basic Statistics tab), or the data itself is poor quality. This view shows an overview of the range of quality values across all bases at each position in the FASTQ file.  Generally anything with a median quality score greater than Q20 is regarded as acceptable; anything above Q30 is regarded as 'good'. For more details, see the help documentation in fastqc.
@@ -76,14 +76,17 @@ This checks for sequences that occur more frequently than expected in your data.
 
 [IMAGE]
 
+### Adaptor Content
+In this case it has found that a small number of reads (35000) that appear to contain a sequence used in the preparation for the library. Don't worry, as we can trim these in a later stage and is completely normal to find them in your data.
+
 ### Other Reports
-Have a look at them and at what the author of FastQC has to say [here](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/):mag:. Or check out their youtube tutorial video [here](https://www.youtube.com/watch?v=bz93ReOv87Y).
+Have a look at them and at what the author of FastQC has to say [here](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/):mag:. Or check out their youtube tutorial video [here](https://www.youtube.com/watch?v=bz93ReOv87Y):mag:.
 
-Remember the error and warning flags are his (albeit experienced) judgement of what typical data should look like. It is up to you to use some initiative and understand whether what you are seeing is typical for your dataset and how that might affect any analysis you are performing.
+Remember the error and warning flags are the author's (albeit experienced) judgement of what typical data should look like. It is up to you to use some initiative and understand whether what you are seeing is typical for your dataset and how that might affect any analysis you are performing.
 
-## Task 1 - Evaluating the Quality of Illumina Data Continued...
-Do the same for 'read 2' as you did for 'read 1', have a look at the various plots and metrics which are generated. How similar are they?
+## Task 1b - Evaluating the Quality of Illumina Data Continued...
+Do the same for 'read 2' as you did for 'read 1', (you can open a new file in the same window) and have a look at the various plots and metrics which are generated. How similar are they? Why might they differ?
 
-Note that the number of reads reported in both files is identical. Overall, both 'read 1' and 'read 2' can be regarded as 'good' data-sets.
+Note that the number of reads reported in both files are identical. Overall, both 'read 1' and 'read 2' can be regarded as 'good' data-sets.
 
-## Got to [Task 2]()
+## Now Got to [Task 2]()
