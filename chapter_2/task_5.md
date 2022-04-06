@@ -31,4 +31,4 @@ bwa index GCF_000005845.2_ASM584v2_genomic.fna
 ```
 Take a look at the output of this command in your terminal (e.g. 'ls -lath'). You will notice that the 'bwa index' program has created a set of new files. We don't need to know what these are right now, just that these are the index files that 'bwa mem' will need.
 
-# [Task 6]()
+# Go to [Task 6](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_6.md)
