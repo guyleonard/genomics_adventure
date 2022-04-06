@@ -60,7 +60,7 @@ This is one of the most important metrics. If the quality scores are poor, eithe
 
 In this case this check is red - and it is true that the quality drops off at the end of the reads. It is normal for read quality to get worse towards the end of the read. You can see that at ~100 bases the quality is still vrelatively good.
 
-### Per base Sequence Content
+### Per base sequence Content
 For a completely randomly generated library with a GC content of 50% one expects that at any given position within a read there will be a 25% chance of finding an A,C,T or G base. Here we can see that our library satisfies these criteria, although there appears to be some minor bias at the beginning of the read. This may be due to PCR duplicates during amplification or during library preparation. It is unlikely that one will ever see a perfectly uniform distribution.
 
 [IMAGE]
@@ -72,7 +72,7 @@ This module counts the degree of duplication for every sequence in the set and c
 [IMAGE]
 
 ### Overrepresented Sequences
-This checks for sequences that occur more frequently than expected in your data. It also checks any sequences it finds against a small database of known sequences. In this case it has found that a small number of reads 4000 out of 600000 appear to contain a sequence used in the preparation for the library. A typical cause is that the original DNA was shorter than the length of the read - so the sequencing overruns the actual DNA and runs into the adaptors used to bind it to the flow cell.
+This checks for sequences that occur more frequently than expected in your data. It also checks any sequences it finds against a small database of known sequences. A typical cause is that the original DNA was shorter than the length of the read - so the sequencing overruns the actual DNA and runs into the adaptors used to bind it to the flow cell.
 
 [IMAGE]
 
