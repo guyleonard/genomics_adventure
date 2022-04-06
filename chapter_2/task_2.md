@@ -1,5 +1,5 @@
 # Task 2 -  Sequence Data Quality Control & Adaptor Trimming
-In the next set of tasks we will filter the read data to ensure that any low quality reads are removed, and that any sequences containing adaptor sequences are either trimmed or removed altogether. Adaptors are not useful in an assembly or during mapping, and low quality reads can impair a genome assembler's ability to build contiguous sequences from reads, or suggest SNPs where there are none.
+In the next set of tasks we will filter the read data to ensure that any low quality reads are removed, and that any sequences containing adaptor sequences are either trimmed or removed altogether. Adaptors are not typically useful in an assembly or during mapping, and low quality reads can impair a genome assembler's ability to build contiguous sequences from reads, or even cause the suggestion of SNPs where there are none.
 
 Note: Typically when submitting Illumina data to NCBI or EBI you would submit the raw unfiltered data, so don't delete your original FASTQ files!
 
@@ -75,7 +75,7 @@ Now let's see what the program has produced! Returning to your terminal, you can
 
 There are several sets of output files:
  1. two processed zipped 'fastq' files (read_1_val_1.fq.gz and read_2_val_2.fq.gz), containing the trimmed reads,
- 2. two '.html' files which contain a visual report - much like the GUI,
+ 2. two '.html' files which contain a visual report - much like the GUI of FastQC,
  3. two '.txt' files which contain similar information as above, just without the graphs,
  4. and two '.zip' files which contain the same reports as the '.html' files.
 
@@ -88,8 +88,8 @@ zcat read_1_val_1.fq.gz | wc -l
 zcat read_2_val_2.fq.gz | wc -l
 ```
 
-Although the reads have been trimmed differently - the number of reads in the 'read_1' and 'read_2' files are identical (2,951,293). This is required for all the tools we will use to analyse paired-end data.
+Although the reads have been trimmed differently - the number of reads in the 'read_1' and 'read_2' files are identical (11,805,172). This is required for all the tools we will use to analyse paired-end data.
 
 Now you should check the quality scores and sequence distribution from the 'FastQC' outputs. Open the 'html' file in Firefox or your favourite browser. You should notice very little change (since comparatively few reads were filtered). However, you should notice a significant improvement in quality and the absence of adaptor sequences.
 
-## [Task 3]()
+## Go to [Task 3](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_3.md)
