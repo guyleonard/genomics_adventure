@@ -9,16 +9,16 @@ qualimap bamqc
 To generate a 'QualiMap bamqc' report, you can run:
 ```bash
 qualimap bamqc -outdir bamqc \
--bam XXX_rmdup.bam \
+-bam ecoli_mapped_namesort_fixmate_sort_markdup.bam \
 -gff ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.gff
 ```
 
-this creates a subfolder called 'bamqc'. Change into this directory and view the '.html' file with your favourite browser, e.g.:
+After a couple of minutes, this will create a subfolder called 'bamqc'. Change into this directory with 'cd' and view the '.html' file with your favourite browser, e.g.:
 ```bash
 firefox qualimapReport.html
 ```
 
-There is a lot in this report to explore, so we will give just a few highlights here, you are welcome to read the manual (RTM) for further information. :wink:
+There is a lot of information in this report to explore, so we will give just a few highlights here, you are welcome to read the manual (RTM) for further information or discuss with your peers and TAs too.
 
 ## Coverage Across Reference
 This shows the number of reads that 'cover' each section of the genome. The red line shows a rolling average around 175x - this means that on average every part of the genome was sequenced 175x. It is important to have sufficient depth of coverage in order to be confident that any features you find in your data are real and not a result of sequencing errors. What do you think the regions of low/zero coverage correspond to?
