@@ -23,7 +23,7 @@ There is a lot of information in this report to explore, so we will give just a 
 ## Coverage Across Reference
 This shows the number of reads that 'cover' each section of the genome. The red line shows a rolling average around 175x - this means that on average every part of the genome was sequenced 175x. It is important to have sufficient depth of coverage in order to be confident that any features you find in your data are real and not a result of sequencing errors. What do you think the regions of low/zero coverage correspond to?
 
-[IMAGE]
+![Coverage Across Reference](https://github.com/guyleonard/genomics_adventure/blob/e219def38a300ab13dba1aa839c27b3fa7909c27/chapter_2/images/genome_coverage_across_reference.png)
 
 ## Insert Size Histogram
 The Insert Size Histogram displays the range of sizes of the DNA fragments. It shows how well your DNA was size selected before sequencing. Note that the 'insert' refers to the DNA that was inserted between the sequencing adaptors, so equates to the size range of the DNA that was used. In this case we have 150bp paired end reads and our insert size varies around 120bp bases - so there should only be a small gap between the reads that were not sequenced.
