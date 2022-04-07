@@ -28,8 +28,8 @@ This shows the number of reads that 'cover' each section of the genome. The red 
 ## Insert Size Histogram
 The Insert Size Histogram displays the range of sizes of the DNA fragments. It shows how well your DNA was size selected before sequencing. Note that the 'insert' refers to the DNA that was inserted between the sequencing adaptors, so equates to the size range of the DNA that was used. In this case we have 150bp paired end reads and our insert size varies around 120bp bases - so there should only be a small gap between the reads that were not sequenced.
 
-[IMAGE]
+![Insert Size Histogram](https://github.com/guyleonard/genomics_adventure/blob/e219def38a300ab13dba1aa839c27b3fa7909c27/chapter_2/images/genome_insert_size_histogram.png)
 
 You can have a look at some of the other graphs produced if you like and refer to the 'genome_results.txt' for similar statistics, but let's move on to a more interesting way of looking at our alignments...
 
-# [Task 11]()
+# Go to [Task 11](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_11.md)
