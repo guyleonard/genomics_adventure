@@ -1,5 +1,5 @@
 # Task 9 - Mapping Statistics
-Finally, we can generate some summary statistics!
+Finally, we can generate some summary statistics! :boom:
 ```bash
 samtools flagstat ecoli_mapped_namesort_fixmate_sort_markdup.bam > mappingstats.txt
 ```
@@ -24,4 +24,4 @@ rm ecoli_mapped_sorted.bam
 
 In case you get asked if you are sure to remove the files, just say 'yes'. You should now be left with just the processed alignment file, the index file and the mapping stats. Well done! :1st_place_medal:
 
-# [Task 10]()
+# Go to [Task 10](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_10.md)
