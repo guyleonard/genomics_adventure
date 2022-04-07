@@ -1,35 +1,33 @@
 # Task 11 - IGV - Graphical View of Your Alignments
-The Integrative Genome Viewer (IGV) is a tool developed by the Broad Institute for browsing interactively the alignment data you produced. It has a wealth of features and we can only cover some basics to get you started. You can read more more information [here](http://www.broadinstitute.org/igv/).
+The Integrative Genome Viewer (IGV) is a tool developed by the Broad Institute for browsing interactively the alignment data you produced. It has a huge wealth of features :dizzy_face: and we will only cover some of the basics to get you started. You can read more more information [here](http://www.broadinstitute.org/igv/).
 
 To run IGV:
 ```bash
 igv
 ```
 
-The IGV viewer should appear, as below, and you will notice that by default a human genome has been loaded.
+The IGV viewer should appear, as below, and you will notice that by default a human genome has been selected in the first drop down box.
 
 [IMAGE]
 
-## Importing the *E. coli* Reference
-By default IGV does not contain our reference genome. We'll need to import it. Click on 'Genomes -> Create .genome file...'
+## Importing the *E. coli* Reference Sequence
+By default IGV does not contain our reference genome. We'll need to import it. Therefore, click on 'Genomes -> Load Genome from File...'
 
-Fill in the information, as in the image below.
+Navigate to the location of your sequence file, as in the image below, select it and click "Open". You should see the drop down menu change to the name of your file.
 
 [IMAGE]
 
-IGV will ask where it can save the genome file, save it in the same location as the input files. Click 'Save' again.
-
-
-Note that the genome and the annotation have now been imported.
+## Importing the *E. coli* Reference Annotation
+We can also load the annotation (.gff). Click on 'File -> Load from File...'. Navigate to the location of your sequence file, as in the image below, select it and click "Open". You should see a new 'track' of blue boxes with white arrows appear.
 
 [IMAGE]
 
 ## Load the BAM Alignment
-Load the alignment file. Note that IGV requires the .bai index file to also be in the same directory. Select 'File...' and 'Load From File'. Select your BAM file and click 'Open'.
+Load the alignment file (.bam). Note that IGV requires the .bai index file to also be in the same directory (we generated that earlier with samtools index). Select 'File...' and 'Load From File...'. Select your BAM file and click 'Open'.
 
 [IMAGE]
 
-Once loaded your screen should look similar to the image beow. Note that you can load more BAM files if you wish to compare different samples or the results of different mapping programs.
+Once loaded your screen should look similar to the image below (you may need to use the zoom '+' tool to see the features you just loaded). Note that you can load more BAM files if you wish to compare different samples, sequencing technologies or the results of different mapping programs.
 
 [IMAGE]
 
@@ -57,4 +55,4 @@ Hover over a read to get detailed information about the reads' alignment.
 
 You don't need to understand every value, but compare this to the SAM format to get an idea of what is there.
 
-# [Task 12]()
+# Go to [Task 12](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_12.md)
