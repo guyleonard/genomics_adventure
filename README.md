@@ -66,7 +66,7 @@ conda create --name genomics_adventure
 conda activate genomics_adventure
 
 # Install the software
-conda install -c bioconda bcftools bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap samtools seqtk spades sra-tools trim-galore vcftools
+conda install -c bioconda bcftools=1.12 bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap samtools=1.12 seqtk spades sra-tools trim-galore vcftools
 ```
 
 Make sure that the environment is manually activated everytime you come back to this adventure. You should see '(genomics_adventure)' before your normal terminal prompt. If it is not activated, use the 'activate' command from above.
