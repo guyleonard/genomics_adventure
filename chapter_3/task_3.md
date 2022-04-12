@@ -42,6 +42,6 @@ This contains the final results of the assembly in fasta format.
 This contains the final results after scaffolding (which means using paired end information to join contigs together with gaps). In this case the files are identical, probably because the sum of the lengths of our paired reads is not much smaller than our insert size (there are very few large gaps between reads).
 
 ### assembly_graph.fastg
-Contains SPAdes assembly graph in FASTG format - this is a slightly different format that contains more information than fasta - for example it can contain alternative alleles in diploid assemblies. We don't need it here, but see ​[here](http://fastg.sourceforge.net/FASTG_Spec_v1.00.pdf) :pdf: if you might be working with diploid organisms. You can use the [Bandage](http://rrwick.github.io/Bandage/​) program to view this file.
+Contains SPAdes assembly graph in FASTG format - this is a slightly different format that contains more information than fasta - for example it can contain alternative alleles in diploid assemblies. We don't need it here, but see ​[here](http://fastg.sourceforge.net/FASTG_Spec_v1.00.pdf) :file: if you might be working with diploid organisms. You can use the [Bandage](http://rrwick.github.io/Bandage) program to view this file.
 
 # Go to [Task 4](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_3/task_4.md)
