@@ -4,7 +4,7 @@
 The advantage is that de-novo assembly can reveal completely novel results, e.g. identifying horizontal gene transfer events. The disadvantage is that it is difficult to get a good assembly from short reads, and it can be prone to misleading results due to contamination and mis-assembly.
 
 ## Generate an Assembly
-We will be using an assembler called here [here](​https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/) [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/). It generally performs pretty well with a variety of genomes. It can also incorporate longer reads produced from PacBio sequencers that we will use later in our adventure.
+We will be using an assembler called [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342519/) - :ukraine:. It generally performs pretty well with a variety of genomes. It can also incorporate longer reads produced from PacBio sequencers that we will use later in our adventure.
 
 One big advantage is that it is not just a pure assembler - it is a suite of programs that prepare the reads you have, assembles them and then refines the assembly.
 
