@@ -31,7 +31,7 @@ Try to understand the steps in the context of the whole picture. Can you explain
 
 When the assembly is complete, change to the "spades_assembly"​ directory and have a look :eyes: at the output.
 
-take a look at some of the more important content.
+Let's take a look at some of the more important content.
 ### params.txt
 This contains a summary of the parameters used for assembly - it is useful so you can repeat the exact analysis performed, or can remember you setting when you want to publish the genome.
 
