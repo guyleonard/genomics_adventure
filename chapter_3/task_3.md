@@ -10,7 +10,7 @@ One big advantage is that it is not just a pure assembler - it is a suite of pro
 
 SPAdes runs the modules that are required for a particular dataset and it produces the assembly with a minimum of preparation and parameter selection - making it very straightforward to produce a decent assembly. As with everything in bioinformatics you should try to assess the results critically and understand the implications for further analysis.
 
-Let's start the assembler because it takes about 10 minutes to run (this might be a nice time to get a :coffee: or to stretch your legs :walking:).
+Let's start the assembler because it takes about 10 minutes to run (this might be a nice time to get a :coffee: or to stretch your legs :walking:). You will see a lot of output on the screen.
 ```bash
 spades.py --careful -o spades_assembly -1 unmapped_r1.fastq -2 unmapped_r2.fastq
 ```
@@ -29,4 +29,19 @@ A pretty old overview of how SPAdes differs from 'velvet', a very old assembly p
 
 Try to understand the steps in the context of the whole picture. Can you explain why error correction of reads becomes more important as k-mer length increases?
 
-When the assembly is complete, change to the spades_assembly​ directory and have a look :eyes: at the output.
+When the assembly is complete, change to the "spades_assembly"​ directory and have a look :eyes: at the output.
+
+take a look at some of the more important content.
+### params.txt
+This contains a summary of the parameters used for assembly - it is useful so you can repeat the exact analysis performed, or can remember you setting when you want to publish the genome.
+
+### contigs.fasta
+This contains the final results of the assembly in fasta format.
+
+### scaffolds.fasta
+This contains the final results after scaffolding (which means using paired end information to join contigs together with gaps). In this case the files are identical, probably because the sum of the lengths of our paired reads is not much smaller than our insert size (there are very few large gaps between reads).
+
+### assembly_graph.fastg
+Contains SPAdes assembly graph in FASTG format - this is a slightly different format that contains more information than fasta - for example it can contain alternative alleles in diploid assemblies. We don't need it here, but see ​[here](http://fastg.sourceforge.net/FASTG_Spec_v1.00.pdf) :pdf: if you might be working with diploid organisms. You can use the [Bandage](http://rrwick.github.io/Bandage/​) program to view this file.
+
+# Go to [Task 4](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_3/task_4.md)
