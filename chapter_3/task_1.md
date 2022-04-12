@@ -45,7 +45,9 @@ Now that we have identified the corect bit flag, we can go ahead with filtering 
 samtools view -b -f 12 ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam -o unmapped.bam
 ```
 
-This command outputs a BAM file "-b" and filters only those with a corresponding bit flag of "12". Have a look at some of the content of this new BAM file.
+This command outputs a BAM file "-b" and filters only those with a corresponding bit flag of "12".
+
+Have a look at some of the content of this new BAM file.
 ```bash
 samtools view unmapped.bam | head -n 5
 ```
