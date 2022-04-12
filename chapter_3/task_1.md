@@ -45,7 +45,7 @@ Now that we have identified the corect bit flag, we can go ahead with filtering 
 samtools view -b -f 12 ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam -o unmapped.bam
 ```
 
-This command outputs a BAM file "-b" and filters only those with a corresponding bit flag of "12".
+This command outputs a BAM file "-b" and filters only those with a corresponding bit flag of "-f 12".
 
 Have a look at some of the content of this new BAM file.
 ```bash
@@ -56,7 +56,7 @@ Oh no! Why do all the values say 77 and 141? :sob: I thought you said it was 12?
 
 Okay, now we are happy again! :smiley: We can continue on our journey, remember we were hoping to extract the unmapped reads for assembly. However, we need our reads in FASTQ format, but right now they are trapped in BAM format.
 
-To convert them we will use the [bamtofastq](https://bedtools.readthedocs.io/en/latest/content/tools/bamtofastq.html):mag: program from the [bedtools](https://bedtools.readthedocs.io/en/latest/index.html):mag: There are other tools that you can use too, for example in the [Picard](http://picard.sourceforge.net/):mag: package there is a tool called SamToFastq which provides a similar function. But we will not use this today. 
+To convert them we will use the [bamtofastq](https://bedtools.readthedocs.io/en/latest/content/tools/bamtofastq.html):mag: program from the [bedtools](https://bedtools.readthedocs.io/en/latest/index.html):mag: package. There are other tools that you can use too, for example in the [Picard](http://picard.sourceforge.net/):mag: package there is a tool called SamToFastq which provides a similar function. But we will not use this today. 
 ```
 bedtools bamtofastq -i unmapped.bam -fq unmapped_r1.fastq -fq2 unmapped_r2.fastq
 ```
