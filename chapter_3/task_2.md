@@ -3,7 +3,7 @@
 ## Task 2a - Check Reads
 Check that the number of entries in both fastq files is the same. Also check that the last few entries in the read 1 and read 2 files have the same header (i.e. that they have been correctly paired).
 <details>
-  <summary>Try yourself before you</summary>
+  <summary>Try before you check here</summary>
   There are multiple ways to do this. Here's how we did it:
   
   ```
@@ -29,3 +29,10 @@ Check that the number of entries in both fastq files is the same. Also check tha
 </details>
 
 ## Task 2b - Evaluate QC
+Back to some familiar territory! Use the fastqc program to look at the statistics and QC for the ​ unaligned_1.fastq and unaligned_2.fastq​ files.
+
+Do these look reasonably good? Remember, some reads will fail to map to the reference because they are poor quality, so the average scores will be lower than the initial fastqc report we did in the remapping workshop. The aim here is to see if it looks as though there are reads of reasonable quality which did not map.
+
+Assuming these reads look ok, we will proceed with preparing them for de novo assembly.
+
+# Go to [Task 3](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_3/task_3.md)
