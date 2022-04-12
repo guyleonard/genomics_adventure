@@ -60,13 +60,13 @@ This section will create the 'environment' :package: in which we will be having 
 conda update -n base conda
 
 # Create our environment
-conda create --name genomics_adventure
+conda create --name genomics_adventure python=3.7
 
 # Activate our environment
 conda activate genomics_adventure
 
 # Install the software
-conda install -c bioconda bcftools=1.12 bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap samtools=1.12 seqtk spades sra-tools trim-galore vcftools
+conda install -c bioconda bcftools=1.12 bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap quast=5.0.2 samtools=1.12 seqtk spades sra-tools trim-galore vcftools
 ```
 
 Make sure that the environment is manually activated everytime you come back to this adventure. You should see '(genomics_adventure)' before your normal terminal prompt. If it is not activated, use the 'activate' command from above.
