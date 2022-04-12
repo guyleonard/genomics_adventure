@@ -18,21 +18,24 @@ mkdir unmapped_assembly
 cd unmapped_assembly
 ```
 
-We want to extract all of the reads that do NOT map to the assembly. Luckily, in the SAM/BAM format there is a special 'bitwise flag' or code that identifies how the reads and their read-mates are aligned to a reference. They can be quite confusing, and there are many combinations. We will have a look at them now by viewing the first five lines our previously made BAM file.
+We want to extract all of the reads that do NOT map to the assembly. Luckily, in the SAM/BAM format there is a special 'bitwise flag' or code that identifies how the reads and their read-mates are aligned to a reference. They can be quite confusing at first, and there are many combinations. We will have a look at them now by viewing the first five lines our previously made BAM file.
 ```bash
 samtools view ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam | head -n 5
 ```
 
-You should see a bunch a of text, numbers and sequence data on your screen. Don't panic. It is arranged in columns separated by a tab, and each row is one read. At this time we are only really interested in the second column (the flag), you can look up the rest [here](https://en.wikipedia.org/wiki/SAM_(file_format)#Format):mag:. You should see a number like "2147" on the first row. On its own this number doesn't tell us too much, but we can look up what it means [here](https://broadinstitute.github.io/picard/explain-flags.html). You can see that the tool tells us that this read is mapped, and that its read-mate is also mapped. It also tells us that it is mapped to the reverse strand and is the first read of the pair to be mapped.
+You should see a bunch a of text, numbers and sequence data on your screen. Don't panic, this is just how the SAM formate looks. It is arranged in columns separated by a tab, and each row is one read. At this time we are only really interested in the second column (the flag), you can look up the meaning for the rest [here](https://en.wikipedia.org/wiki/SAM_(file_format)#Format):mag:.
 
-Is this a read we are looking for? Using the "Decoding SAM flags" tool, can you figure out what flag number we want? Remember, We need reads that are unmapped and where their mates are also unmapped. Click below to reveal the answer.
+You should see a number like "2147" on the first row. On its own this number doesn't tell us too much, but we can use a tool to look up what it means [here](https://broadinstitute.github.io/picard/explain-flags.html). You can see that the tool tells us that this read is mapped, and that its read-mate is also mapped. It also tells us that it is mapped to the reverse strand, is the first read of the pair to be mapped, and that it is a supplementary alignment. So, ths is not a read we are looking for right now!
+
+Now, using the "Decoding SAM flags" tool, can you figure out what flag number we need for reads that are unmapped and where their mates are also unmapped? Click below to reveal the answer.
 
 <details>
   <summary>Did you guess correctly?</summary>
-  The answer is "12".
+  The answer we were looking for is "12". But some of you may have guessed 4 or 8 or even 13 or 15! So, why is it twelve?
 
-  Some of you may have guessed 4 or 8. That's okay, but remember we wanted paired reads, not just one or the other of the pairs. The more astute of you will notice that 4 + 8 = 12, the flags are summative. However, they are not ontological - e.g. 12 will get unmapped pairs, but not the others associated with 4 (read unmapped) and 8 (mate unmapped).
-    
+  Let's talk about the "bit-flag" briefly. Brace yourselves! The number values we see are actually the summed positions of a binary code representing a set of outcomes for the reads and their pairs. Woah! Breathe. So, for example, we could have the binary code of "0000000100", which is equivalent to a decimal "4". Why? Well, each position from the right of the binary code can be represented in decimal as 1, 2, 4, 6, 8, 16...etc. So, a '1' in the third position from the right in binary is equivalent to a decimal "4". You can then see how this matches to each of the outcomes in the "Decoding SAM flags" tool, e.g. selecting the third box is equivalent to a value of 4! Easy huh!?
+
+  But why 12 and not 13 or some other combination? Remember we wanted "read unmapped" (4) AND "mate unmapped" (8), so selecting both gives us "12" (or 0000001100 in binary), that's all we need. Nonetheless, some of you may have also decided to click on either "read paired" (1) or "read mapped in proper pair" (2) increasing the value. Well, the latter is not useful as we are looking for unmapped reads only. Secondly, even though "read paired" is what we are looking for it is not often a flag that is encoded when reads are unmapped. Furthermore, think of what 13 represents as a subset of 12, and that we want to get all the reads!    
 </details>
 
 
