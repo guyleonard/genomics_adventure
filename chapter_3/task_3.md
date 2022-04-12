@@ -1,10 +1,10 @@
 # Task 3 - De-novo Assembly
 *de novo* is a Latin expression meaning "from the beginning," "afresh," "anew," "beginning again.". When we perform a de-novo assembly we try to reconstruct a genome or part of the genome from our reads without making any prior assumptions (in contrast to mapping where we compare our reads to what we think is a close reference sequence).
 
-The advantage is that is that de-novo assembly can reveal completely novel results, e.g. identifying horizontal gene transfer events. The disadvantage is that it is difficult to get a good assembly from short reads, and it can be prone to misleading results due to contamination and mis-assembly.
+The advantage is that de-novo assembly can reveal completely novel results, e.g. identifying horizontal gene transfer events. The disadvantage is that it is difficult to get a good assembly from short reads, and it can be prone to misleading results due to contamination and mis-assembly.
 
 ## Generate an Assembly
-We will be using an assembler called [SPAdes](​https://github.com/ablab/spades) :ukraine:. It generally performs pretty well with a variety of genomes. It can also incorporate longer reads produced from PacBio sequencers that we will use later in our adventure.
+We will be using an assembler called [SPAdes](​http://github.com/ablab/spades) :ukraine:. It generally performs pretty well with a variety of genomes. It can also incorporate longer reads produced from PacBio sequencers that we will use later in our adventure.
 
 One big advantage is that it is not just a pure assembler - it is a suite of programs that prepare the reads you have, assembles them and then refines the assembly.
 
