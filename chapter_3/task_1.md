@@ -18,9 +18,35 @@ mkdir unmapped_assembly
 cd unmapped_assembly
 ```
 
-Now we will use the [bam2fastq](https://gslweb.discoveryls.com/information/software/bam2fastq) :mag: program to extract from the BAM file just those reads which did NOT map to the reference genome. The
-bam2fastq program has a number of options, most of which are self-explanatory. Whilst this tool has been discontinued, it still performs useful functions. However, you might like to learn the tool from the [Picard](http://picard.sourceforge.net/) :mag: package called SamToFastq at another time, which should perform a similar function.
+We want to extract all of the reads that do NOT map to the assembly. Luckily, in the SAM/BAM format there is a special 'bitwise flag' or code that identifies how the reads and their read-mates are aligned to a reference. They can be quite confusing, and there are many combinations. We will have a look at them now by viewing the first five lines our previously made BAM file.
+```bash
+samtools view ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam | head -n 5
 ```
-bam2fastq --no-aligned -o unaligned#.fastq ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam
+
+You should see a bunch a of text, numbers and sequence data on your screen. Don't panic. It is arranged in columns separated by a tab, and each row is one read. At this time we are only really interested in the second column (the flag), you can look up the rest [here](https://en.wikipedia.org/wiki/SAM_(file_format)#Format):mag:. You should see a number like "2147" on the first row. On its own this number doesn't tell us too much, but we can look up what it means [here](https://broadinstitute.github.io/picard/explain-flags.html). You can see that the tool tells us that this read is mapped, and that its read-mate is also mapped. It also tells us that it is mapped to the reverse strand and is the first read of the pair to be mapped.
+
+Is this a read we are looking for? Using the "Decoding SAM flags" tool, can you figure out what flag number we shold look for? We want reads that are unmapped and where their mates are also unmapped.
+
+<details>
+  <summary>Did you guess correctly?</summary>
+  
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  
+  ```javascript
+  console.log("I'm a code block!");
+  ```
+  
+</details>
+
+
+
+
+Now we will use the [bamtofastq](https://bedtools.readthedocs.io/en/latest/content/tools/bamtofastq.html):mag: program from the [bedtools](https://bedtools.readthedocs.io/en/latest/index.html):mag: There are other tools that you can use too, for example in the [Picard](http://picard.sourceforge.net/):mag: program there is a tool called SamToFastq which provides a similar function. But we will not use this today. 
 ```
+bedtools bamtofastq 
+```
+
+
+[IMAGE]
+
 
