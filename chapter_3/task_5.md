@@ -11,7 +11,7 @@ Why not only search the NCBI blast database? Well, remember nearly all of our bi
 
 To help overcome this searching more subtle signatures may help – this is where Pfam comes in. Pfam is a database which contains protein families identified by particular signatures or patterns in their protein sequence. These signatures are modeled by Hidden Markov Models ([HMM](https://en.wikipedia.org/wiki/Hidden_Markov_model)s :mag:) and used to search query sequences. These can provide a high level annotation where BLAST might otherwise fail. It also has the advantage of being much faster than BLAST.
 
-## Search Contigs against NCBI non-redundant Database
+## Search Contigs against NCBI nucleotide Database
 To do this we will use the command line version of the Basic Local Alignment Search Tool ([BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)), which finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance.
 
 We will use the database commongly denoted as 'nt' - the nucleotide database is a collection of sequences from several sources, including GenBank, RefSeq, TPA and PDB including genome, gene and transcript sequences. 
