@@ -1,0 +1,609 @@
+NODE_1_length_46850_cov_69.441152	CP048440.1	100.000	46850	0	0	1	46850	37222	84071	0.0	86516	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	90.993	544	39	10	40565	41102	72396	72935	0.0	725	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	90.993	544	39	10	35175	35714	77786	78323	0.0	725	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	90.533	169	16	0	46682	46850	83989	84157	3.82e-52	224	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	92.617	149	11	0	46702	46850	83966	84114	2.30e-49	215	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	89.349	169	18	0	46682	46850	84032	84200	8.26e-49	213	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	92.053	151	12	0	46700	46850	84179	84329	8.26e-49	213	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	88.166	169	20	0	46682	46850	84204	84372	1.79e-45	202	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	87.574	169	21	0	46682	46850	84075	84243	8.32e-44	196	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	87.574	169	21	0	46682	46850	84118	84286	8.32e-44	196	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	CP048440.1	89.623	106	11	0	46745	46850	83923	84028	1.84e-25	135	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	100.000	46850	0	0	1	46850	9722	56571	0.0	86516	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	90.993	544	39	10	40565	41102	44896	45435	0.0	725	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	90.993	544	39	10	35175	35714	50286	50823	0.0	725	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	90.533	169	16	0	46682	46850	56489	56657	3.82e-52	224	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	92.617	149	11	0	46702	46850	56466	56614	2.30e-49	215	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	89.349	169	18	0	46682	46850	56532	56700	8.26e-49	213	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	92.053	151	12	0	46700	46850	56679	56829	8.26e-49	213	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	88.166	169	20	0	46682	46850	56704	56872	1.79e-45	202	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	87.574	169	21	0	46682	46850	56575	56743	8.32e-44	196	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	87.574	169	21	0	46682	46850	56618	56786	8.32e-44	196	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	MF370216.1	89.623	106	11	0	46745	46850	56423	56528	1.84e-25	135	Escherichia coli strain J53 plasmid pOX38-Gen, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	99.996	46850	2	0	1	46850	169505	122656	0.0	86505	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	90.859	547	40	10	35175	35717	128941	128401	0.0	725	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	90.859	547	40	10	40565	41105	134331	133789	0.0	725	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	89.941	169	17	0	46682	46850	122738	122570	1.78e-50	219	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	92.568	148	11	0	46703	46850	122545	122398	8.26e-49	213	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	91.946	149	12	0	46702	46850	122761	122613	1.07e-47	209	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	91.892	148	12	0	46703	46850	122674	122527	3.84e-47	207	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	90.728	151	14	0	46700	46850	122505	122355	1.79e-45	202	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	90.541	148	14	0	46703	46850	122588	122441	8.32e-44	196	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	90.541	148	14	0	46703	46850	122631	122484	8.32e-44	196	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP053606.1	89.623	106	11	0	46745	46850	122804	122699	1.84e-25	135	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	99.996	46850	2	0	1	46850	151788	104939	0.0	86505	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	90.859	547	40	10	35175	35717	111224	110684	0.0	725	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	90.859	547	40	10	40565	41105	116614	116072	0.0	725	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	89.941	169	17	0	46682	46850	105021	104853	1.78e-50	219	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	92.568	148	11	0	46703	46850	104828	104681	8.26e-49	213	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	91.946	149	12	0	46702	46850	105044	104896	1.07e-47	209	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	91.892	148	12	0	46703	46850	104957	104810	3.84e-47	207	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	90.728	151	14	0	46700	46850	104788	104638	1.79e-45	202	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	90.541	148	14	0	46703	46850	104871	104724	8.32e-44	196	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	90.541	148	14	0	46703	46850	104914	104767	8.32e-44	196	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014273.1	89.623	106	11	0	46745	46850	105087	104982	1.84e-25	135	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	99.996	46850	2	0	1	46850	170834	123985	0.0	86505	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	90.859	547	40	10	35175	35717	130270	129730	0.0	725	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	90.859	547	40	10	40565	41105	135660	135118	0.0	725	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	89.941	169	17	0	46682	46850	124067	123899	1.78e-50	219	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	92.568	148	11	0	46703	46850	123874	123727	8.26e-49	213	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	91.946	149	12	0	46702	46850	124090	123942	1.07e-47	209	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	91.892	148	12	0	46703	46850	124003	123856	3.84e-47	207	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	90.728	151	14	0	46700	46850	123834	123684	1.79e-45	202	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	90.541	148	14	0	46703	46850	123917	123770	8.32e-44	196	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	90.541	148	14	0	46703	46850	123960	123813	8.32e-44	196	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP014271.1	89.623	106	11	0	46745	46850	124133	124028	1.84e-25	135	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_1_length_46850_cov_69.441152	CP008801.1	99.996	46850	2	0	1	46850	3055742	3008893	0.0	86505	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	90.859	547	40	10	35175	35717	3015178	3014638	0.0	725	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	90.859	547	40	10	40565	41105	3020568	3020026	0.0	725	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	89.941	169	17	0	46682	46850	3008975	3008807	1.78e-50	219	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	92.568	148	11	0	46703	46850	3008782	3008635	8.26e-49	213	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	91.946	149	12	0	46702	46850	3008998	3008850	1.07e-47	209	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	91.892	148	12	0	46703	46850	3008911	3008764	3.84e-47	207	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	90.728	151	14	0	46700	46850	3008742	3008592	1.79e-45	202	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	90.541	148	14	0	46703	46850	3008825	3008678	8.32e-44	196	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	90.541	148	14	0	46703	46850	3008868	3008721	8.32e-44	196	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP008801.1	89.623	106	11	0	46745	46850	3009041	3008936	1.84e-25	135	Escherichia coli KLY, complete genome
+NODE_1_length_46850_cov_69.441152	CP053608.1	99.994	46850	3	0	1	46850	178661	131812	0.0	86500	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	90.859	547	40	10	35175	35717	138097	137557	0.0	725	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	90.859	547	40	10	40565	41105	143487	142945	0.0	725	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	89.941	169	17	0	46682	46850	131894	131726	1.78e-50	219	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	92.568	148	11	0	46703	46850	131701	131554	8.26e-49	213	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	91.946	149	12	0	46702	46850	131917	131769	1.07e-47	209	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	91.892	148	12	0	46703	46850	131830	131683	3.84e-47	207	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	90.728	151	14	0	46700	46850	131661	131511	1.79e-45	202	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	90.541	148	14	0	46703	46850	131744	131597	8.32e-44	196	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	90.541	148	14	0	46703	46850	131787	131640	8.32e-44	196	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP053608.1	89.623	106	11	0	46745	46850	131960	131855	1.84e-25	135	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_1_length_46850_cov_69.441152	CP040643.1	99.994	46850	3	0	1	46850	401916	355067	0.0	86500	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	90.859	547	40	10	35175	35717	361352	360812	0.0	725	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	90.859	547	40	10	40565	41105	366742	366200	0.0	725	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	89.941	169	17	0	46682	46850	355149	354981	1.78e-50	219	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	92.568	148	11	0	46703	46850	354956	354809	8.26e-49	213	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	91.946	149	12	0	46702	46850	355172	355024	1.07e-47	209	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	91.892	148	12	0	46703	46850	355085	354938	3.84e-47	207	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	90.728	151	14	0	46700	46850	354916	354766	1.79e-45	202	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	90.541	148	14	0	46703	46850	354999	354852	8.32e-44	196	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	90.541	148	14	0	46703	46850	355042	354895	8.32e-44	196	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP040643.1	89.623	106	11	0	46745	46850	355215	355110	1.84e-25	135	Escherichia coli strain BE104 chromosome, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	99.994	46850	3	0	1	46850	3368678	3415527	0.0	86500	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	90.993	544	39	10	40565	41102	3403852	3404391	0.0	725	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	90.993	544	39	10	35175	35714	3409242	3409779	0.0	725	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	89.941	169	17	0	46682	46850	3415445	3415613	1.78e-50	219	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	92.053	151	12	0	46700	46850	3415635	3415785	8.26e-49	213	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	91.946	149	12	0	46702	46850	3415422	3415570	1.07e-47	209	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	88.757	169	19	0	46682	46850	3415488	3415656	3.84e-47	207	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	88.166	169	20	0	46682	46850	3415660	3415828	1.79e-45	202	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	90.066	151	15	0	46700	46850	3415549	3415699	8.32e-44	196	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	87.574	169	21	0	46682	46850	3415574	3415742	8.32e-44	196	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	CP018801.1	89.623	106	11	0	46745	46850	3415379	3415484	1.84e-25	135	Escherichia coli strain tolC-, complete genome
+NODE_1_length_46850_cov_69.441152	LR134083.1	99.991	46850	3	1	1	46850	3584682	3631530	0.0	86492	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	90.993	544	39	10	40565	41102	3619855	3620394	0.0	725	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	90.993	544	39	10	35175	35714	3625245	3625782	0.0	725	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	89.941	169	17	0	46682	46850	3631448	3631616	1.78e-50	219	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	92.053	151	12	0	46700	46850	3631638	3631788	8.26e-49	213	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	91.946	149	12	0	46702	46850	3631425	3631573	1.07e-47	209	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	88.757	169	19	0	46682	46850	3631491	3631659	3.84e-47	207	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	88.166	169	20	0	46682	46850	3631663	3631831	1.79e-45	202	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	90.066	151	15	0	46700	46850	3631552	3631702	8.32e-44	196	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	87.574	169	21	0	46682	46850	3631577	3631745	8.32e-44	196	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_1_length_46850_cov_69.441152	LR134083.1	89.623	106	11	0	46745	46850	3631382	3631487	1.84e-25	135	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	CP053608.1	100.000	27426	0	0	1	27426	131620	104195	0.0	50647	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	85.159	1004	145	4	26425	27426	104824	103823	0.0	1026	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	90.329	517	48	2	26797	27312	105196	104681	0.0	676	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	92.715	151	11	0	27175	27325	103702	103552	1.04e-50	219	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	96.183	131	5	0	1	131	131749	131619	1.34e-49	215	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	93.893	131	8	0	1	131	131878	131748	1.35e-44	198	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	93.846	130	8	0	1	130	131792	131663	4.87e-44	196	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	93.130	131	9	0	1	131	131835	131705	6.29e-43	193	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	94.262	122	7	0	9	130	131655	131534	2.93e-41	187	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	92.366	131	10	0	1	131	131706	131576	2.93e-41	187	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	91.270	126	11	0	6	131	131916	131791	8.20e-37	172	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053608.1	91.954	87	7	0	1	87	131577	131491	8.38e-22	122	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	100.000	27426	0	0	1	27426	61300	33875	0.0	50647	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	85.159	1004	145	4	26425	27426	34504	33503	0.0	1026	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	90.329	517	48	2	26797	27312	34876	34361	0.0	676	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	92.715	151	11	0	27175	27325	33382	33232	1.04e-50	219	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	96.183	131	5	0	1	131	61429	61299	1.34e-49	215	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	94.656	131	7	0	1	131	61558	61428	2.91e-46	204	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	93.893	131	8	0	1	131	61515	61385	1.35e-44	198	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	93.846	130	8	0	1	130	61472	61343	4.87e-44	196	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	94.262	122	7	0	9	130	61335	61214	2.93e-41	187	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	92.366	131	10	0	1	131	61386	61256	2.93e-41	187	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	92.063	126	10	0	6	131	61596	61471	1.76e-38	178	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	MK492260.1	91.954	87	7	0	1	87	61257	61171	8.38e-22	122	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_2_length_27426_cov_77.124100	LR134083.1	100.000	27426	0	0	1	27426	3631722	3659147	0.0	50647	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	85.159	1004	145	4	26425	27426	3658518	3659519	0.0	1026	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	90.748	508	45	2	26797	27303	3658146	3658652	0.0	676	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	94.366	142	8	0	27175	27316	3659640	3659781	1.04e-50	219	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	96.183	131	5	0	1	131	3631593	3631723	1.34e-49	215	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	93.893	131	8	0	1	131	3631464	3631594	1.35e-44	198	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	93.846	130	8	0	1	130	3631550	3631679	4.87e-44	196	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	93.130	131	9	0	1	131	3631507	3631637	6.29e-43	193	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	92.366	131	10	0	1	131	3631636	3631766	2.93e-41	187	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	92.969	128	9	0	3	130	3631681	3631808	2.93e-41	187	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	91.270	126	11	0	6	131	3631426	3631551	8.20e-37	172	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	LR134083.1	91.954	87	7	0	1	87	3631765	3631851	8.38e-22	122	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_2_length_27426_cov_77.124100	AP001918.1	100.000	27426	0	0	1	27426	52144	24719	0.0	50647	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	85.159	1004	145	4	26425	27426	25348	24347	0.0	1026	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	90.329	517	48	2	26797	27312	25720	25205	0.0	676	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	92.715	151	11	0	27175	27325	24226	24076	1.04e-50	219	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	96.183	131	5	0	1	131	52273	52143	1.34e-49	215	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	94.656	131	7	0	1	131	52402	52272	2.91e-46	204	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	93.893	131	8	0	1	131	52359	52229	1.35e-44	198	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	93.846	130	8	0	1	130	52316	52187	4.87e-44	196	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	94.262	122	7	0	9	130	52179	52058	2.93e-41	187	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	92.366	131	10	0	1	131	52230	52100	2.93e-41	187	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	92.063	126	10	0	6	131	52440	52315	1.76e-38	178	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	AP001918.1	91.954	87	7	0	1	87	52101	52015	8.38e-22	122	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	99.996	27426	0	1	1	27426	122464	95040	0.0	50639	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	85.060	1004	145	5	26425	27426	95668	94668	0.0	1018	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	90.329	517	48	2	26797	27312	96040	95525	0.0	676	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	92.715	151	11	0	27175	27325	94547	94397	1.04e-50	219	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	96.183	131	5	0	1	131	122593	122463	1.34e-49	215	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	93.893	131	8	0	1	131	122722	122592	1.35e-44	198	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	93.846	130	8	0	1	130	122636	122507	4.87e-44	196	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	93.130	131	9	0	1	131	122679	122549	6.29e-43	193	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	94.262	122	7	0	9	130	122499	122378	2.93e-41	187	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	92.366	131	10	0	1	131	122550	122420	2.93e-41	187	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	91.270	126	11	0	6	131	122760	122635	8.20e-37	172	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP053606.1	91.954	87	7	0	1	87	122421	122335	8.38e-22	122	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	99.996	27426	0	1	1	27426	104747	77323	0.0	50639	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	85.159	1004	145	4	26425	27426	77952	76951	0.0	1026	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	90.329	517	48	2	26797	27312	78324	77809	0.0	676	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	92.715	151	11	0	27175	27325	76830	76680	1.04e-50	219	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	96.183	131	5	0	1	131	104876	104746	1.34e-49	215	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	93.893	131	8	0	1	131	105005	104875	1.35e-44	198	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	93.846	130	8	0	1	130	104919	104790	4.87e-44	196	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	93.130	131	9	0	1	131	104962	104832	6.29e-43	193	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	94.262	122	7	0	9	130	104782	104661	2.93e-41	187	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	92.366	131	10	0	1	131	104833	104703	2.93e-41	187	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	91.270	126	11	0	6	131	105043	104918	8.20e-37	172	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014273.1	91.954	87	7	0	1	87	104704	104618	8.38e-22	122	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_2_length_27426_cov_77.124100	CP008801.1	99.993	27426	2	0	1	27426	3008701	2981276	0.0	50636	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	85.159	1004	145	4	26425	27426	2981905	2980904	0.0	1026	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	90.329	517	48	2	26797	27312	2982277	2981762	0.0	676	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	92.715	151	11	0	27175	27325	2980783	2980633	1.04e-50	219	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	96.183	131	5	0	1	131	3008830	3008700	1.34e-49	215	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	93.893	131	8	0	1	131	3008959	3008829	1.35e-44	198	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	93.846	130	8	0	1	130	3008873	3008744	4.87e-44	196	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	93.130	131	9	0	1	131	3008916	3008786	6.29e-43	193	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	94.262	122	7	0	9	130	3008736	3008615	2.93e-41	187	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	92.366	131	10	0	1	131	3008787	3008657	2.93e-41	187	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	91.270	126	11	0	6	131	3008997	3008872	8.20e-37	172	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP008801.1	91.954	87	7	0	1	87	3008658	3008572	8.38e-22	122	Escherichia coli KLY, complete genome
+NODE_2_length_27426_cov_77.124100	CP014271.1	99.993	27426	0	2	1	27426	123793	96370	0.0	50634	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	85.159	1004	145	4	26425	27426	96999	95998	0.0	1026	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	90.329	517	48	2	26797	27312	97371	96856	0.0	676	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	92.715	151	11	0	27175	27325	95877	95727	1.04e-50	219	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	96.183	131	5	0	1	131	123922	123792	1.34e-49	215	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	93.893	131	8	0	1	131	124051	123921	1.35e-44	198	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	93.846	130	8	0	1	130	123965	123836	4.87e-44	196	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	93.130	131	9	0	1	131	124008	123878	6.29e-43	193	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	94.262	122	7	0	9	130	123828	123707	2.93e-41	187	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	92.366	131	10	0	1	131	123879	123749	2.93e-41	187	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	91.270	126	11	0	6	131	124089	123964	8.20e-37	172	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP014271.1	91.954	87	7	0	1	87	123750	123664	8.38e-22	122	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_2_length_27426_cov_77.124100	CP022466.1	99.982	27421	5	0	6	27426	2136345	2108925	0.0	50610	Escherichia coli strain DS1 genome
+NODE_2_length_27426_cov_77.124100	CP022466.1	82.835	903	151	4	26425	27325	2109554	2108654	0.0	806	Escherichia coli strain DS1 genome
+NODE_2_length_27426_cov_77.124100	CP022466.1	90.329	517	48	2	26797	27312	2109926	2109411	0.0	676	Escherichia coli strain DS1 genome
+NODE_2_length_27426_cov_77.124100	CP022466.1	91.954	87	7	0	1	87	2136307	2136221	8.38e-22	122	Escherichia coli strain DS1 genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	99.996	23803	0	1	3624	27426	349916	326115	0.0	43949	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	100.000	3630	0	0	1	3630	354875	351246	0.0	6704	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	85.159	1004	145	4	26425	27426	326744	325743	0.0	1026	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	90.329	517	48	2	26797	27312	327116	326601	0.0	676	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	92.715	151	11	0	27175	27325	325622	325472	1.04e-50	219	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	96.183	131	5	0	1	131	355004	354874	1.34e-49	215	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	93.893	131	8	0	1	131	355133	355003	1.35e-44	198	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	93.846	130	8	0	1	130	355047	354918	4.87e-44	196	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	93.130	131	9	0	1	131	355090	354960	6.29e-43	193	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	94.262	122	7	0	9	130	354910	354789	2.93e-41	187	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	92.366	131	10	0	1	131	354961	354831	2.93e-41	187	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	91.270	126	11	0	6	131	355171	355046	8.20e-37	172	Escherichia coli strain BE104 chromosome, complete genome
+NODE_2_length_27426_cov_77.124100	CP040643.1	91.954	87	7	0	1	87	354832	354746	8.38e-22	122	Escherichia coli strain BE104 chromosome, complete genome
+NODE_3_length_13884_cov_91.221337	CP053606.1	100.000	13884	0	0	1	13884	85437	71554	0.0	25640	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_3_length_13884_cov_91.221337	CP048440.1	100.000	13884	0	0	1	13884	22133	36016	0.0	25640	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_3_length_13884_cov_91.221337	LR134083.1	100.000	13884	0	0	1	13884	3668750	3682633	0.0	25640	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_3_length_13884_cov_91.221337	CP018801.1	100.000	13884	0	0	1	13884	3452693	3466576	0.0	25640	Escherichia coli strain tolC-, complete genome
+NODE_3_length_13884_cov_91.221337	CP014273.1	100.000	13884	0	0	1	13884	67720	53837	0.0	25640	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_3_length_13884_cov_91.221337	CP010445.1	100.000	13884	0	0	1	13884	618218	632101	0.0	25640	Escherichia coli K-12 strain ER3435, complete genome
+NODE_3_length_13884_cov_91.221337	CP010442.1	100.000	13884	0	0	1	13884	618218	632101	0.0	25640	Escherichia coli K-12 strain ER3466, complete genome
+NODE_3_length_13884_cov_91.221337	CP008801.1	100.000	13884	0	0	1	13884	3070831	3056948	0.0	25640	Escherichia coli KLY, complete genome
+NODE_3_length_13884_cov_91.221337	AP001918.1	100.000	13884	0	0	1	13884	15116	1233	0.0	25640	Escherichia coli K-12 plasmid F DNA, complete sequence
+NODE_3_length_13884_cov_91.221337	CP053608.1	99.993	13884	1	0	1	13884	94592	80709	0.0	25634	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_4_length_5368_cov_74.957475	CP053608.1	100.000	5368	0	0	1	5368	103821	98454	0.0	9913	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_4_length_5368_cov_74.957475	CP053608.1	97.778	270	6	0	1	270	104193	103924	6.54e-126	466	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_4_length_5368_cov_74.957475	CP053608.1	92.715	151	11	0	120	270	104446	104296	2.02e-51	219	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_4_length_5368_cov_74.957475	CP053606.1	100.000	5368	0	0	1	5368	94666	89299	0.0	9913	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_4_length_5368_cov_74.957475	CP053606.1	97.778	270	6	0	1	270	95038	94769	6.54e-126	466	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_4_length_5368_cov_74.957475	CP053606.1	92.715	151	11	0	120	270	95291	95141	2.02e-51	219	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_4_length_5368_cov_74.957475	CP048440.1	100.000	5368	0	0	1	5368	12904	18271	0.0	9913	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_4_length_5368_cov_74.957475	CP048440.1	94.366	142	8	0	120	261	12651	12792	2.02e-51	219	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_4_length_5368_cov_74.957475	MK492260.1	100.000	5368	0	0	1	5368	33501	28134	0.0	9913	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_4_length_5368_cov_74.957475	MK492260.1	97.778	270	6	0	1	270	33873	33604	6.54e-126	466	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_4_length_5368_cov_74.957475	MK492260.1	92.715	151	11	0	120	270	34126	33976	2.02e-51	219	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_4_length_5368_cov_74.957475	CP040643.1	100.000	5368	0	0	1	5368	325741	320374	0.0	9913	Escherichia coli strain BE104 chromosome, complete genome
+NODE_4_length_5368_cov_74.957475	CP040643.1	97.778	270	6	0	1	270	326113	325844	6.54e-126	466	Escherichia coli strain BE104 chromosome, complete genome
+NODE_4_length_5368_cov_74.957475	CP040643.1	92.715	151	11	0	120	270	326366	326216	2.02e-51	219	Escherichia coli strain BE104 chromosome, complete genome
+NODE_4_length_5368_cov_74.957475	LR134083.1	100.000	5368	0	0	1	5368	3659521	3664888	0.0	9913	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_4_length_5368_cov_74.957475	LR134083.1	98.851	261	3	0	1	261	3659149	3659409	6.54e-126	466	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_4_length_5368_cov_74.957475	LR134083.1	94.366	142	8	0	120	261	3658896	3659037	2.02e-51	219	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_4_length_5368_cov_74.957475	CP018801.1	100.000	5368	0	0	1	5368	3443464	3448831	0.0	9913	Escherichia coli strain tolC-, complete genome
+NODE_4_length_5368_cov_74.957475	CP018801.1	98.851	261	3	0	1	261	3443092	3443352	6.54e-126	466	Escherichia coli strain tolC-, complete genome
+NODE_4_length_5368_cov_74.957475	CP018801.1	94.366	142	8	0	120	261	3442839	3442980	2.02e-51	219	Escherichia coli strain tolC-, complete genome
+NODE_4_length_5368_cov_74.957475	CP014273.1	100.000	5368	0	0	1	5368	76949	71582	0.0	9913	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_4_length_5368_cov_74.957475	CP014273.1	97.778	270	6	0	1	270	77321	77052	6.54e-126	466	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_4_length_5368_cov_74.957475	CP014273.1	92.715	151	11	0	120	270	77574	77424	2.02e-51	219	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_4_length_5368_cov_74.957475	CP014271.1	100.000	5368	0	0	1	5368	95996	90629	0.0	9913	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_4_length_5368_cov_74.957475	CP014271.1	97.778	270	6	0	1	270	96368	96099	6.54e-126	466	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_4_length_5368_cov_74.957475	CP014271.1	92.715	151	11	0	120	270	96621	96471	2.02e-51	219	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_4_length_5368_cov_74.957475	CP008801.1	100.000	5368	0	0	1	5368	2980902	2975535	0.0	9913	Escherichia coli KLY, complete genome
+NODE_4_length_5368_cov_74.957475	CP008801.1	97.778	270	6	0	1	270	2981274	2981005	6.54e-126	466	Escherichia coli KLY, complete genome
+NODE_4_length_5368_cov_74.957475	CP008801.1	92.715	151	11	0	120	270	2981527	2981377	2.02e-51	219	Escherichia coli KLY, complete genome
+NODE_5_length_1363_cov_71.788491	CP053608.1	100.000	1363	0	0	1	1363	97163	95801	0.0	2518	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_5_length_1363_cov_71.788491	CP053606.1	100.000	1363	0	0	1	1363	88008	86646	0.0	2518	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_5_length_1363_cov_71.788491	CP048440.1	100.000	1363	0	0	1	1363	19562	20924	0.0	2518	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_5_length_1363_cov_71.788491	MK492260.1	100.000	1363	0	0	1	1363	26843	25481	0.0	2518	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_5_length_1363_cov_71.788491	CP040643.1	100.000	1363	0	0	1	1363	319083	317721	0.0	2518	Escherichia coli strain BE104 chromosome, complete genome
+NODE_5_length_1363_cov_71.788491	LR134083.1	100.000	1363	0	0	1	1363	3666179	3667541	0.0	2518	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_5_length_1363_cov_71.788491	CP022466.1	100.000	1363	0	0	1	1363	3089804	3088442	0.0	2518	Escherichia coli strain DS1 genome
+NODE_5_length_1363_cov_71.788491	CP018801.1	100.000	1363	0	0	1	1363	3450122	3451484	0.0	2518	Escherichia coli strain tolC-, complete genome
+NODE_5_length_1363_cov_71.788491	CP014273.1	100.000	1363	0	0	1	1363	70291	68929	0.0	2518	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_5_length_1363_cov_71.788491	CP014271.1	100.000	1363	0	0	1	1363	89338	87976	0.0	2518	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_10_length_233_cov_0.923077	AE007869.2	100.000	233	0	0	1	233	564697	564929	8.91e-117	431	Agrobacterium tumefaciens str. C58 circular chromosome, complete sequence
+NODE_10_length_233_cov_0.923077	CP033034.1	99.571	233	1	0	1	233	239086	239318	4.15e-115	425	Agrobacterium fabrum strain 12D13 chromosome circular, complete sequence
+NODE_10_length_233_cov_0.923077	CP047387.1	99.142	233	2	0	1	233	278741	278973	1.93e-113	420	Agrobacterium sp. CGMCC 11546 chromosome 1, complete sequence
+NODE_10_length_233_cov_0.923077	CP033022.1	96.996	233	7	0	1	233	216914	217146	4.21e-105	392	Agrobacterium fabrum strain 1D132 chromosome circular, complete sequence
+NODE_10_length_233_cov_0.923077	CP039897.1	96.567	233	8	0	1	233	277420	277652	1.96e-103	387	Agrobacterium tumefaciens strain CFBP5877 chromosome circular, complete sequence
+NODE_10_length_233_cov_0.923077	CP039888.1	96.567	233	8	0	1	233	341982	342214	1.96e-103	387	Agrobacterium tumefaciens strain CFBP5499 chromosome circular, complete sequence
+NODE_10_length_233_cov_0.923077	CP019701.2	91.845	233	19	0	1	233	222721	222953	4.33e-85	326	Agrobacterium rhizogenes strain K599 chromosome 1, complete sequence
+NODE_10_length_233_cov_0.923077	CP039907.1	90.870	230	21	0	4	233	241896	242125	4.36e-80	309	Agrobacterium tumefaciens strain CFBP6624 chromosome circular, complete sequence
+NODE_10_length_233_cov_0.923077	CP039903.1	90.870	230	21	0	4	233	239978	240207	4.36e-80	309	Agrobacterium tumefaciens strain CFBP6623 chromosome circular, complete sequence
+NODE_10_length_233_cov_0.923077	CP048632.1	90.476	231	22	0	3	233	1564676	1564446	5.64e-79	305	Rhizobium oryzihabitans strain M15 chromosome M15-11, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	100.000	214	0	0	1	214	125639	125426	2.94e-106	396	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	95.694	209	9	0	1	209	125596	125388	1.81e-88	337	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	93.925	214	13	0	1	214	125682	125469	1.41e-84	324	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	93.396	212	14	0	1	212	125553	125342	8.47e-82	315	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	95.977	174	7	0	41	214	125685	125512	2.39e-72	283	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	89.305	187	20	0	1	187	125510	125324	6.79e-58	235	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	92.969	128	9	0	85	212	125684	125557	1.93e-43	187	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	87.500	144	18	0	1	144	125467	125324	2.51e-37	167	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP054228.1	92.045	88	7	0	127	214	125685	125598	1.53e-24	124	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	100.000	214	0	0	1	214	106536	106323	2.94e-106	396	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	98.598	214	3	0	1	214	106450	106237	2.96e-101	379	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	97.196	214	6	0	1	214	106493	106280	2.98e-96	363	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	97.129	209	6	0	1	209	106407	106199	1.80e-93	353	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	93.925	214	13	0	1	214	106579	106366	1.41e-84	324	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	93.396	212	14	0	1	212	106364	106153	8.47e-82	315	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	95.977	174	7	0	41	214	106582	106409	2.39e-72	283	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	89.305	187	20	0	1	187	106321	106135	6.79e-58	235	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	92.969	128	9	0	85	212	106581	106454	1.93e-43	187	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	87.500	144	18	0	1	144	106278	106135	2.51e-37	167	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057971.1	92.045	88	7	0	127	214	106582	106495	1.53e-24	124	Escherichia coli strain RHB07-C14 plasmid pRHB07-C14_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	100.000	214	0	0	1	214	48713	48500	2.94e-106	396	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	98.598	214	3	0	1	214	48627	48414	2.96e-101	379	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	97.196	214	6	0	1	214	48670	48457	2.98e-96	363	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	97.129	209	6	0	1	209	48584	48376	1.80e-93	353	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	93.925	214	13	0	1	214	48756	48543	1.41e-84	324	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	93.396	212	14	0	1	212	48541	48330	8.47e-82	315	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	95.977	174	7	0	41	214	48759	48586	2.39e-72	283	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	89.305	187	20	0	1	187	48498	48312	6.79e-58	235	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	92.969	128	9	0	85	212	48758	48631	1.93e-43	187	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	87.500	144	18	0	1	144	48455	48312	2.51e-37	167	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP057870.1	92.045	88	7	0	127	214	48759	48672	1.53e-24	124	Escherichia coli strain RHB12-C04 plasmid pRHB12-C04_2, complete sequence
+NODE_11_length_214_cov_101.963504	CP050522.1	99.533	214	1	0	1	214	4145165	4144952	1.37e-104	390	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	97.664	214	5	0	1	214	4145079	4144866	6.41e-98	368	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	96.729	214	7	0	1	214	4145208	4144995	1.39e-94	357	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	96.262	214	8	0	1	214	4145122	4144909	6.46e-93	351	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	96.172	209	8	0	1	209	4145036	4144828	3.89e-90	342	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	93.925	214	13	0	1	214	4145251	4145038	1.41e-84	324	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	92.925	212	15	0	1	212	4144993	4144782	3.94e-80	309	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	96.512	172	6	0	41	212	4145254	4145083	6.64e-73	285	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	89.130	184	20	0	4	187	4144947	4144764	3.16e-56	230	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	94.615	130	7	0	85	214	4145253	4145124	6.88e-48	202	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	87.500	144	18	0	1	144	4144907	4144764	2.51e-37	167	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	CP050522.1	92.045	88	7	0	127	214	4145254	4145167	1.53e-24	124	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_11_length_214_cov_101.963504	MN982904.1	99.533	214	1	0	1	214	8597	8810	1.37e-104	390	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	97.664	214	5	0	1	214	8683	8896	6.41e-98	368	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	96.729	214	7	0	1	214	8554	8767	1.39e-94	357	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	96.262	214	8	0	1	214	8640	8853	6.46e-93	351	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	96.172	209	8	0	1	209	8726	8934	3.89e-90	342	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	93.925	214	13	0	1	214	8511	8724	1.41e-84	324	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	93.301	209	14	0	1	209	8769	8977	3.94e-80	309	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	97.590	166	4	0	41	206	8508	8673	6.64e-73	285	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	91.566	166	14	0	1	166	8812	8977	3.16e-56	230	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	94.615	130	7	0	85	214	8509	8638	6.88e-48	202	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	91.057	123	11	0	1	123	8855	8977	2.51e-37	167	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	MN982904.1	92.045	88	7	0	127	214	8508	8595	1.53e-24	124	Cloning vector pCC1Bac-LC-YACTRP, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	99.533	214	1	0	1	214	131579	131792	1.37e-104	390	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	97.664	214	5	0	1	214	131665	131878	6.41e-98	368	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	96.729	214	7	0	1	214	131536	131749	1.39e-94	357	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	96.262	214	8	0	1	214	131622	131835	6.46e-93	351	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	96.172	209	8	0	1	209	131708	131916	3.89e-90	342	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	93.925	214	13	0	1	214	131493	131706	1.41e-84	324	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	93.301	209	14	0	1	209	131751	131959	3.94e-80	309	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	97.590	166	4	0	41	206	131490	131655	6.64e-73	285	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	91.566	166	14	0	1	166	131794	131959	3.16e-56	230	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	94.615	130	7	0	85	214	131491	131620	6.88e-48	202	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	91.057	123	11	0	1	123	131837	131959	2.51e-37	167	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053608.1	92.045	88	7	0	127	214	131490	131577	1.53e-24	124	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	99.533	214	1	0	1	214	7143	7356	1.37e-104	390	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	97.664	214	5	0	1	214	7229	7442	6.41e-98	368	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	96.729	214	7	0	1	214	7100	7313	1.39e-94	357	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	96.262	214	8	0	1	214	7186	7399	6.46e-93	351	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	96.172	209	8	0	1	209	7272	7480	3.89e-90	342	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	93.925	214	13	0	1	214	7057	7270	1.41e-84	324	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	93.301	209	14	0	1	209	7315	7523	3.94e-80	309	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	97.590	166	4	0	41	206	7054	7219	6.64e-73	285	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	91.566	166	14	0	1	166	7358	7523	3.16e-56	230	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	94.615	130	7	0	85	214	7055	7184	6.88e-48	202	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	91.057	123	11	0	1	123	7401	7523	2.51e-37	167	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053598.1	92.045	88	7	0	127	214	7054	7141	1.53e-24	124	Escherichia coli strain T7Express_LysY plasmid pMiniF_lysY, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	99.533	214	1	0	1	214	8364	8577	1.37e-104	390	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	97.664	214	5	0	1	214	8450	8663	6.41e-98	368	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	96.729	214	7	0	1	214	8321	8534	1.39e-94	357	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	96.262	214	8	0	1	214	8407	8620	6.46e-93	351	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	96.172	209	8	0	1	209	8493	8701	3.89e-90	342	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	93.925	214	13	0	1	214	8278	8491	1.41e-84	324	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	93.301	209	14	0	1	209	8536	8744	3.94e-80	309	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	97.590	166	4	0	41	206	8275	8440	6.64e-73	285	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	91.566	166	14	0	1	166	8579	8744	3.16e-56	230	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	94.615	130	7	0	85	214	8276	8405	6.88e-48	202	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	91.057	123	11	0	1	123	8622	8744	2.51e-37	167	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053596.1	92.045	88	7	0	127	214	8275	8362	1.53e-24	124	Escherichia coli strain T7Express_LysYIq plasmid pMiniF_lysY/lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	99.533	214	1	0	1	214	6994	7207	1.37e-104	390	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	97.664	214	5	0	1	214	7080	7293	6.41e-98	368	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	96.729	214	7	0	1	214	6951	7164	1.39e-94	357	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	96.262	214	8	0	1	214	7037	7250	6.46e-93	351	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	96.172	209	8	0	1	209	7123	7331	3.89e-90	342	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	93.925	214	13	0	1	214	6908	7121	1.41e-84	324	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	93.301	209	14	0	1	209	7166	7374	3.94e-80	309	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	97.590	166	4	0	41	206	6905	7070	6.64e-73	285	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	91.566	166	14	0	1	166	7209	7374	3.16e-56	230	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	94.615	130	7	0	85	214	6906	7035	6.88e-48	202	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	91.057	123	11	0	1	123	7252	7374	2.51e-37	167	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053593.1	92.045	88	7	0	127	214	6905	6992	1.53e-24	124	Escherichia coli strain NEBExpress_Iq plasmid pMiniF_lacIq, complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	99.533	214	1	0	1	214	122423	122636	1.37e-104	390	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	97.664	214	5	0	1	214	122509	122722	6.41e-98	368	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	96.729	214	7	0	1	214	122380	122593	1.39e-94	357	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	96.262	214	8	0	1	214	122466	122679	6.46e-93	351	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	96.172	209	8	0	1	209	122552	122760	3.89e-90	342	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	93.925	214	13	0	1	214	122337	122550	1.41e-84	324	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	93.301	209	14	0	1	209	122595	122803	3.94e-80	309	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	97.590	166	4	0	41	206	122334	122499	6.64e-73	285	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	91.566	166	14	0	1	166	122638	122803	3.16e-56	230	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	94.615	130	7	0	85	214	122335	122464	6.88e-48	202	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	91.057	123	11	0	1	123	122681	122803	2.51e-37	167	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_11_length_214_cov_101.963504	CP053606.1	92.045	88	7	0	127	214	122334	122421	1.53e-24	124	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_12_length_155_cov_78.692308	CP053608.1	100.000	155	0	0	1	155	103899	103745	1.25e-73	287	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_12_length_155_cov_78.692308	CP053608.1	99.355	155	1	0	1	155	104271	104117	5.83e-72	281	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_12_length_155_cov_78.692308	CP053606.1	100.000	155	0	0	1	155	94744	94590	1.25e-73	287	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_12_length_155_cov_78.692308	CP053606.1	99.355	155	1	0	1	155	95116	94962	5.83e-72	281	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_12_length_155_cov_78.692308	CP048440.1	100.000	155	0	0	1	155	12826	12980	1.25e-73	287	Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete sequence
+NODE_12_length_155_cov_78.692308	MK492260.1	100.000	155	0	0	1	155	33579	33425	1.25e-73	287	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_12_length_155_cov_78.692308	MK492260.1	99.355	155	1	0	1	155	33951	33797	5.83e-72	281	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_12_length_155_cov_78.692308	CP040643.1	100.000	155	0	0	1	155	325819	325665	1.25e-73	287	Escherichia coli strain BE104 chromosome, complete genome
+NODE_12_length_155_cov_78.692308	CP040643.1	99.355	155	1	0	1	155	326191	326037	5.83e-72	281	Escherichia coli strain BE104 chromosome, complete genome
+NODE_12_length_155_cov_78.692308	LR134083.1	100.000	155	0	0	1	155	3659443	3659597	1.25e-73	287	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_12_length_155_cov_78.692308	LR134083.1	99.355	155	1	0	1	155	3659071	3659225	5.83e-72	281	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_12_length_155_cov_78.692308	CP027256.1	100.000	155	0	0	1	155	55615	55461	1.25e-73	287	Escherichia coli strain EC11 plasmid unnamed1, complete sequence
+NODE_12_length_155_cov_78.692308	CP018801.1	100.000	155	0	0	1	155	3443386	3443540	1.25e-73	287	Escherichia coli strain tolC-, complete genome
+NODE_12_length_155_cov_78.692308	CP018801.1	99.355	155	1	0	1	155	3443014	3443168	5.83e-72	281	Escherichia coli strain tolC-, complete genome
+NODE_12_length_155_cov_78.692308	CP014273.1	100.000	155	0	0	1	155	77027	76873	1.25e-73	287	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_12_length_155_cov_78.692308	CP014273.1	99.355	155	1	0	1	155	77399	77245	5.83e-72	281	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_12_length_155_cov_78.692308	CP014271.1	100.000	155	0	0	1	155	96074	95920	1.25e-73	287	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_12_length_155_cov_78.692308	CP014271.1	99.355	155	1	0	1	155	96446	96292	5.83e-72	281	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_13_length_155_cov_75.230769	CP053608.1	100.000	155	0	0	1	155	104271	104117	1.25e-73	287	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_13_length_155_cov_75.230769	CP053608.1	99.355	155	1	0	1	155	103899	103745	5.83e-72	281	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_13_length_155_cov_75.230769	CP053606.1	100.000	155	0	0	1	155	95116	94962	1.25e-73	287	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_13_length_155_cov_75.230769	CP053606.1	99.355	155	1	0	1	155	94744	94590	5.83e-72	281	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_13_length_155_cov_75.230769	MK492260.1	100.000	155	0	0	1	155	33951	33797	1.25e-73	287	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_13_length_155_cov_75.230769	MK492260.1	99.355	155	1	0	1	155	33579	33425	5.83e-72	281	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_13_length_155_cov_75.230769	CP040643.1	100.000	155	0	0	1	155	326191	326037	1.25e-73	287	Escherichia coli strain BE104 chromosome, complete genome
+NODE_13_length_155_cov_75.230769	CP040643.1	99.355	155	1	0	1	155	325819	325665	5.83e-72	281	Escherichia coli strain BE104 chromosome, complete genome
+NODE_13_length_155_cov_75.230769	LR134083.1	100.000	155	0	0	1	155	3659071	3659225	1.25e-73	287	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_13_length_155_cov_75.230769	LR134083.1	99.355	155	1	0	1	155	3659443	3659597	5.83e-72	281	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_13_length_155_cov_75.230769	CP022466.1	100.000	155	0	0	1	155	2109001	2108847	1.25e-73	287	Escherichia coli strain DS1 genome
+NODE_13_length_155_cov_75.230769	CP018801.1	100.000	155	0	0	1	155	3443014	3443168	1.25e-73	287	Escherichia coli strain tolC-, complete genome
+NODE_13_length_155_cov_75.230769	CP018801.1	99.355	155	1	0	1	155	3443386	3443540	5.83e-72	281	Escherichia coli strain tolC-, complete genome
+NODE_13_length_155_cov_75.230769	CP014273.1	100.000	155	0	0	1	155	77399	77245	1.25e-73	287	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_13_length_155_cov_75.230769	CP014273.1	99.355	155	1	0	1	155	77027	76873	5.83e-72	281	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_13_length_155_cov_75.230769	CP014271.1	100.000	155	0	0	1	155	96446	96292	1.25e-73	287	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_13_length_155_cov_75.230769	CP014271.1	99.355	155	1	0	1	155	96074	95920	5.83e-72	281	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_13_length_155_cov_75.230769	CP010345.1	100.000	155	0	0	1	155	15050	14896	1.25e-73	287	Escherichia coli ECC-1470 plasmid pECC-1470_100, complete sequence
+NODE_14_length_133_cov_62.982143	CP053608.1	100.000	133	0	0	1	133	103938	104070	1.74e-61	246	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_14_length_133_cov_62.982143	CP053608.1	98.473	131	2	0	3	133	103568	103698	4.88e-57	231	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_14_length_133_cov_62.982143	CP053608.1	96.992	133	4	0	1	133	104310	104442	8.16e-55	224	Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, complete sequence
+NODE_14_length_133_cov_62.982143	CP053606.1	100.000	133	0	0	1	133	94783	94915	1.74e-61	246	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_14_length_133_cov_62.982143	CP053606.1	98.473	131	2	0	3	133	94413	94543	4.88e-57	231	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_14_length_133_cov_62.982143	CP053606.1	96.992	133	4	0	1	133	95155	95287	8.16e-55	224	Escherichia coli strain NEB_Turbo plasmid F', complete sequence
+NODE_14_length_133_cov_62.982143	MK492260.1	100.000	133	0	0	1	133	33618	33750	1.74e-61	246	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_14_length_133_cov_62.982143	MK492260.1	98.473	131	2	0	3	133	33248	33378	4.88e-57	231	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_14_length_133_cov_62.982143	MK492260.1	96.992	133	4	0	1	133	33990	34122	8.16e-55	224	Escherichia coli strain MG1655 K12 plasmid F-Tn10, complete sequence
+NODE_14_length_133_cov_62.982143	CP040643.1	100.000	133	0	0	1	133	325858	325990	1.74e-61	246	Escherichia coli strain BE104 chromosome, complete genome
+NODE_14_length_133_cov_62.982143	CP040643.1	98.473	131	2	0	3	133	325488	325618	4.88e-57	231	Escherichia coli strain BE104 chromosome, complete genome
+NODE_14_length_133_cov_62.982143	CP040643.1	96.992	133	4	0	1	133	326230	326362	8.16e-55	224	Escherichia coli strain BE104 chromosome, complete genome
+NODE_14_length_133_cov_62.982143	LR134083.1	100.000	133	0	0	1	133	3659404	3659272	1.74e-61	246	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_14_length_133_cov_62.982143	LR134083.1	98.473	131	2	0	3	133	3659774	3659644	4.88e-57	231	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_14_length_133_cov_62.982143	LR134083.1	96.992	133	4	0	1	133	3659032	3658900	8.16e-55	224	Escherichia coli strain NCTC12655 genome assembly, chromosome: 1
+NODE_14_length_133_cov_62.982143	CP018801.1	100.000	133	0	0	1	133	3443347	3443215	1.74e-61	246	Escherichia coli strain tolC-, complete genome
+NODE_14_length_133_cov_62.982143	CP018801.1	98.473	131	2	0	3	133	3443717	3443587	4.88e-57	231	Escherichia coli strain tolC-, complete genome
+NODE_14_length_133_cov_62.982143	CP018801.1	96.992	133	4	0	1	133	3442975	3442843	8.16e-55	224	Escherichia coli strain tolC-, complete genome
+NODE_14_length_133_cov_62.982143	CP014273.1	100.000	133	0	0	1	133	77066	77198	1.74e-61	246	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_14_length_133_cov_62.982143	CP014273.1	98.473	131	2	0	3	133	76696	76826	4.88e-57	231	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_14_length_133_cov_62.982143	CP014273.1	96.992	133	4	0	1	133	77438	77570	8.16e-55	224	Escherichia coli K-12 strain C3026 plasmid F128-(C3026), complete sequence
+NODE_14_length_133_cov_62.982143	CP014271.1	100.000	133	0	0	1	133	96113	96245	1.74e-61	246	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_14_length_133_cov_62.982143	CP014271.1	98.473	131	2	0	3	133	95743	95873	4.88e-57	231	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_14_length_133_cov_62.982143	CP014271.1	96.992	133	4	0	1	133	96485	96617	8.16e-55	224	Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4), complete sequence
+NODE_14_length_133_cov_62.982143	CP009167.1	100.000	133	0	0	1	133	20687	20819	1.74e-61	246	Escherichia coli 1303 plasmid p1303_109, complete sequence
+NODE_14_length_133_cov_62.982143	CP009167.1	98.473	131	2	0	3	133	20317	20447	4.88e-57	231	Escherichia coli 1303 plasmid p1303_109, complete sequence
+NODE_14_length_133_cov_62.982143	CP009167.1	96.992	133	4	0	1	133	21059	21191	8.16e-55	224	Escherichia coli 1303 plasmid p1303_109, complete sequence
+NODE_14_length_133_cov_62.982143	CP008801.1	100.000	133	0	0	1	133	2981019	2981151	1.74e-61	246	Escherichia coli KLY, complete genome
+NODE_14_length_133_cov_62.982143	CP008801.1	98.473	131	2	0	3	133	2980649	2980779	4.88e-57	231	Escherichia coli KLY, complete genome
+NODE_14_length_133_cov_62.982143	CP008801.1	96.992	133	4	0	1	133	2981391	2981523	8.16e-55	224	Escherichia coli KLY, complete genome
+NODE_15_length_100_cov_317.521739	CP054237.1	100.000	100	0	0	1	100	98491	98392	2.58e-43	185	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054237.1	99.000	100	1	0	1	100	98534	98435	1.20e-41	180	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054237.1	99.000	100	1	0	1	100	98620	98521	1.20e-41	180	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054237.1	98.000	100	2	0	1	100	98577	98478	5.59e-40	174	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054237.1	97.000	100	3	0	1	100	98448	98349	2.60e-38	169	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054237.1	97.000	100	3	0	1	100	98663	98564	2.60e-38	169	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054237.1	91.837	98	8	0	1	98	98405	98308	7.33e-29	137	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054237.1	91.026	78	7	0	23	100	98684	98607	2.07e-19	106	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054228.1	100.000	100	0	0	1	100	125535	125436	2.58e-43	185	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054228.1	97.000	100	3	0	1	100	125492	125393	2.60e-38	169	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054228.1	97.000	100	3	0	1	100	125578	125479	2.60e-38	169	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054228.1	97.000	100	3	0	1	100	125621	125522	2.60e-38	169	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054228.1	97.000	100	3	0	1	100	125664	125565	2.60e-38	169	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054228.1	91.837	98	8	0	1	98	125449	125352	7.33e-29	137	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054228.1	91.026	78	7	0	23	100	125685	125608	2.07e-19	106	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	100.000	100	0	0	1	100	104263	104164	2.58e-43	185	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	99.000	100	1	0	1	100	104306	104207	1.20e-41	180	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	99.000	100	1	0	1	100	104392	104293	1.20e-41	180	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	98.000	100	2	0	1	100	104349	104250	5.59e-40	174	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	97.000	100	3	0	1	100	104220	104121	2.60e-38	169	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	97.000	100	3	0	1	100	104435	104336	2.60e-38	169	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	91.837	98	8	0	1	98	104177	104080	7.33e-29	137	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054220.1	91.026	78	7	0	23	100	104456	104379	2.07e-19	106	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	100.000	100	0	0	1	100	67318	67219	2.58e-43	185	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	99.000	100	1	0	1	100	67361	67262	1.20e-41	180	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	99.000	100	1	0	1	100	67447	67348	1.20e-41	180	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	98.000	100	2	0	1	100	67404	67305	5.59e-40	174	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	97.000	100	3	0	1	100	67490	67391	2.60e-38	169	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	96.000	100	4	0	1	100	67275	67176	1.21e-36	163	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	90.816	98	9	0	1	98	67232	67135	3.41e-27	132	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054215.1	91.026	78	7	0	23	100	67511	67434	2.07e-19	106	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_15_length_100_cov_317.521739	AP023238.1	100.000	100	0	0	1	100	66880	66781	2.58e-43	185	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023238.1	99.000	100	1	0	1	100	66923	66824	1.20e-41	180	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023238.1	99.000	100	1	0	1	100	67009	66910	1.20e-41	180	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023238.1	98.000	100	2	0	1	100	66966	66867	5.59e-40	174	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023238.1	97.000	100	3	0	1	100	66837	66738	2.60e-38	169	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023238.1	97.000	100	3	0	1	100	67052	66953	2.60e-38	169	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023238.1	91.837	98	8	0	1	98	66794	66697	7.33e-29	137	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023238.1	91.026	78	7	0	23	100	67073	66996	2.07e-19	106	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	100.000	100	0	0	1	100	36583	36484	2.58e-43	185	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	99.000	100	1	0	1	100	36626	36527	1.20e-41	180	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	99.000	100	1	0	1	100	36712	36613	1.20e-41	180	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	98.000	100	2	0	1	100	36669	36570	5.59e-40	174	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	97.000	100	3	0	1	100	36540	36441	2.60e-38	169	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	97.000	100	3	0	1	100	36755	36656	2.60e-38	169	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	91.837	98	8	0	1	98	36497	36400	7.33e-29	137	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	AP023225.1	91.026	78	7	0	23	100	36776	36699	2.07e-19	106	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_15_length_100_cov_317.521739	CP054941.1	100.000	100	0	0	1	100	6271	6370	2.58e-43	185	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054941.1	99.000	100	1	0	1	100	6142	6241	1.20e-41	180	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054941.1	99.000	100	1	0	1	100	6228	6327	1.20e-41	180	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054941.1	98.000	100	2	0	1	100	6185	6284	5.59e-40	174	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054941.1	97.000	100	3	0	1	100	6099	6198	2.60e-38	169	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054941.1	97.000	100	3	0	1	100	6314	6413	2.60e-38	169	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054941.1	92.632	95	7	0	1	95	6357	6451	7.33e-29	137	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054941.1	91.026	78	7	0	23	100	6078	6155	2.07e-19	106	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	100.000	100	0	0	1	100	66192	66093	2.58e-43	185	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	99.000	100	1	0	1	100	66235	66136	1.20e-41	180	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	99.000	100	1	0	1	100	66321	66222	1.20e-41	180	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	98.000	100	2	0	1	100	66278	66179	5.59e-40	174	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	97.000	100	3	0	1	100	66364	66265	2.60e-38	169	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	96.000	100	4	0	1	100	66149	66050	1.21e-36	163	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	90.816	98	9	0	1	98	66106	66009	3.41e-27	132	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP054414.1	91.026	78	7	0	23	100	66385	66308	2.07e-19	106	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	100.000	100	0	0	1	100	6275	6374	2.58e-43	185	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	99.000	100	1	0	1	100	6146	6245	1.20e-41	180	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	99.000	100	1	0	1	100	6232	6331	1.20e-41	180	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	98.000	100	2	0	1	100	6189	6288	5.59e-40	174	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	97.000	100	3	0	1	100	6103	6202	2.60e-38	169	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	97.000	100	3	0	1	100	6318	6417	2.60e-38	169	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	92.632	95	7	0	1	95	6361	6455	7.33e-29	137	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP047406.1	91.026	78	7	0	23	100	6082	6159	2.07e-19	106	Escherichia coli strain MS6193 plasmid pMS6193A-NDM, complete sequence
+NODE_15_length_100_cov_317.521739	CP050522.1	100.000	100	0	0	1	100	4145190	4145091	2.58e-43	185	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	99.000	100	1	0	1	100	4144975	4144876	1.20e-41	180	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	99.000	100	1	0	1	100	4145018	4144919	1.20e-41	180	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	99.000	100	1	0	1	100	4145061	4144962	1.20e-41	180	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	97.000	100	3	0	1	100	4144932	4144833	2.60e-38	169	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	97.000	100	3	0	1	100	4145147	4145048	2.60e-38	169	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	97.000	100	3	0	1	100	4145233	4145134	2.60e-38	169	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	96.000	100	4	0	1	100	4145104	4145005	1.21e-36	163	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	91.837	98	8	0	1	98	4144889	4144792	7.33e-29	137	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_15_length_100_cov_317.521739	CP050522.1	91.026	78	7	0	23	100	4145254	4145177	2.07e-19	106	Streptomyces coelicolor strain M1154/pAMX4/pGP1416 chromosome, complete genome
+NODE_16_length_87_cov_476.300000	CP054237.1	100.000	87	0	0	1	87	98372	98458	3.57e-36	161	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054237.1	100.000	87	0	0	1	87	98415	98501	3.57e-36	161	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054237.1	100.000	85	0	0	3	87	98546	98630	4.62e-35	158	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054237.1	98.851	87	1	0	1	87	98458	98544	1.66e-34	156	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054237.1	98.824	85	1	0	3	87	98503	98587	2.15e-33	152	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054237.1	94.253	87	5	0	1	87	98329	98415	7.78e-28	134	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054237.1	95.181	83	4	0	1	83	98587	98669	2.80e-27	132	Escherichia coli strain EcPF5 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054228.1	100.000	87	0	0	1	87	125416	125502	3.57e-36	161	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054228.1	100.000	87	0	0	1	87	125459	125545	3.57e-36	161	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054228.1	96.552	87	3	0	1	87	125502	125588	3.60e-31	145	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054228.1	96.552	87	3	0	1	87	125545	125631	3.60e-31	145	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054228.1	94.253	87	5	0	1	87	125373	125459	7.78e-28	134	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054228.1	95.181	83	4	0	1	83	125588	125670	2.80e-27	132	Escherichia coli strain EcPF15 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054220.1	100.000	87	0	0	1	87	104144	104230	3.57e-36	161	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054220.1	100.000	87	0	0	1	87	104187	104273	3.57e-36	161	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054220.1	100.000	85	0	0	3	87	104318	104402	4.62e-35	158	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054220.1	98.851	87	1	0	1	87	104230	104316	1.66e-34	156	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054220.1	98.824	85	1	0	3	87	104275	104359	2.15e-33	152	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054220.1	94.253	87	5	0	1	87	104101	104187	7.78e-28	134	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054220.1	95.181	83	4	0	1	83	104359	104441	2.80e-27	132	Escherichia coli strain EcPF18 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054215.1	100.000	87	0	0	1	87	67199	67285	3.57e-36	161	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054215.1	100.000	87	0	0	1	87	67242	67328	3.57e-36	161	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054215.1	100.000	85	0	0	3	87	67373	67457	4.62e-35	158	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054215.1	98.851	87	1	0	1	87	67285	67371	1.66e-34	156	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054215.1	98.824	85	1	0	3	87	67330	67414	2.15e-33	152	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054215.1	95.181	83	4	0	1	83	67414	67496	2.80e-27	132	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054215.1	93.103	87	6	0	1	87	67156	67242	3.62e-26	128	Escherichia coli strain EcPF40 plasmid p1, complete sequence
+NODE_16_length_87_cov_476.300000	AP023238.1	100.000	87	0	0	1	87	66761	66847	3.57e-36	161	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023238.1	100.000	87	0	0	1	87	66804	66890	3.57e-36	161	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023238.1	100.000	85	0	0	3	87	66935	67019	4.62e-35	158	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023238.1	98.851	87	1	0	1	87	66847	66933	1.66e-34	156	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023238.1	98.824	85	1	0	3	87	66892	66976	2.15e-33	152	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023238.1	94.253	87	5	0	1	87	66718	66804	7.78e-28	134	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023238.1	95.181	83	4	0	1	83	66976	67058	2.80e-27	132	Escherichia coli F070 plasmid pF070-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023228.1	100.000	87	0	0	1	87	90054	90140	3.57e-36	161	Escherichia coli YJ3 plasmid pYJ3-a DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023228.1	98.851	87	1	0	1	87	90097	90183	1.66e-34	156	Escherichia coli YJ3 plasmid pYJ3-a DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023228.1	98.765	81	1	0	3	83	90142	90222	3.60e-31	145	Escherichia coli YJ3 plasmid pYJ3-a DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023228.1	93.103	87	6	0	1	87	90011	90097	3.62e-26	128	Escherichia coli YJ3 plasmid pYJ3-a DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023228.1	92.727	55	4	0	1	55	90183	90237	1.03e-11	80.5	Escherichia coli YJ3 plasmid pYJ3-a DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023225.1	100.000	87	0	0	1	87	36464	36550	3.57e-36	161	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023225.1	100.000	87	0	0	1	87	36507	36593	3.57e-36	161	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023225.1	100.000	85	0	0	3	87	36638	36722	4.62e-35	158	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023225.1	98.851	87	1	0	1	87	36550	36636	1.66e-34	156	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023225.1	98.824	85	1	0	3	87	36595	36679	2.15e-33	152	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023225.1	94.253	87	5	0	1	87	36421	36507	7.78e-28	134	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	AP023225.1	95.181	83	4	0	1	83	36679	36761	2.80e-27	132	Escherichia coli YJ1 plasmid pYJ1-NDM5 DNA, complete genome
+NODE_16_length_87_cov_476.300000	CP054941.1	100.000	87	0	0	1	87	6347	6261	3.57e-36	161	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_16_length_87_cov_476.300000	CP054941.1	100.000	87	0	0	1	87	6390	6304	3.57e-36	161	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_16_length_87_cov_476.300000	CP054941.1	100.000	85	0	0	3	87	6216	6132	4.62e-35	158	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_16_length_87_cov_476.300000	CP054941.1	98.851	87	1	0	1	87	6304	6218	1.66e-34	156	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_16_length_87_cov_476.300000	CP054941.1	98.824	85	1	0	3	87	6259	6175	2.15e-33	152	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_16_length_87_cov_476.300000	CP054941.1	94.253	87	5	0	1	87	6433	6347	7.78e-28	134	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_16_length_87_cov_476.300000	CP054941.1	94.186	86	5	0	1	86	6175	6090	2.80e-27	132	Escherichia coli strain MS6192 plasmid pMS6192A-NDM, complete sequence
+NODE_16_length_87_cov_476.300000	CP054414.1	100.000	87	0	0	1	87	66073	66159	3.57e-36	161	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054414.1	100.000	87	0	0	1	87	66116	66202	3.57e-36	161	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054414.1	100.000	85	0	0	3	87	66247	66331	4.62e-35	158	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054414.1	98.851	87	1	0	1	87	66159	66245	1.66e-34	156	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054414.1	98.824	85	1	0	3	87	66204	66288	2.15e-33	152	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054414.1	95.181	83	4	0	1	83	66288	66370	2.80e-27	132	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054414.1	93.103	87	6	0	1	87	66030	66116	3.62e-26	128	Escherichia coli strain SCU-204 plasmid pSCU-204-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054458.1	100.000	87	0	0	1	87	121417	121503	3.57e-36	161	Escherichia coli strain SCU-103 plasmid pSCU-103-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054458.1	98.851	87	1	0	1	87	121460	121546	1.66e-34	156	Escherichia coli strain SCU-103 plasmid pSCU-103-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054458.1	98.765	81	1	0	3	83	121505	121585	3.60e-31	145	Escherichia coli strain SCU-103 plasmid pSCU-103-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054458.1	93.103	87	6	0	1	87	121374	121460	3.62e-26	128	Escherichia coli strain SCU-103 plasmid pSCU-103-1, complete sequence
+NODE_16_length_87_cov_476.300000	CP054458.1	92.727	55	4	0	1	55	121546	121600	1.03e-11	80.5	Escherichia coli strain SCU-103 plasmid pSCU-103-1, complete sequence
