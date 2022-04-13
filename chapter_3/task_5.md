@@ -31,9 +31,57 @@ The reason I stress to not run this is that blast can be somewhat slow, and woul
 
 There is lots of information on running blast from the command line in NCBI's handbook, [here](http://www.ncbi.nlm.nih.gov/books/NBK1763/).
 
-Take a look at the results of the blast in your favourite text editor, e.g.
+Let's take a look at the results of the blast in your favourite text editor. As mentioned before we have pre-computed this data for you to save some time. It should be in the directory "~/workshop_materials/genomics_adventure/precomputed/unmapped_assembly/spades_assembly". We can access it like below. You may like to copy it to your local directory also.
 ```
-nano contigs.fasta.blastn
+nano ../../precomputed/unmapped_assembly/spades_assembly/contigs.fasta.blastn
 ```
 
+You should see something similar to this: 
+```
+Query= NODE_1_length_46850_cov_69.441152
 
+Length=46850
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CP048440.1 Escherichia coli strain NBRC 3301 plasmid putative_pEc...  86516   0.0
+MF370216.1 Escherichia coli strain J53 plasmid pOX38-Gen, complet...  86516   0.0
+CP053606.1 Escherichia coli strain NEB_Turbo plasmid F', complete...  86505   0.0
+CP014273.1 Escherichia coli K-12 strain C3026 plasmid F128-(C3026...  86505   0.0
+CP014271.1 Escherichia coli K-12 strain DHB4 plasmid F128-(DHB4),...  86505   0.0
+CP008801.1 Escherichia coli KLY, complete genome                      86505   0.0
+CP053608.1 Escherichia coli strain NEB5-alpha_F'Iq plasmid F'Iq, ...  86500   0.0
+CP040643.1 Escherichia coli strain BE104 chromosome, complete genome  86500   0.0
+CP018801.1 Escherichia coli strain tolC-, complete genome             86500   0.0
+LR134083.1 Escherichia coli strain NCTC12655 genome assembly, chr...  86492   0.0
+
+
+>CP048440.1 Escherichia coli strain NBRC 3301 plasmid putative_pEcol1, complete
+sequence
+Length=98786
+
+ Score = 86516 bits (46850),  Expect = 0.0
+ Identities = 46850/46850 (100%), Gaps = 0/46850 (0%)
+ Strand=Plus/Plus
+
+Query  1      CGTGTCCACTATTGCTGGGTAAGATCAGCTTTCTGAACGGGTGATGGCCTTCAGCGCCCT  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  37222  CGTGTCCACTATTGCTGGGTAAGATCAGCTTTCTGAACGGGTGATGGCCTTCAGCGCCCT  37281
+```
+
+This is the standard blast output format. It shows you the hits for each query sequence, and the alignments of the sequences. It is somewhat similar to the webserver version but in text format. The first query should be "Node_1". There are a number of good hits, do they give you a clue to what it might be?
+
+The output is quite 'human-friendly' but it isn't the most useful for parsing with bioinformatics tools, or even opening in a spreadsheet. Luckily blast has some different output options that we can use, for example '6', which is a tabulated format. :warning::no_entry: PLEASE DO NOT RUN THIS! :no_e
+ntry_sign::warning:
+```
+blastn -db /databases/ncbi/nt/2020-10-15/nt -query contigs.fasta -evalue 1e-06 -num_threads 4 -num_alignments 10 -num_descriptions 10 -outfmt '6 std stitle' -out contigs.fasta.blastn6
+```
+
+Here you can see we have added the option "-outfmt '6 std stitle'" which changes the output to a table and includes the standard information of e-value and query hit along with the title of the blast hit.
+
+Take a look at the new output, much nicer to read and parse!
+```
+nano ../../precomputed/unmapped_assembly/spades_assembly/contigs.fasta.blastn6
+```
+
+# Go to [Task 6]()
