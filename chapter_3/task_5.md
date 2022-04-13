@@ -16,7 +16,7 @@ To do this we will use the command line version of the Basic Local Alignment Sea
 
 We will use the database commongly denoted as 'nt' - the nucleotide database is a collection of sequences from several sources, including GenBank, RefSeq, TPA and PDB including genome, gene and transcript sequences. 
 
-The following command executes a nucleotide BLAST search (using 'blastn' for nucleotides) of the sequences in the 'contigs.fasta' file against the 'nt' database. :warning::no_entry: PLEASE DO NOT RUN THIS! :no_entry_sign::warning. Remember the notation with "\" is just to make it easier to read here, you don't have to type them. Not that we will this time anyway.
+The following command executes a nucleotide BLAST search (using 'blastn' for nucleotides) of the sequences in the 'contigs.fasta' file against the 'nt' database. :warning::no_entry: PLEASE DO NOT RUN THIS! :no_entry_sign::warning:. Remember the notation with "\" is just to make it easier to read here, you don't have to type them. Not that we will this time anyway.
 ```
 blastn -db nt \
 -query contigs.fasta \
