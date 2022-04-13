@@ -84,4 +84,4 @@ Take a look at the new output, much nicer to read and parse!
 nano ../../precomputed/unmapped_assembly/spades_assembly/contigs.fasta.blastn6
 ```
 
-# Go to [Task 6]()
+# Go to [Task 6](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_3/task_6.md)
