@@ -137,7 +137,7 @@ chmod -R 444 ecoli/*.gff
 ```
 
 #### Databases
-We will need to get the PFam-A databased of Hidden Markov Models (HMMS) from the [Pfam](https://pfam.xfam.org/) website. They are located in an ftp directory. Use the commands below. Make sure you are in the "genomics_adventure" directory.
+We will need to get the PFam-A database of Hidden Markov Models (HMMS) and an Active Site database from the [Pfam](https://pfam.xfam.org/) website. They are located in an ftp directory. Use the commands below. Make sure you are in the "genomics_adventure" directory.
 
 ```bash
 # create a directory and a sub-directory and move there
@@ -146,6 +146,7 @@ mkdir -p db/pfam && cd db/pfam
 # Download the HMMs and .dat files needed for Pfam-A
 wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
 wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.dat.gz
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/active_site.dat.gz
 
 # Uncompress the files
 gunzip *.gz
