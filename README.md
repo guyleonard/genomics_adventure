@@ -72,11 +72,13 @@ conda install -c bioconda bcftools=1.12 bedtools blast bwa ea-utils emboss fastq
 Make sure that the environment is manually activated everytime you come back to this adventure. You should see '(genomics_adventure)' before your normal terminal prompt. If it is not activated, use the 'activate' command from above.
 
 ### Data
-We will need to retrieve two sets of data for our adventure, this is similar to how you may collate data for your own analyses.
+We will need to retrieve several sets of data for our adventure, this is similar to how you may collate data for your own analyses.
  1) Sequence Data
   * Either directly from a Sequencing Service or from a public access database.
  2) Reference Data
   * If you are lucky to have a reference genome...
+ 3) Databases
+  * PFam-A
 
 We will be working with the bacterial species *Escherichia coli* as it is a relatively small genome (which makes it easy for the timings of this tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too!
 
@@ -132,6 +134,21 @@ mkdir ecoli && mv *.gz ecoli && gunzip ecoli/*.gz
 # Change write permissions, so that we can't edit them by accident
 chmod -R 444 ecoli/*.fna
 chmod -R 444 ecoli/*.gff
+```
+
+#### Databases
+We will need to get the PFam-A databased of Hidden Markov Models (HMMS) from the [Pfam](https://pfam.xfam.org/) website. They are located in an ftp directory. Use the commands below. Make sure you are in the "genomics_adventure" directory.
+
+```
+# create a directory and a sub-directory and move there
+mkdir -p db/pfam && cd db/pfam
+
+# Download the HMMs and .dat files needed for Pfam-A
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.dat.gz
+
+# Uncompress the files
+gunzip *.gz
 ```
 
 When the downloads are finished you may continue on to the adventure by clicking the title below.
