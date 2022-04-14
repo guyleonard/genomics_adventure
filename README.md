@@ -137,15 +137,3 @@ chmod -R 444 ecoli/*.gff
 When the downloads are finished you may continue on to the adventure by clicking the title below.
 
 # [Adventure Time!](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_1.md)
-
-
-# CLEAN UP Deprecated / Outdated / No Conda?
- * samtools rmdup
-   * samtools fixmate -m | markdup -r
- * ea-utils - fastq-mcf
- * bam2fastq
-   * samtools bam2fq or bedtools bamtofastq
- * quast
- * filter_low_coverage_contigs.pl
- * reduce_fasta_10x.pl
- 
