@@ -97,4 +97,4 @@ NODE_1_length_46850_cov_69.441152       NODE_33_length_46899_cov_70.549934      
 
 This shows us that this contig exactly almost matches that in the unmapped assembly, strongly supporting that this is a plasmid sequence and not integrated into the chromosomes.
 
-# Go to [Task 4](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_4/task_3.md)
+# Go to [Task 4](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_4/task_4.md)
