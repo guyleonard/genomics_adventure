@@ -42,4 +42,4 @@ There are a lot of hits to phage domains and domains that manipulate DNA. You mi
 
 Examine one or two more domains from your results file - is there anything interesting?
 
-# Go to [Task 8]()
+# Go to [Task 8](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_3/task_8.md)
