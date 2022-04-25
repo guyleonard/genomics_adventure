@@ -69,4 +69,4 @@ One contig will contain all the reads which did not fall into A1 and A2. The oth
 
 If we had 5 repeats we would expect 5x more coverage relative to the non-repetitive contig. As such, provided we know what level of coverage we expect for a given set of data, we can use this information to try and resolve the number of repeats we expect.
 
-# Now go to [Task 2]()
+# Now go to [Task 2](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_4/task_2.md)
