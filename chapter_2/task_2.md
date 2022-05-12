@@ -19,6 +19,8 @@ Commands for installing these programs are shown below, however you do not need 
 PS - There are also programs for removing or demultiplexing special barcode data from your reads, but they are not covered in this tutorial.
 
 PPS - Long reads require a whole suite of different programs - especially Oxford Nanopore - due to the different technologies and errors involved in base calling.
+
+:warning: - Don't run these commmands now. You can try them if you like after you have completed this chapter ⚠️
  
 ```bash
 conda install -c bioconda fastp
