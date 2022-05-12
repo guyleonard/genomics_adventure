@@ -2,7 +2,7 @@
 ## Task 1a - Evaluating the Quality of Illumina Data
 From your terminal (command line), navigate to the 'sequencing_data/ecoli' directory (you may be there already) and list the contents of the directory.
 ```bash
-cd genomics_adventure/sequencing_data/ecoli
+cd ~/workshops_materials/genomics_adventure/sequencing_data/ecoli
 
 ls -lath
 ```
