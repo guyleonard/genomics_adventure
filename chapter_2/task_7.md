@@ -10,7 +10,7 @@ samtools view
 We can see that we need to provide 'samtools view' with a reference genome as a FASTA formatted file '-T', the '-b' and '-S' options to indicate that the output should be in BAM format, and that the input is in SAM format, all along with the alignment input file itself - e.g.
 ```bash
 samtools view -b -S \
--T ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+-T ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
 ecoli_mapped.sam -o ecoli_mapped.bam
 ```
 NB - Again we are using the '-o' option, but a simple redirect is also possible. You may also see the options contracted as '-bS' in other tutorials, and it is perfectly acceptible to do that, but in the beginning I like to make it clear we are using two separate options so we know exactly what is going on.
@@ -30,13 +30,13 @@ In the previous set of tasks (4, 5 & 6) we have aligned the trimmed reads to the
 For example, these are the three commands we completed previously:
 ```bash
 bwa mem -t 4 \
-~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_1_val_1.fq.gz \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_2_val_2.fq.gz \
+~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_1_val_1.fq.gz \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_2_val_2.fq.gz \
 -o ecoli_mapped.sam
 
 samtools view -b -S \
--T ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+-T ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
 ecoli_mapped.sam -o ecoli_mapped.bam
 
 samtools sort ecoli_mapped.bam -o ecoli_mapped_sorted.bam
@@ -45,9 +45,9 @@ samtools sort ecoli_mapped.bam -o ecoli_mapped_sorted.bam
 but we can also write it as one command, like this:
 ```bash
 bwa mem -t 4 \
-~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_1_val_1.fq.gz \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_2_val_2.fq.gz \
+~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_1_val_1.fq.gz \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_2_val_2.fq.gz \
 | samtools sort -O bam -o ecoli_mapped_sorted_onecommand.bam
 ```
 
