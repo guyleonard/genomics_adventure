@@ -35,26 +35,26 @@ cat quast/report.txt
 If you ran the assembly command - outside of the workhop - you may get slightly different results here, as SPAdes uses a random seed.
 ```
 Assembly                    contigs
-# contigs (>= 0 bp)         4232   
-# contigs (>= 1000 bp)      723    
-# contigs (>= 5000 bp)      272    
-# contigs (>= 10000 bp)     107    
-# contigs (>= 25000 bp)     17     
-# contigs (>= 50000 bp)     2      
-Total length (>= 0 bp)      5429451
-Total length (>= 1000 bp)   4268084
-Total length (>= 5000 bp)   3074920
-Total length (>= 10000 bp)  1957974
-Total length (>= 25000 bp)  613336 
-Total length (>= 50000 bp)  113579 
-# contigs                   1122   
-Largest contig              62496  
-Total length                4531320
-GC (%)                      62.74  
-N50                         7861   
-N75                         4079   
-L50                         143    
-L75                         344    
+# contigs (>= 0 bp)         612    
+# contigs (>= 1000 bp)      323    
+# contigs (>= 5000 bp)      253    
+# contigs (>= 10000 bp)     205    
+# contigs (>= 25000 bp)     88     
+# contigs (>= 50000 bp)     29     
+Total length (>= 0 bp)      6642052
+Total length (>= 1000 bp)   6589395
+Total length (>= 5000 bp)   6395291
+Total length (>= 10000 bp)  6038360
+Total length (>= 25000 bp)  4113769
+Total length (>= 50000 bp)  2097787
+# contigs                   339    
+Largest contig              187340 
+Total length                6601889
+GC (%)                      58.98  
+N50                         32206  
+N75                         19064  
+L50                         60     
+L75                         127    
 # N's per 100 kbp           0.00
 ```
 
