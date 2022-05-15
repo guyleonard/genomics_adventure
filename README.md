@@ -95,18 +95,19 @@ At EMBL-EBI they provide direct links to the 'fastq' files that were submitted t
 
 NB - These commands may take a little bit of time to complete depending on your connection (NCBI: ~15  minutes; EMBL-EBI: ~2 minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait... don't forget to come back soon!
 ```bash
+# make a directory for the data and move there
+mkdir -p sequencing_data/ecoli && sequencing_data/ecoli
+
+# eiether
 # fastq-dump from NCBI - slow
 fastq-dump --split-files --origfmt --gzip SRR857279
 
-# or with wget from EMBL-EBI - faster
+# or
+# with wget from EMBL-EBI - faster
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_2.fastq.gz
 
-# make a directory for them and move them there
-mkdir -p sequencing_data/ecoli
-mv *.gz sequencing_data/ecoli
-
-#
+# make the files read-only so we don't destroy our data accidentally
 chmod 444 sequencing_data/ecoli/*.gz
 
 # Now do the same for Chapter 5's Pseudomonas data
