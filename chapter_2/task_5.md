@@ -8,7 +8,7 @@ cd ~/workshop_materials/genomics_adventure/reference_sequences/ecoli
 ls -lath
 ```
 
-[IMAGE]
+![directory listing](https://github.com/guyleonard/genomics_adventure/blob/ab1ec0fa20549e930c898b7f96feabc605d601f8/chapter_2/images/chapter_2_task_5_image_1.png)
 
 In this directory we have 2 files:
  1. GCF_000005845.2_ASM584v2_genomic.fna - which is a FASTA file that contains the reference genome sequence.
@@ -19,7 +19,7 @@ You can have a look at them with 'more' or 'head' if you like to see the format 
 ## BWA
 Now type 'bwa' in your terminal and see what happens. Hopefully, you should see something similar to this:
 
-[IMAGE]
+![bwa help](https://github.com/guyleonard/genomics_adventure/blob/ab1ec0fa20549e930c898b7f96feabc605d601f8/chapter_2/images/chapter_2_task_5_image_2.png)
 
 BWA is actually a suite of programs which perform many different functions. We are only going to use two of these functions during our adventure, 'bwa index' and 'bwa mem'. Explore the outputs of these two commands now.
 
