@@ -11,7 +11,7 @@ cd mapping_to_reference
 ## Mapping
 Have a look at the output from typing 'bwa mem'. You should see something like this:
 
-[IMAGE]
+![bwa mem](https://github.com/guyleonard/genomics_adventure/blob/a766331f69ca6340746a6bce688621d1d8d5f6d8/chapter_2/images/chapter_2_task_6_image_1.png)
 
 The basic format of the command show as:
 
@@ -41,7 +41,7 @@ NB - Here we are expllicity using the '-o filename.sam' option as our output, bu
 
 This process will take a couple of minutes to complete. You will see quite a lot of output on your terminal, but in the end it should look something similar to this:
 
-[IMAGE]
+![bwa mapping](https://github.com/guyleonard/genomics_adventure/blob/a766331f69ca6340746a6bce688621d1d8d5f6d8/chapter_2/images/chapter_2_task_6_image_2.png)
 
 Congratulations, you have just performed your first mapping of reads to a reference genome!! :trophy: But that only get's us so far... There's always more to do.
 
