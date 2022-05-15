@@ -13,8 +13,8 @@ The next command, like most of the assemblies in this adventure (and in real lif
 :warning: do not run this next command :warning:
 ```bash
 spades.py --threads 2 --careful -o illumina_only \
--1 ../sequencing_data/pseudomonas_gm41/SRR491264_1_val_1.fq.gz \
--2 ../sequencing_data/pseudomonas_gm41/SRR491264_2_val_2.fq.gz
+-1 ../sequencing_data/pseudomonas_gm41/SRR491287_1_trimmed.fq.gz \
+-2 ../sequencing_data/pseudomonas_gm41/SRR491287_2_trimmed.fq.gz
 ```
 
 Let's find the precomputed data and have a look at it.
