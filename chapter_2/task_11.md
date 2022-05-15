@@ -16,7 +16,7 @@ By default IGV does not contain our reference genome. We'll need to import it. T
 Navigate to the location of your sequence file, as in the image below, select it and click "Open". You should see the drop down menu change to the name of your file.
 
 ![igv load fasta](https://github.com/guyleonard/genomics_adventure/blob/1db4976da5d3624d5dcf92a97594e3ceb67f65b2/chapter_2/images/chapter_2_task_11_image_2.png)
-![igv file dialog](https://github.com/guyleonard/genomics_adventure/blob/1db4976da5d3624d5dcf92a97594e3ceb67f65b2/chapter_2/images/chapter_2_task_11_image_3.png]
+![igv file dialog](https://github.com/guyleonard/genomics_adventure/blob/1db4976da5d3624d5dcf92a97594e3ceb67f65b2/chapter_2/images/chapter_2_task_11_image_3.png)
 
 ## Importing the *E. coli* Reference Annotation
 We can also load the annotation (.gff). Click on 'File -> Load from File...'. Navigate to the location of your sequence file, as in the image below, select it and click "Open". You should see a new 'track' of blue boxes with white arrows appear.
