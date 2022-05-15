@@ -38,17 +38,19 @@ Right click on the main area and select view as pairs.
 
 The gray graph at the top of the figure indicates the coverage of the genome.
 
+![igv](https://github.com/guyleonard/genomics_adventure/blob/05a4f6bb1fc0bf07ded6336f2cd6c02b626125c4/chapter_2/images/chapter_2_task_11_image_7.png)
+
 The more reads mapping to a certain location, the higher the peak on the graph. You'll see a coloured line of blue, green or red in this coverage plot if there are any SNPs (single-nucleotide polymorphisms) present. If there are any regions in the genome which are not covered by the reads, you will see these as gaps in the coverage graph. Sometimes these gaps are caused by repetitive regions; others are caused by genuine insertions/deletions in your new strain with respect to the reference.
 
 Below the coverage graph is a representation of each read pair as it is mapped to the genome. One pair is highlighted.
 
-[IMAGE]
+![igv](https://github.com/guyleonard/genomics_adventure/blob/05a4f6bb1fc0bf07ded6336f2cd6c02b626125c4/chapter_2/images/chapter_2_task_11_image_8.png)
 
 This pair consists of 2 reads with a gap (there may be no gap if the reads overlap) Any areas of mismatch either due to inconsistent distances between paired-end reads or due to differences between the reference and the read and are highlighted by a colour. The brighter the colour, the higher the base-calling quality is estimated to be. Differences in a single read are likely to be sequencing errors. Differences consistent in all reads are likely to be mutations.
 
-Hover over a read to get detailed information about the reads' alignment.
+Click on a read to get detailed information about the reads' alignment.
 
-[IMAGE]
+![read info](https://github.com/guyleonard/genomics_adventure/blob/05a4f6bb1fc0bf07ded6336f2cd6c02b626125c4/chapter_2/images/chapter_2_task_11_image_9.png)
 
 You don't need to understand every value, but compare this to the SAM format to get an idea of what is there.
 
