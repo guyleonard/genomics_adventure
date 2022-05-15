@@ -14,19 +14,19 @@ You can do this within IGV:
 
 > Select Tools->Run igvtools
 
-[select igvtools](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_1.png)
+![select igvtools](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_1.png)
 
 
 > Load the BAM alignment file in the Input field and click Run
-[select bam](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_2.png)
+![select bam](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_2.png)
 
 > Now click "Run".
-[run count](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_3.png)
+![run count](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_3.png)
 
 Once completed, close the igvtools window and then you can load this TDF file:
 > Select 'File -> Load...' from the 'File' menu.
 
-[tdf display](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_4.png)
+![tdf display](https://github.com/guyleonard/genomics_adventure/blob/b4f7d1566ccb3892a3f7d505660db243aa8d5ff2/chapter_2/images/chapter_2_task_12_image_4.png)
 
 You should now see the extra coverage track - in blue - which remains visible even after you zoom out! What a great trick! :ok_hand: 
 
