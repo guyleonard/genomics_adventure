@@ -58,5 +58,5 @@ L75                         344
 # N's per 100 kbp           0.00
 ```
 
-# Go to [Task 5[https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_5.md]
+# Go to [Task 5](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_5.md)
 
