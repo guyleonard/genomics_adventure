@@ -11,7 +11,7 @@ Once loaded, explore some of the contigs in IGV. See if you can find anything un
 
 Here's one to get you started... Zoom in on "NODE_1..." until you can see the reads. Then go to the start of the contig and have a look at the reads.
 
-[IMAGE]
+![igv](https://github.com/guyleonard/genomics_adventure/blob/f1b57822f13e31cfab917e3e9291176a1e705f3a/chapter_4/images/chapter_4_task_4_image_1.png)
 
 What do he colours of the reads mean? Can you guess before you read the [manual](https://software.broadinstitute.org/software/igv/interpreting_insert_size) 🔍?
 
