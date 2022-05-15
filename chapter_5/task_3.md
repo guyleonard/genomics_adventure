@@ -11,4 +11,4 @@ You can check the number of filtered reads using "grep –c" and the quality of 
 For our next trick we want to keep the long reads from PacBio even though they are of lower quality. We are relying
 on the assembler to use them appropriately...
 
-# Go to [Task 4](https://github.com/guyleonard/genomics_adventure/release/chapter_5/task_4.md)
+# Go to [Task 4](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_4.md)
