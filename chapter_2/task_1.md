@@ -6,7 +6,7 @@ cd ~/workshop_materials/genomics_adventure/sequencing_data/ecoli
 
 ls -lath
 ```
-[IMAGE]
+![Terminal showing listing of fastq.gz files](https://github.com/guyleonard/genomics_adventure/blob/9624f29665dcf80f3fdcb89c9c8ede55b1c17f45/chapter_2/images/chapter_2_task_1_image_1.png)
 
 These are the paired-end read data that were previously downloaded in the introduction section. The filenames are a bit long and boring to continue to type out - so let's make them a little easier by making a symbolic link to them (this is a type of special file that acts as a pointer to the real file).
 ```bash
