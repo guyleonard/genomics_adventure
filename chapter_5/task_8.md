@@ -10,4 +10,4 @@ Well done! If you have reached this far, you deserve a round of applause :clap: 
 
 You have completed some of the most common tasks in genomics. You can use same operating procedures to perform an analysis of any dataset, including your own data!
 
-- fin -
+"- fin -"
