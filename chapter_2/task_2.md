@@ -37,7 +37,7 @@ trim_galore --help
 ```
 You will see something similat to this:
 
-[IMAGE]
+![Trim_Galore Help](https://github.com/guyleonard/genomics_adventure/blob/3c710a4a5aa1812a1e2778ffa87e059db277c866/chapter_2/images/chapter_2_task_2_image_1.png)
 
 There is always a lot of information to take in when you look at the help pages of different programs, but don't worry these walls of text will become your new best friends soon enough! :handshake:
 
@@ -73,7 +73,7 @@ Did you notice the "--length 100" option was also enabled? The default is set at
 ### Output Files
 Now let's see what the program has produced! Returning to your terminal, you can list the contents of the directory, and you should see something similar to this:
 
-[IMAGE]
+![ls of directory](https://github.com/guyleonard/genomics_adventure/blob/3c710a4a5aa1812a1e2778ffa87e059db277c866/chapter_2/images/chapter_2_task_2_image_2.png)
 
 There are several sets of output files:
  1. two processed zipped 'fastq' files (read_1_val_1.fq.gz and read_2_val_2.fq.gz), containing the trimmed reads,
