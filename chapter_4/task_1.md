@@ -46,13 +46,17 @@ For a genomic assembly you want to try to obtain the lowest number of contigs, w
 
 SPAdes allows you to choose more than one k-mer length - it then performs an assembly for each k-mer and merges the result - trying to get the best of both worlds. It actually has some pre-calculated k-mer settings based on the length of reads you have, so you don't even have to choose them.
 
-Let's look at the assembly process in more detail, let's say you have a single read "AACTAACGACGCGCATCAAAA". The set of k-mers, with length 6 (i.e. 6-mers), obtained from this read, would be created by taking the first six bases, then moving the window along one base, taking the next 6 bases and so-on until the end of the read. For example, "AACTAA", followed by "ACTAAC", then "CTAACG", "TAACGA", "TAACGAC" and so on... You may well ask, “So what? How does that help”? For a single read, it really doesn't help. However, let's say that you have another read which is identical except for a single base. Rather than represent both reads separately, we need only store the k-mers which differ and the number of times they occur. Note the 'bubble' like structure which occurs when a single base-change occurs. This kind of representation of reads is called a 'k-mer graph' (sometimes inaccurately referred to as a de Bruijn graph).
+Let's look at the assembly process in more detail, let's say you have a single read "AACTAACGACGCGCATCAAAA". The set of k-mers, with length 6 (i.e. 6-mers), obtained from this read, would be created by taking the first six bases, then moving the window along one base, taking the next 6 bases and so-on until the end of the read. For example, "AACTAA", followed by "ACTAAC", then "CTAACG", "TAACGA", "TAACGAC" and so on...
 
-[IMAGE]
+![kmers](https://github.com/guyleonard/genomics_adventure/blob/74a2974505412c3131cdc7612792761e4d1f855f/chapter_4/images/chapter_4_task_1_image_1.png)
+
+You may well ask, “So what? How does that help”? For a single read, it really doesn't help. However, let's say that you have another read which is identical except for a single base. Rather than represent both reads separately, we need only store the k-mers which differ and the number of times they occur. Note the 'bubble' like structure which occurs when a single base-change occurs. This kind of representation of reads is called a 'k-mer graph' (sometimes inaccurately referred to as a de Bruijn graph).
+
+![kmers](https://github.com/guyleonard/genomics_adventure/blob/74a2974505412c3131cdc7612792761e4d1f855f/chapter_4/images/chapter_4_task_1_image_2.png)
 
 Now let's see what happens when we add in a third read. This is identical to the first read except for a change at another location. This results in an extra dead-end being added to the path.
 
-[IMAGE]
+![kmers](https://github.com/guyleonard/genomics_adventure/blob/74a2974505412c3131cdc7612792761e4d1f855f/chapter_4/images/chapter_4_task_1_image_4.png)
 
 The job of any k-mer based assembler is to find a path through the k-mer graph which correctly represents the genome sequence.
 
