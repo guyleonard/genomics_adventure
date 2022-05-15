@@ -3,7 +3,7 @@
 Trim the Illumina reads as before (~10 mins):
 
 ```bash
-trim_galore --paired --fastqc --gzip --cores 4 --length 100 SRR491264_1.fastq.gz SRR491264_2.fastq.gz
+trim_galore --paired --fastqc --gzip --cores 4 --length 100 SRR491287_1.fastq.gz SRR491287_2.fastq.gz
 ```
 
 You can check the number of filtered reads using "grep –c" and the quality of trimmed reads with fastqc if you want.
