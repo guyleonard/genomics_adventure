@@ -22,7 +22,7 @@ zcat read_1.fastq.gz | head | grep @SRR
 zcat read_2.fastq.gz | head | grep @SRR
 ```
 
-[IMAGE]
+![head of fastq files](https://github.com/guyleonard/genomics_adventure/blob/9624f29665dcf80f3fdcb89c9c8ede55b1c17f45/chapter_2/images/chapter_2_task_1_image_2.png)
 
 The only difference in the headers for the two reads is the read number. Of course, this is no guarantee that all the headers in the file are consistent. To get some more confidence, lets repeat the above commands using 'tail' instead of 'head' to compare reads at the end of the files. This will take a little longer, as tail has to read all the way through to the end of the file!
 ```bash
@@ -49,32 +49,32 @@ The 'fastqc' program performs a number of tests which determines whether a green
 
 For example, if you have a high AT or high GC organism it may fail the 'per sequence GC content' test. If you have any barcodes or low complexity libraries (e.g. small RNA libraries, RAD-Seq, Amplicons) they may also fail some of the sequence complexity tests. The bottom line is that you need to be aware of what your library is and whether what 'fastqc' is reporting makes sense for that type of library. Know your data from study design to sequencing and beyond!
 
-[IMAGE]
+![FastQC: Basic Stats](https://github.com/guyleonard/genomics_adventure/blob/9624f29665dcf80f3fdcb89c9c8ede55b1c17f45/chapter_2/images/chapter_2_task_1_image_3.png)
 
 In this case we have a number of errors and warnings which at first sight suggest that there has been a problem - but don't worry too much yet. Let's go through a few of them.
 
 ### Per base sequence quality
 This is one of the most important metrics. If the quality scores are poor, either the wrong FASTQ encoding has been guessed by fastqc (see the Basic Statistics tab), or the data itself is poor quality. This view shows an overview of the range of quality values across all bases at each position in the FASTQ file.  Generally anything with a median quality score greater than Q20 is regarded as acceptable; anything above Q30 is regarded as 'good'. For more details, see the help documentation in fastqc.
 
-[IMAGE]
+![FastQC: Per base sequence quality](https://github.com/guyleonard/genomics_adventure/blob/9624f29665dcf80f3fdcb89c9c8ede55b1c17f45/chapter_2/images/chapter_2_task_1_image_4.png)
 
 In this case this check is red - and it is true that the quality drops off at the end of the reads. It is normal for read quality to get worse towards the end of the read. You can see that at ~100 bases the quality is still vrelatively good.
 
 ### Per base sequence Content
 For a completely randomly generated library with a GC content of 50% one expects that at any given position within a read there will be a 25% chance of finding an A,C,T or G base. Here we can see that our library satisfies these criteria, although there appears to be some minor bias at the beginning of the read. This may be due to PCR duplicates during amplification or during library preparation. It is unlikely that one will ever see a perfectly uniform distribution.
 
-[IMAGE]
+![FastQC: Per base sequence Content](https://github.com/guyleonard/genomics_adventure/blob/9624f29665dcf80f3fdcb89c9c8ede55b1c17f45/chapter_2/images/chapter_2_task_1_image_5.png)
 
 ### Sequence Duplication Levels
 In a library that covers a whole genome uniformly most sequences will occur only once in the final set. A low level of duplication may indicate a very high level of coverage of the target sequence, but a high level of duplication is more likely to indicate some kind of enrichment bias (e.g. PCR over-amplification).
 This module counts the degree of duplication for every sequence in the set and creates a plot showing the relative number of sequences with different degrees of duplication. 
 
-[IMAGE]
+![FastQC: Sequence Duplication](https://github.com/guyleonard/genomics_adventure/blob/9624f29665dcf80f3fdcb89c9c8ede55b1c17f45/chapter_2/images/chapter_2_task_1_image_6.png)
 
 ### Overrepresented Sequences
 This checks for sequences that occur more frequently than expected in your data. It also checks any sequences it finds against a small database of known sequences. A typical cause is that the original DNA was shorter than the length of the read - so the sequencing overruns the actual DNA and runs into the adaptors used to bind it to the flow cell.
 
-[IMAGE]
+![FastQC: Overrepresented Sequences](https://github.com/guyleonard/genomics_adventure/blob/9624f29665dcf80f3fdcb89c9c8ede55b1c17f45/chapter_2/images/chapter_2_task_1_image_7.png)
 
 ### Adaptor Content
 In this case it has found that a small number of reads (35000) that appear to contain a sequence used in the preparation for the library. Don't worry, as we can trim these in a later stage and is completely normal to find them in your data.
