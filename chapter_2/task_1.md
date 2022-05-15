@@ -89,4 +89,4 @@ Do the same for 'read 2' as you did for 'read 1', (you can open a new file in th
 
 Note that the number of reads reported in both files are identical. Overall, both 'read 1' and 'read 2' can be regarded as 'good' data-sets.
 
-## Now Got to [Task 2](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_2.md)
+## Now Go to [Task 2](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_2.md)
