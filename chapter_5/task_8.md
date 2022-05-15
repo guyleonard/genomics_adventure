@@ -9,3 +9,5 @@ Incorporating longer reads to produce a hybrid assembly can be used to reduce th
 Well done! If you have reached this far, you deserve a round of applause :clap: and probably a beer :beer: or whatever you prefer to celebrate with!
 
 You have completed some of the most common tasks in genomics. You can use same operating procedures to perform an analysis of any dataset, including your own data!
+
+- fin -
