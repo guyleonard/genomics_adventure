@@ -58,3 +58,7 @@ N75                         19064                  62570
 L50                         60                     15            
 L75                         127                    32
 ```
+
+Hooray! It seems that using the longer reads has improved the completeness of our assembly - reducing the number of contigs and increasing the N50.
+
+Go to [Task 6](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_6.md)
