@@ -14,4 +14,4 @@ You can see that the PacBio reads are much longer, but the error rate particular
 
 Explore a few other contigs to see if you can find something that looks like an error or mis-assembly. Remember the assembly process is difficult and far from perfect.
 
-# Go to [Task 8](https:a//github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_8.md)
+# Go to [Task 8](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_8.md)
