@@ -10,7 +10,7 @@ cd ~/workshop_meterials/genomics_adventure/sequencing_data/pseudomonas_gm41
 fastqc &
 ```
 
-Open the files SRR1042836_subreads.fastq, SRR491287a_1.fastq & SRR491287a_2.fastq and then look at the reports generated
+Open the files SRR1042836_subreads.fastq, SRR491287_1.fastq & SRR491287_2.fastq and then look at the reports generated
 
 [IMAGE]
 
@@ -20,4 +20,4 @@ Note that the quality of the PacBio reads (SRR1042836_subreads.fastq) is much lo
 
 However, importantly, the length of the PacBio reads is much longer. Yay! :smile:.
 
-# Go to [Task 3](https://github.com/guyleonard/genomics_adventure/edit/release/chapter_5/task_3.md)
+# Go to [Task 3](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_3.md)
