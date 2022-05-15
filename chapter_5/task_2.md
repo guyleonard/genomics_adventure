@@ -10,7 +10,7 @@ cd ~/workshop_meterials/genomics_adventure/sequencing_data/pseudomonas_gm41
 fastqc &
 ```
 
-Open the files SRR1042836_subreads.fastq, SRR491287a_1.fastq & SRR491287a_2.fastq and then look at the reports generated
+Open the files SRR1042836_subreads.fastq, SRR491287_1.fastq & SRR491287_2.fastq and then look at the reports generated
 
 [IMAGE]
 
