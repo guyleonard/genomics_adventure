@@ -54,4 +54,4 @@ samtools flagstat pseudo_pacbio_sorted.bam > pseudo_pacbio_sorted.stats
 
 Have a look at both flagstat files and give them a comparison.
 
-# Go to [Task 7](https:a//github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_7.md)
+# Go to [Task 7](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_7.md)
