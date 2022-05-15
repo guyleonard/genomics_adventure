@@ -1,4 +1,4 @@
-# Task 7 Run Open Reading Frames Through pfam_scan
+# Task 7 - Run Open Reading Frames Through pfam_scan
 Pfam is a database of protein families. They are grouped together using a number of criteria based on their function. For more information you can read more [here](http://en.wikipedia.org/wiki/Pfam). Pfam is grouped into several databases depending on the level of curation. Pfam-A is high-quality manual curation and consists of around 20,000 families. Pfam-B is full of automated predictions which may be informative but should not be relied upon without additional evidence. Pfam will also search for signatures of active-sites if you specify the correct option.
 
 Before we can use Pfam-A we will need to make sure the database is ready to go, if you are on one of the workshops then the database will be downloaded already, and if you are following at home you will have downloaded it during the setup. This step won't take too long, and it's a bit like when we index BAM files, except we use the program 'hmmpress'.
@@ -36,7 +36,7 @@ NODE_1_length_46850_cov_69.441152_97      22    158     21    158 PF06290.14  Ps
 
 The 8th column shows the type of entry that was hit in the pfam database. Let's take a look at Pfam domain "SLT" (accession number PF01464.23). Go to [http://pfam.xfam.org](http://pfam.xfam.org​)​ and enter the accession number for this Pfam domain in the search box.
 
-[IMAGE]
+![pfam](https://github.com/guyleonard/genomics_adventure/blob/693b712db2eb286d3992810511275e7ec586f52a/chapter_3/images/chapter_3_task_3_image_1.png)
 
 There are a lot of hits to phage domains and domains that manipulate DNA. You might expect this as these sequences have presumably been incorporated into our strain since it diverged from the reference. Also look at Family (the most specific type of hit) from our large contig NODE_2_... is there any evidence for it being a plasmid?
 
