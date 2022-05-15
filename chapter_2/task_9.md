@@ -5,7 +5,7 @@ samtools flagstat ecoli_mapped_namesort_fixmate_sort_markdup.bam > mappingstats.
 ```
 This should only take a few seconds. Once complete you can view the 'mappingstats.txt' file using your favourite text editor or command (e.g. nano, vi, more or cat).
 
-[IMAGE]
+![samtools flagstat results](https://github.com/guyleonard/genomics_adventure/blob/b5776838f7763c15ad5c5997aaa4fd8aee9fd9e8/chapter_2/images/chapter_2_task_9_image_1.png)
 
 On the first line we can see that we have 5,645,403 reads in total, and none of which failed QC. Next, 97.9% of the reads mapped to the reference genome and 97.56% mapped with the expected distance between them, as paired reads. And only 63 reads could not have their other read-pair mapped.
 
