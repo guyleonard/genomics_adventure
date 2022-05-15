@@ -51,7 +51,11 @@ Total length (>= 50000 bp)  113579
 Largest contig              62496  
 Total length                4531320
 GC (%)                      62.74  
-N
+N50                         7861   
+N75                         4079   
+L50                         143    
+L75                         344    
+# N's per 100 kbp           0.00
 ```
 
 # Go to [Task 5[https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_5.md]
