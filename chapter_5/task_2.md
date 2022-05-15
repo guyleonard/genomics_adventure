@@ -20,4 +20,4 @@ Note that the quality of the PacBio reads (SRR1042836_subreads.fastq) is much lo
 
 However, importantly, the length of the PacBio reads is much longer. Yay! :smile:.
 
-# Go to [Task 3](https://github.com/guyleonard/genomics_adventure/edit/release/chapter_5/task_3.md)
+# Go to [Task 3](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_3.md)
