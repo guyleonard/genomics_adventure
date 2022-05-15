@@ -7,7 +7,7 @@ By mapping reads against a reference, what we mean is that we want to go from a 
 
 The figure below illustrates what we are trying to achieve. Along the top in grey is the reference sequence. The coloured sequences below indicate individual sequences (reads) and how they are positioned (mapped) to the reference. If there is a real variant in a bacterial genome we would expect that (nearly) all the reads would contain the variant at the relevant position rather than the same base as the reference genome. Remember, the error rates for any single read on "next generation" platforms tend to be around 0.5-1%. Therefore a 300bp read, is on average, likely to contain around 2-3 errors. Not bad!
 
-[IMAGE]
+![Alignment](https://github.com/guyleonard/genomics_adventure/blob/fa62eebfdd9c179f6f6129275713f2c33d7dad42/chapter_2/images/chapter_2_task_4_image_1.png)
 
 Now let's examine at two potential sources of artefacts:
 ## 1. Sequencing Error
