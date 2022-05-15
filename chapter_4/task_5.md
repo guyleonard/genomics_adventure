@@ -20,4 +20,6 @@ pfam_scan.pl -fasta contigs.orf.fasta \
 
 Precomputed results are available here:
 
-# [Chapter 5]() awaits..!
+> ~/workshop_materials/genomics_adventure/denovo_assembly/mapping_to_assembly/contigs.orf.pfam
+
+# [Chapter 5](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_5/task_1.md) awaits..!
