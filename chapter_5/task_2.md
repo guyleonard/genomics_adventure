@@ -12,11 +12,11 @@ fastqc &
 
 Open the files SRR1042836_subreads.fastq, SRR491287_1.fastq & SRR491287_2.fastq and then look at the reports generated
 
-[IMAGE]
+![FastQC](https://github.com/guyleonard/genomics_adventure/blob/ed2dd272b2241fc00fcae6c224fb3552360230eb/chapter_5/images/chapter_5_task_2_image_1.png)
 
 Note that the quality of the PacBio reads (SRR1042836_subreads.fastq) is much lower than the Illumina reads with a greater than 1 chance in 10 of there being a mistake for most reads.
 
-[IMAGE]
+![FastQC](https://github.com/guyleonard/genomics_adventure/blob/ed2dd272b2241fc00fcae6c224fb3552360230eb/chapter_5/images/chapter_5_task_2_image_2.png)
 
 However, importantly, the length of the PacBio reads is much longer. Yay! :smile:.
 
