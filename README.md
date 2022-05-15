@@ -134,6 +134,16 @@ mkdir ecoli && mv *.gz ecoli && gunzip ecoli/*.gz
 # Change write permissions, so that we can't edit them by accident
 chmod -R 444 ecoli/*.fna
 chmod -R 444 ecoli/*.gff
+
+# Now do the same for Chapter 5's Pseudomonas data
+cd .. && mkdir pseudomonas_gm41 && cd pseudomonas_gm41
+
+# get the Illumina Data
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR491/SRR491264/SRR491264_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR491/SRR491264/SRR491264_2.fastq.gz
+
+# get the PacBio data
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR104/006/SRR1042836/SRR1042836_subreads.fastq.gz
 ```
 
 #### Databases
