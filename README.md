@@ -65,9 +65,14 @@ conda create --name genomics_adventure python=3.7
 # Activate our environment
 conda activate genomics_adventure
 
+# add required channels
+conda config --add channels bioconda
+conda config --add channels conda-forge
+
 # Install the software
 conda install -c bioconda bcftools=1.12 bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap quast=5.0.2 samtools=1.12 seqtk spades sra-tools trim-galore vcftools
 ```
+If conda is being a PITA, then you might like to try 'mamba' which runs much faster and more smoothly (conda install -c conda-forge mamba). 
 
 Make sure that the environment is manually activated everytime you come back to this adventure. You should see '(genomics_adventure)' before your normal terminal prompt. If it is not activated, use the 'activate' command from above.
 
