@@ -113,7 +113,7 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_1.fastq.gz
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_2.fastq.gz
 
 # make the files read-only so we don't destroy our data accidentally
-chmod 444 sequencing_data/ecoli/*.gz
+chmod 444 *.gz
 
 # Now do the same for Chapter 5's Pseudomonas data
 cd .. && mkdir pseudomonas_gm41 && cd pseudomonas_gm41
@@ -125,7 +125,7 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR491/SRR491287/SRR491287_2.fastq.gz
 # get the PacBio data
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR104/006/SRR1042836/SRR1042836_subreads.fastq.gz
 
-#
+# make the files read-only so we don't destroy our data accidentally
 chmod 444 *.gz
 ```
 
