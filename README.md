@@ -101,7 +101,7 @@ At EMBL-EBI they provide direct links to the 'fastq' files that were submitted t
 NB - These commands may take a little bit of time to complete depending on your connection (NCBI: ~15  minutes; EMBL-EBI: ~2 minutes), so you might want to skip ahead to the next chapter for some light reading about sequencing technologies and file formats whilst you wait... don't forget to come back soon!
 ```bash
 # make a directory for the data and move there
-mkdir -p sequencing_data/ecoli && sequencing_data/ecoli
+mkdir -p sequencing_data/ecoli && cd sequencing_data/ecoli
 
 # eiether
 # fastq-dump from NCBI - slow
