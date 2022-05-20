@@ -16,7 +16,7 @@ ln -s SRR857279_2.fastq.gz read_2.fastq.gz
 
 Now we have nice and easy file names to work with :smile:. You should always record or note down what your original filenames are, so that you can refer to the correct data in the future! Just like keeping notes in a lab book. :open_book:
 
-Most programs that work with sequence data require that the 'read 1' and 'read 2' files have the reads in the same order. You can identify reads from the same pair because they will have the same header followed by either a "1" or a "2". We will now look at the raw reads to make sure they look 'correct'. To view the first few headers we can use the 'zcat' command (this is similar to 'cat' but works with zipped files), 'head' to see the top three lines, and then 'grep' to catch the header lines (in this case we know they start with "@HWI" - you may need to check your own files for a suitable header).
+Most programs that work with sequence data require that the 'read 1' and 'read 2' files have the reads in the same order. You can identify reads from the same pair because they will have the same header followed by either a "1" or a "2". We will now look at the raw reads to make sure they look 'correct'. To view the first few headers we can use the 'zcat' command (this is similar to 'cat' but works with zipped files), 'head' to see the top three lines, and then 'grep' to catch the header lines (in this case we know they start with "@SRR" - you may need to check your own files for a suitable header).
 ```bash
 zcat read_1.fastq.gz | head | grep @SRR
 zcat read_2.fastq.gz | head | grep @SRR
