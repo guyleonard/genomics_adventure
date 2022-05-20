@@ -90,7 +90,7 @@ zcat read_1_val_1.fq.gz | wc -l
 zcat read_2_val_2.fq.gz | wc -l
 ```
 
-Although the reads have been trimmed differently - the number of reads in the 'read_1' and 'read_2' files are identical (11,805,172). This is required for all the tools we will use to analyse paired-end data.
+Although the reads have been trimmed differently - the number of reads in the 'read_1' and 'read_2' files are identical (11,804,120). This is required for all the tools we will use to analyse paired-end data.
 
 Now you should check the quality scores and sequence distribution from the 'FastQC' outputs. Open the 'html' file in Firefox or your favourite browser. You should notice very little change (since comparatively few reads were filtered). However, you should notice a significant improvement in quality and the absence of adaptor sequences.
 
