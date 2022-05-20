@@ -18,7 +18,7 @@ cd genomics_adventure
 ### Software
 This section will create the 'environment' :package: in which we will be having our adventure, this allows us to keep all the software in one place for easy access and repeatability (e.g. you may wish to run different versions of software for other analyses, you can do that in other environments). We won't explore each of the programs that we will install right now, but the adventure will explain each as we get to them.
 
-:squirrel: This time you may copy and paste, one-by-one, the commands below:
+:ant: This time you may copy and paste, one-by-one, the commands below:
 ```bash
 # Make sure we are up to date
 conda update -n base conda
