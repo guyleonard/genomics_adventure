@@ -24,7 +24,7 @@ Our reference sequences are in the file:
 >~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna
 
 Our filtered reads are in the files:
->~/workshop_materials/genomics_adventure/sequencing_data/ecoli/reqd_1_val_1.fq.gz
+>~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_1_val_1.fq.gz
 
 >~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_2_val_2.fq.gz
 
