@@ -36,5 +36,5 @@ The tutorial (sorry adventure), like any good story, is designed to be long and 
 ## Chapter 1: Once Upon a Time...
 Before our adventure begins we will need to choose our starting point:
 
-1. [Workshop on Genomics]()
-2. [Home]()
+1. [Workshop on Genomics](workshop_on_genomics.md)
+2. [Home](home.md)
