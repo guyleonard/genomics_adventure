@@ -10,7 +10,7 @@ To generate a 'QualiMap bamqc' report, you can run:
 ```bash
 qualimap bamqc -outdir bamqc \
 -bam ecoli_mapped_namesort_fixmate_sort_markdup.bam \
--gff ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.gff
+-gff ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.gff
 ```
 
 After a couple of minutes, this will create a subfolder called 'bamqc'. Change into this directory with 'cd' and view the '.html' file with your favourite browser, e.g.:
