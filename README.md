@@ -4,7 +4,7 @@ This tutorial is based on a workshop that was written many years ago by Konrad P
 Many thanks to:
  * [Konrad Paszkiewicz](https://scholar.google.com/citations?user=yrHDETIAAAAJ&hl=en), CTO Hummingbird Biosciences.
  * [Sophie Shaw](https://scholar.google.se/citations?user=_K3aFRYAAAAJ&hl=en), Bioinformatician, All Wales Medical Genomics Service. 
- * [Josie Paris](https://www.josieparis.com/), Postdoctoral Research Associate, University of L'Aquila, Italy.
+ * [Josie Paris](https://www.josieparis.com/), MSCA Postdoctoral Fellow, Universita' Politecnica delle Marche, Italy.
  * Workshop on Genomics, [evomics.org](https://evomics.org/)
 
 ## A Few Notes on Styles
