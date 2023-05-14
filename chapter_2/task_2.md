@@ -35,7 +35,7 @@ conda install -c bioconda ea-utils
 ```bash
 trim_galore --help
 ```
-You will see something similat to this:
+You will see something similar to this:
 
 ![Trim_Galore Help](https://github.com/guyleonard/genomics_adventure/blob/3c710a4a5aa1812a1e2778ffa87e059db277c866/chapter_2/images/chapter_2_task_2_image_1.png)
 
