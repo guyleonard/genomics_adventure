@@ -4,7 +4,7 @@ Pfam is a database of protein families. They are grouped together using a number
 Before we can use Pfam-A we will need to make sure the database is ready to go, if you are on one of the workshops then the database will be downloaded already, and if you are following at home you will have downloaded it during the setup. This step won't take too long, and it's a bit like when we index BAM files, except we use the program 'hmmpress'.
 
 ```bash
-hmmpress ../../db/pfam/Pfam-A.hmm
+hmmpress ~/workshop_materials_2022/genomics_adventure/db/pfam/
 ```
 
 Now we want to search the Pfam database of Hidden Markov Models to see which protein families are contained within this contig. You'll notice that this runs considerably faster than BLAST. We will search using
@@ -12,7 +12,7 @@ the contigs.orf.fasta file against the Pfam databases and output the results to 
 
 ```bash
 pfam_scan.pl -fasta contigs.orf.fasta \
--dir ~/workshop_materials/genomics_tutorial/db/pfam/ \
+-dir ~/workshop_materials_2022/genomics_adventure/db/pfam/ \
 -outfile contigs.orf.pfam \
 -cpu 4 \
 -as
