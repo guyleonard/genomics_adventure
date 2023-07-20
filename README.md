@@ -7,6 +7,9 @@ Many thanks to:
  * [Josie Paris](https://www.josieparis.com/), MSCA Postdoctoral Fellow, Universita' Politecnica delle Marche, Italy.
  * Workshop on Genomics, [evomics.org](https://evomics.org/)
 
+[![Forkers repo roster for @guyleonard/genomics_adventure](https://reporoster.com/forks/guyleonard/genomics_adventure)](https://github.com/guyleonard/genomics_adventure/network/members)
+[![Stargazers repo roster for @guyleonard/genomics_adventure](https://reporoster.com/stars/guyleonard/genomics_adventure)](https://github.com/guyleonard/genomics_adventure/stargazers)
+
 ## A Few Notes on Styles
 Throughout this adventure you will see various styles of text. Mostly they will be in the form of the main story - similar to what you are reading now - but some will be links to further and expanded reading (indicated with a magnifying glass - :mag: - this is mostly optional reading for the super curious :nerd_face:). However, there will also be commands for you to type. These will look something like:
 ```bash
