@@ -20,7 +20,7 @@ cd unmapped_assembly
 
 We want to extract all of the reads that do NOT map to the assembly. Luckily, in the SAM/BAM format there is a special 'bitwise flag' or code that identifies how the reads and their read-mates are aligned to a reference. They can be quite confusing at first, and there are many combinations. We will have a look at them now by viewing the first five lines our previously made BAM file.
 ```bash
-samtools view ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam | head -n 5
+samtools view ../mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam | head -n 5
 ```
 
 You should see a bunch a of text, numbers and sequence data on your screen. Don't panic, this is just how the SAM format looks. It is arranged in columns separated by a tab, and each row is one read. At this time we are only really interested in the second column (the flag), you can look up the meaning for the rest [here](https://en.wikipedia.org/wiki/SAM_(file_format)#Format):mag:.
