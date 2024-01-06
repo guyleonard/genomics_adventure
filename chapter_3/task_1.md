@@ -6,7 +6,7 @@ Now, we will examine those reads which did not map to the reference genome. We w
 ## Task 1 - Extract the Unmapped Reads
 Let's make sure we are in the right place to start out adventure and refresh our memories of what is in this directory.
 ```bash
-cd ~/workhsop_materials/genomics_adventure/sequencing_data/ecoli
+cd ~/workshop_materials/genomics_adventure/sequencing_data/ecoli
 
 ls -lath
 ```
