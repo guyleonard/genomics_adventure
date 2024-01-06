@@ -2,7 +2,7 @@
 We will use the program called - Quality Assessment Tool for Genome Assemblies - [QUAST](http://quast.sourceforge.net/quast) to generate some statistics on the assembly.
 
 ```bash
-quast.py --output-dir quast contigs.fasta
+quast.py --output-dir quast spades_assembly/contigs.fasta
 ```
 
 This will create a directory called 'quast' and create some statistics on the assembly you produced, don’t worry if the results look a little different to the example.
