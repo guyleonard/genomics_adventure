@@ -38,9 +38,7 @@ Check that the contigs do not appear in the reference sequence. In theory, the u
 
 To do this, we can use the BLAST+ package in a different mode to compare two sequences against each other. Unlike the previous examples where we have searched against a database of sequences, here we are doing a simple search of the contigs against the reference genome. You can run this one, it will be very fast. We won't save the results to a file, instead they will show on your terminal.
 ```
-blastn -subject ../../reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
--query contigs.fasta \
--outfmt 6
+blastn -subject ../../../reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna -query contigs.fasta -outfmt 6
 ```
 
 You should see something similar to below, it shows that some of the contigs have hit the reference sequence.
