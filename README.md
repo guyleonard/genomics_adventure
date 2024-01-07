@@ -8,6 +8,7 @@ Many thanks to:
  * Workshop on Genomics, [evomics.org](https://evomics.org/)
 
 [![Forkers repo roster for @guyleonard/genomics_adventure](https://reporoster.com/forks/guyleonard/genomics_adventure)](https://github.com/guyleonard/genomics_adventure/network/members)
+
 [![Stargazers repo roster for @guyleonard/genomics_adventure](https://reporoster.com/stars/guyleonard/genomics_adventure)](https://github.com/guyleonard/genomics_adventure/stargazers)
 
 ## A Few Notes on Styles
