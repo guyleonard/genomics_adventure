@@ -33,4 +33,4 @@ You should now see the extra coverage track - in blue - which remains visible ev
 ## Manually Identify a Region Containing Repetitive Sequences.
 You could also try using the QualiMap reports from before [Task 10](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_10.md) to give you an idea where to look. What could these regions represent? Are there any genes close-by? (Think about repetitive sequences, what does BWA do if a region in the genome has been duplicated?).
 
-# Go to [Task 13](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_14.md)
+# Go to [Task 13](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_13.md)
