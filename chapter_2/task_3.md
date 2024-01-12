@@ -61,6 +61,24 @@ One thing to be careful of when randomly subsampling data like this is that we m
 
 ### 2. Digital Normalisation
 
+In all seriousness, I forgot to write this section. Mea culpa. So as it's 2024 and we are all using ChatGPT anyway, I gave it the prompt "write me a few short paragraphs about digital normalisation of fastq illumina reads".
+
+Let's have a poquito look at what it came up with.
+
+_Digital normalization is an intriguing concept in the realm of bioinformatics, particularly when dealing with high-throughput sequencing data, such as that produced by Illumina platforms. The primary goal of digital normalization is to reduce the redundancy in sequencing data, thereby improving both computational efficiency and downstream analysis quality.
+
+In the context of fastq files from Illumina reads, digital normalization operates by selectively down-sampling the dataset. It's akin to strategically thinning out a dense forest so that each tree (read) can be examined more effectively. The process involves analyzing the k-mer frequency distribution within the reads. K-mers are subsequences of length 'k' derived from the longer DNA sequences. By assessing the abundance of these k-mers across the dataset, digital normalization identifies and discards reads that are over-represented, presumably because they originate from highly abundant sequences.
+
+This technique is particularly beneficial when dealing with large datasets, a common scenario given the high output of Illumina platforms. By reducing the number of reads, digital normalization lessens the computational resources needed for tasks like assembly and alignment, without significantly compromising the quality or coverage of the data. It's a bit like efficiently packing a suitcase for a trip; you want to include everything necessary but avoid unnecessary bulk.
+
+A noteworthy aspect of digital normalization is its impact on error reduction. Redundant reads in high-throughput sequencing often include errors. By reducing redundancy, digital normalization can indirectly decrease the error rate, leading to cleaner, more accurate datasets. This is crucial for bioinformatic analyses, where precision is paramount.
+
+However, it's important to approach digital normalization with a bit of caution. While it effectively reduces data size and computational load, it might inadvertently eliminate low-abundance reads that could be biologically significant. Thus, the parameters for k-mer thresholding and read retention must be chosen carefully to strike a balance between efficiency and data integrity.
+
+In summary, digital normalization is a smart and efficient way to handle the deluge of data from Illumina sequencing, ensuring that the focus remains on the most informative and relevant parts of the genomic jigsaw puzzle._
+
+Not too bad! We won't use this technique today but a good tool is [BBNorm](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbnorm-guide/) 🔍 from the BBTools package.
+
 ## Contaminant Checking
 A number of tools are available which also enable to you to quickly search through your reads and assign them to particular taxa or taxonomic groups. These can serve as a quick check to make sure your samples or libraries are not contaminated with DNA from other sources. If you are performing a de-novo assembly, for example, and have DNA sequences present from multiple organisms, you will risk poor results and chimeric contigs.
 
