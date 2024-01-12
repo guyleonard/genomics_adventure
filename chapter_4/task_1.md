@@ -18,7 +18,7 @@ mkdir denovo_assembly && cd denovo_assembly
 ln -s ../../precomputed/denovo_assembly/assembly .
 ```
 
-The command you would use to run SPAdes is this (do not run, it would take XX hours):
+The command you would use to run SPAdes is this (do not run, it would take ~3 hours):
 ```bash
 spades.py -o assembly -1 ../sequencing_data/ecoli/read_1_val_1.fq.gz -2 ../sequencing_data/ecoli/read_2_val_2.fq.gz
 ```
