@@ -17,6 +17,9 @@ In this directory we have 2 files:
 You can have a look at them with 'more' or 'head' if you like to see the format they are in.
 
 ## BWA
+
+Today we are using "BWA", but you may have read that is it deprecated/superceded by "minimap2" and there is a nice [blog](https://lh3.github.io/2018/04/02/minimap2-and-the-future-of-bwa)🔍 about it here. However, BWA works better with short (~100bp) reads and that is the data we have today. If you are feeling advanced you might want to run "minimap2" instead through the rest of the adventure, but you're heading off into Mirkwood without help...Watch out for orcs! 
+
 Now type 'bwa' in your terminal and see what happens. Hopefully, you should see something similar to this:
 
 ![bwa help](https://github.com/guyleonard/genomics_adventure/blob/ab1ec0fa20549e930c898b7f96feabc605d601f8/chapter_2/images/chapter_2_task_5_image_2.png)
