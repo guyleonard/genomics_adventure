@@ -35,6 +35,8 @@ NODE_1_length_46850_cov_69.441152_97      22    158     21    158 PF06290.14  Ps
 ```
 
 The 8th column shows the type of entry that was hit in the pfam database. Let's take a look at Pfam domain "SLT" (accession number PF01464.23). Go to [http://pfam.xfam.org](http://pfam.xfam.org​)​ and enter the accession number for this Pfam domain in the search box.
+**
+2024 - PFAM is now hosted by InterPro. The screenshot will look different, but the information is the same.**
 
 ![pfam](https://github.com/guyleonard/genomics_adventure/blob/693b712db2eb286d3992810511275e7ec586f52a/chapter_3/images/chapter_3_task_3_image_1.png)
 
