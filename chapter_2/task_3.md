@@ -65,7 +65,7 @@ In all seriousness, I forgot to write this section. Mea culpa. So as it's 2024 a
 
 Let's have a poquito look at what it came up with.
 
-_Digital normalization is an intriguing concept in the realm of bioinformatics, particularly when dealing with high-throughput sequencing data, such as that produced by Illumina platforms. The primary goal of digital normalization is to reduce the redundancy in sequencing data, thereby improving both computational efficiency and downstream analysis quality.
+```Digital normalization is an intriguing concept in the realm of bioinformatics, particularly when dealing with high-throughput sequencing data, such as that produced by Illumina platforms. The primary goal of digital normalization is to reduce the redundancy in sequencing data, thereby improving both computational efficiency and downstream analysis quality.
 
 In the context of fastq files from Illumina reads, digital normalization operates by selectively down-sampling the dataset. It's akin to strategically thinning out a dense forest so that each tree (read) can be examined more effectively. The process involves analyzing the k-mer frequency distribution within the reads. K-mers are subsequences of length 'k' derived from the longer DNA sequences. By assessing the abundance of these k-mers across the dataset, digital normalization identifies and discards reads that are over-represented, presumably because they originate from highly abundant sequences.
 
@@ -75,7 +75,8 @@ A noteworthy aspect of digital normalization is its impact on error reduction. R
 
 However, it's important to approach digital normalization with a bit of caution. While it effectively reduces data size and computational load, it might inadvertently eliminate low-abundance reads that could be biologically significant. Thus, the parameters for k-mer thresholding and read retention must be chosen carefully to strike a balance between efficiency and data integrity.
 
-In summary, digital normalization is a smart and efficient way to handle the deluge of data from Illumina sequencing, ensuring that the focus remains on the most informative and relevant parts of the genomic jigsaw puzzle._
+In summary, digital normalization is a smart and efficient way to handle the deluge of data from Illumina sequencing, ensuring that the focus remains on the most informative and relevant parts of the genomic jigsaw puzzle.
+```
 
 Not too bad! We won't use this technique today but a good tool is [BBNorm](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbnorm-guide/) 🔍 from the BBTools package.
 
