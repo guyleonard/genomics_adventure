@@ -13,13 +13,13 @@ Here are some regions where there are differences in the organism sequenced and 
 Paste each of the genomic locations in this box to IGV and click go:
 
 ```
-U00096.3:2,108,392-2,133,153
-U00096.3:3,662,049-3,663,291
-U00096.3:4,296,249-4,296,510
-U00096.3:565,965-566,489
+NC_000913.3:2,108,392-2,133,153
+NC_000913.3:3,662,049-3,663,291
+NC_000913.3:4,296,249-4,296,510
+NC_000913.3:565,965-566,489
 ```
 
-#### Region U00096.3:2,108,392-2,133,153
+#### Region NC_000913.3:2,108,392-2,133,153
 
 This area corresponds to a drop in coverage identified by QualiMap. It looks like a fairly large region of about 17 kbases which was present in the reference and is missing from our sequenced genome. It looks like about 12 genes from the reference strain are not present in our strain.
 
@@ -27,7 +27,7 @@ Q: Is this real or an artefact?
 
 A: We have coverage of about 60x either side of the deletion and nothing at all within. There are nice clean edges to the start and end of the deletion. We also have paired reads which span the deletion. This is exactly what you would expect if the two regions of coverage were actually joined together. Therefore, it is most likely a deletion event.
 
-#### Region U00096.3:3,662,049-3,663,291
+#### Region NC_000913.3:3,662,049-3,663,291
 
 Zoom right in until you can see the reference sequence and protein sequence at the bottom of the display.
 
