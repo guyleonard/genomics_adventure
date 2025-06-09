@@ -20,7 +20,7 @@ PS - There are also programs for removing or demultiplexing special barcode data
 
 PPS - Long reads require a whole suite of different programs - especially Oxford Nanopore - due to the different technologies and errors involved in base calling.
 
-:warning: - Don't run these commmands now. You can try them if you like after you have completed this chapter ⚠️
+:warning: - Don't run these commands now. You can try them if you like after you have completed this chapter ⚠️
  
 ```bash
 conda install -c bioconda fastp

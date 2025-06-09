@@ -1,5 +1,5 @@
 # task 1
-cd ~/workhsop_materials/genomics_adventure/sequencing_data/ecoli
+cd ~/workshop_materials/genomics_adventure/sequencing_data/ecoli
 ls -lath
 mkdir unmapped_assembly && cd unmapped_assembly
 samtools view ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam | head -n 5

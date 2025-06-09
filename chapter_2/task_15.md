@@ -8,7 +8,7 @@ bedtools coverage \
 -b ecoli_mapped_namesort_fixmate_sort_markdup.bam > gene_coverage.txt
 ```
 
-Oh no! :scream: What happenend? Did you get a message that says "Killed"? It's okay, Don't Panic! When you see a message similar to this it usually means that there isn't enough RAM available for this task - and so the Operating System has 'killed' :skull: the operation (sounds extreme I know) so that you can continue to use it. Limitations like these may well happen throughout your continued bioinformatics adventures here and in real life :TM:! :weary: You will learn, with time, to navigate around them and/or you can go and do some mindfullness techniques - and develop an unhealthy addiction to :coffee:! Anyway, :relaxed: you can do it! :muscle:
+Oh no! :scream: What happened? Did you get a message that says "Killed"? It's okay, Don't Panic! When you see a message similar to this it usually means that there isn't enough RAM available for this task - and so the Operating System has 'killed' :skull: the operation (sounds extreme I know) so that you can continue to use it. Limitations like these may well happen throughout your continued bioinformatics adventures here and in real life :TM:! :weary: You will learn, with time, to navigate around them and/or you can go and do some mindfulness techniques - and develop an unhealthy addiction to :coffee:! Anyway, :relaxed: you can do it! :muscle:
 
 NB - You might have not got that error and wonder what I am on about, but trust me at some point something similar will happen, so it is useful to follow the logic below to try and understand you data as best as possible with the resources you currently have.
 

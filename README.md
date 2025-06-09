@@ -1,5 +1,5 @@
 # A Genomics Adventure
-This tutorial is based on a workshop that was written many years ago by Konrad Paszkiewicz, whilst he was the head of Exeter University's Sequencing Service. Over the years it has been extensivley updated and modified by several colleages (listed below), taught at Exeter Universtity, and also at the [evomics.org](https://evomics.org/) Workshop on Genomics since 2014. It has now been reproduced here, in a slightly new form - again with many updates.
+This tutorial is based on a workshop that was written many years ago by Konrad Paszkiewicz, whilst he was the head of Exeter University's Sequencing Service. Over the years it has been extensively updated and modified by several colleagues (listed below), taught at Exeter University, and also at the [evomics.org](https://evomics.org/) Workshop on Genomics since 2014. It has now been reproduced here, in a slightly new form - again with many updates.
 
 Many thanks to:
  * [Konrad Paszkiewicz](https://scholar.google.com/citations?user=yrHDETIAAAAJ&hl=en), CTO Hummingbird Biosciences.
