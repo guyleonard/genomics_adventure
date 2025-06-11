@@ -18,7 +18,13 @@ You can have a look at them with 'more' or 'head' if you like to see the format 
 
 ## BWA
 
-Today we are using "BWA", but you may have read that is it deprecated/superceded by "minimap2" and there is a nice [blog](https://lh3.github.io/2018/04/02/minimap2-and-the-future-of-bwa)🔍 about it here. However, BWA works better with short (~100bp) reads and that is the data we have today. If you are feeling advanced you might want to run "minimap2" instead through the rest of the adventure, but you're heading off into Mirkwood without help...Watch out for orcs! 
+Today we are using "BWA", but you may have read that it has largely been superseded by "minimap2" and there is a nice [blog](https://lh3.github.io/2018/04/02/minimap2-and-the-future-of-bwa)🔍 about it here. Minimap2 is often preferred for modern short-read alignment because it combines fast mapping with excellent accuracy. However, BWA works well with reads around 100&nbsp;bp and is still widely used, so we will stick with it for this tutorial. If you are feeling advanced you might want to run "minimap2" instead through the rest of the adventure, but you're heading off into Mirkwood without help...Watch out for orcs!
+
+You could align paired-end reads with minimap2 like this:
+
+```bash
+minimap2 -ax sr -t 4 reference.fna read_1.fastq.gz read_2.fastq.gz > reads_mapped.sam
+```
 
 Now type 'bwa' in your terminal and see what happens. Hopefully, you should see something similar to this:
 
