@@ -14,7 +14,7 @@ This will take around 5 hours on an average laptop (or the workshop VMs) so it i
 ⚠️ do not run this ⚠️
 ```bash
 pfam_scan.pl -fasta contigs.orf.fasta \
--dir  ~/workshop_meterials/genomics_adventure/db/pfam/ -outfile contigs.orf.pfam \
+-dir  ~/workshop_materials/genomics_adventure/db/pfam/ -outfile contigs.orf.pfam \
 -cpu 2 -as
 ```
 
