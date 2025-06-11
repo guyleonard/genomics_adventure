@@ -3,7 +3,7 @@ Now will execute the same command, but this time include the longer PacBio reads
 
 Return to the pseudomonas directory:
 ```bash
-cd /home/zoo/zool2474/genomics_adventure/pseudomonas
+cd ~/workshop_materials/genomics_adventure/pseudomonas
 ```
 Again, this assembly will take too long for now, but it's here for reference anyway.
 
