@@ -53,7 +53,7 @@ blastn -subject ../../reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic
 # task 7
 hmmpress ../../db/pfam/Pfam-A.hmm
 pfam_scan.pl -fasta contigs.orf.fasta \
--dir ~/workshop_materials/genomics_tutorial/db/pfam/ \
+-dir ~/workshop_materials/genomics_adventure/db/pfam/ \
 -outfile contigs.orf.pfam \
 -cpu 4 \
 -as
