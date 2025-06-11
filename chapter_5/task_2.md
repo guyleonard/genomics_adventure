@@ -5,7 +5,7 @@ It is always important to check and understand the quality of the data you are w
 Change to the directory and run fastqc:
 
 ```bash
-cd ~/workshop_meterials/genomics_adventure/sequencing_data/pseudomonas_gm41
+cd ~/workshop_materials/genomics_adventure/sequencing_data/pseudomonas_gm41
 
 fastqc &
 ```
