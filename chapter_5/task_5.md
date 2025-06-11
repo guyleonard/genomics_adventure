@@ -34,7 +34,7 @@ quast.py --output-dir quast ../illumina_only/contigs.fasta contigs.fasta
 cat quast/report.txt
 ```
 
-If you ran the assembly command - outside of the workhop - you may get slightly different results here, as SPAdes uses a random seed.
+If you ran the assembly command - outside of the workshop - you may get slightly different results here, as SPAdes uses a random seed.
 ```
 Assembly                    illumina_only_contigs  hybrid_contigs
 # contigs (>= 0 bp)         612                    265           
