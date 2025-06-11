@@ -1,0 +1,8 @@
+# build artifacts
+denovo_assembly/
+mapping_to_reference/
+read_*.fastq.gz
+*.fq
+*.bam
+*.sam
+.pytest_cache/
