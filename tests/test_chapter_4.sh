@@ -23,8 +23,8 @@ samtools index contigs_mapped_sorted.bam
 bwa index contigs.fasta && \ bwa mem -t 2 contigs.fasta \ ../../sequencing_data/ecoli/read_1_val_1.fq.gz \ ../../sequencing_data/ecoli/read_2_val_2.fq.gz \ | samtools sort -O bam -o contigs_mapped_sorted.bam && \ samtools index contigs_mapped_sorted.bam
 samtools flagstat contigs_mapped_sorted.bam
 qualimap bamqc -outdir bamqc -bam contigs_mapped_sorted.bam
-blastn -subject contigs.fasta \
--query ../../unmapped_assembly/spades_assembly/contigs.fasta \
+-blastn -subject contigs.fasta \
+-query ../../sequencing_data/ecoli/unmapped_assembly/spades_assembly/contigs.fasta \
 -outfmt 6 -out check_plasmid.blastn
 
 # task 4
