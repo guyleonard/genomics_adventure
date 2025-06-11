@@ -8,6 +8,13 @@ ssh -Y ip_address
 ```
 This enables trusted X11 forwarding, don't worry this just means it will allow us to run graphical user interfaces from the AMI on your local computer.
 
+For X11 forwarding to work you will also need an X server running on your local machine:
+
+- **macOS** &ndash; install and launch [XQuartz](https://www.xquartz.org/) before connecting.
+- **Windows** &ndash; use [MobaXterm](https://mobaxterm.mobatek.net/) or [Xming](https://sourceforge.net/projects/xming/) (or WSLg) to provide an X server.
+
+See the linked pages for simple setup instructions.
+
 If you have logged in to the AMI via Guacmole and selected the Desktop interface, then don't worry about that bit...Onwards.
 
 Open a terminal, or use the terminal in your SSH session, and you should find a directory called "workshop_materials" in your home directory where this adventure is cloned. All further commands will be run within the "genomics_adventure" directory.
