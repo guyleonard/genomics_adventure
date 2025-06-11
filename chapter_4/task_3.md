@@ -93,7 +93,7 @@ If you notice very carefully :wink:, there is one contig which has a size of 468
 
 ```bash
 blastn -subject contigs.fasta \
--query ../../unmapped_assembly/spades_assembly/contigs.fasta \
+-query ../../sequencing_data/ecoli/unmapped_assembly/spades_assembly/contigs.fasta \
 -outfmt 6 -out check_plasmid.blastn
 ```
 
