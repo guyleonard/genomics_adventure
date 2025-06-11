@@ -14,7 +14,7 @@ ln -s ../assembly/contigs.fasta .
 We now need to index and map our files, this is similar to the steps from Chapter 2... Indeed we will use the QC reads we created in Task 2! We will go through the steps one-by-one, although don't forget you can combine them all in to one step if you are feeling brave!
 ```bash
 # Index the contigs
-bwa index contig.fasta
+bwa index contigs.fasta
 
 # align QC reads to contigs and output SAM file
 bwa mem -t 2 contigs.fasta \
