@@ -69,6 +69,13 @@ Again, we've done this bit for you! :)
 #### Databases
 We will be using the PFam-A database of Hidden Markov Models (HMMS) and an Active Site database from the [PFAM from InterPro](https://www.ebi.ac.uk/interpro/) website.
 
+### Troubleshooting
+If graphical tools (for example, IGV) do not appear, ensure you connected with `ssh -Y` to enable X11 forwarding.
+```
+ssh -Y ip_address
+```
+If issues persist, try reconnecting or use the desktop option via Guacamole.
+
 Now you are finished with this section, you may continue on to the adventure by clicking the title below.
 
 # [Adventure Time!](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_2/task_1.md)
