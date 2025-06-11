@@ -43,32 +43,32 @@ cd ~/workshop_materials/genomics_adventure/sequencing_data/ecoli
 mkdir mapping_to_reference
 cd mapping_to_reference
 bwa mem -t 4 \
-~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_1_val_1.fq.gz \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_2_val_2.fq.gz \
+~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_1_val_1.fq.gz \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_2_val_2.fq.gz \
 -o ecoli_mapped.sam
 
 # task 7
 samtools view
 samtools view -b -S \
--T ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+-T ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
 ecoli_mapped.sam -o ecoli_mapped.bam
 samtools sort ecoli_mapped.bam -o ecoli_mapped_sorted.bam
 
 bwa mem -t 4 \
-~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_1_val_1.fq.gz \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_2_val_2.fq.gz \
+~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_1_val_1.fq.gz \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_2_val_2.fq.gz \
 -o ecoli_mapped.sam
 samtools view -b -S \
--T ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+-T ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
 ecoli_mapped.sam -o ecoli_mapped.bam
 samtools sort ecoli_mapped.bam -o ecoli_mapped_sorted.bam
 
 bwa mem -t 4 \
-~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_1_val_1.fq.gz \
-~/workshop_materials/genomics_tutorial/sequencing_data/ecoli/read_2_val_2.fq.gz \
+~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.fna \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_1_val_1.fq.gz \
+~/workshop_materials/genomics_adventure/sequencing_data/ecoli/read_2_val_2.fq.gz \
 | samtools sort -O bam -o ecoli_mapped_sorted_onecommand.bam
 
 # task 8
@@ -91,7 +91,7 @@ rm ecoli_mapped_sorted.bam
 qualimap bamqc
 qualimap bamqc -outdir bamqc \
 -bam ecoli_mapped_namesort_fixmate_sort_markdup.bam \
--gff ~/workshop_materials/genomics_tutorial/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.gff
+-gff ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.gff
 
 # task 14
 bcftools mpileup
