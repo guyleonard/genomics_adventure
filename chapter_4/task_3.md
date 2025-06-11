@@ -46,7 +46,7 @@ samtools index contigs_mapped_sorted.bam
   ../../sequencing_data/ecoli/read_1_val_1.fq.gz \
   ../../sequencing_data/ecoli/read_2_val_2.fq.gz \
   | samtools sort -O bam -o contigs_mapped_sorted.bam && \
-  bwa index contigs_mapped_sorted.bam
+  samtools index contigs_mapped_sorted.bam
   ```
 </details>
 
