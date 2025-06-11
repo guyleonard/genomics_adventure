@@ -3,7 +3,7 @@ Let's realign our original reads back to the assembly and see what we have - ref
 
 Start in the pseudomonas directory, soft link the hybrid assembly and create an index with BWA.
 ```bash
-cd ~/workshop_meterials/genomics_adventure/pseudomonas
+cd ~/workshop_materials/genomics_adventure/pseudomonas
 
 mkdir mapping_to_assembly && cd mapping_to_assembly
 
