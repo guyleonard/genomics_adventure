@@ -12,7 +12,7 @@ quast.py --output-dir quast contigs.fasta
 mkdir mapping_to_assembly
 cd mapping_to_assembly
 ln -s ../assembly/contigs.fasta .
-bwa index contig.fasta
+bwa index contigs.fasta
 bwa mem -t 2 contigs.fasta \
 ../../sequencing_data/ecoli/read_1_val_1.fq.gz \
 ../../sequencing_data/ecoli/read_2_val_2.fq.gz \
@@ -20,7 +20,7 @@ bwa mem -t 2 contigs.fasta \
 samtools view -bS contigs_mapped.sam > contigs_mapped.bam
 samtools sort -o contigs_mapped_sorted.bam contigs_mapped.bam
 samtools index contigs_mapped_sorted.bam
-bash bwa index contigs.fasta && \ bwa mem -t 2 contigs.fasta \ ../../sequencing_data/ecoli/read_1_val_1.fq.gz \ ../../sequencing_data/ecoli/read_2_val_2.fq.gz \ | samtools sort -O bam -o contigs_mapped_sorted.bam && \ bwa index contigs_mapped_sorted.bam
+bwa index contigs.fasta && \ bwa mem -t 2 contigs.fasta \ ../../sequencing_data/ecoli/read_1_val_1.fq.gz \ ../../sequencing_data/ecoli/read_2_val_2.fq.gz \ | samtools sort -O bam -o contigs_mapped_sorted.bam && \ samtools index contigs_mapped_sorted.bam
 samtools flagstat contigs_mapped_sorted.bam
 qualimap bamqc -outdir bamqc -bam contigs_mapped_sorted.bam
 blastn -subject contigs.fasta \
