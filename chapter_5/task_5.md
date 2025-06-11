@@ -12,7 +12,7 @@ Woah déjà vu. :sunglasses:
 
 :warning: do not run the assembly :warning:
 ```bash
-spades.py --threads 112 --careful -o hybrid \
+spades.py --threads 4 --careful -o hybrid \
 --pacbio ../sequencing_data/pseudomonas_gm41/SRR1042836_subreads.fastq.gz \
 -1 ../sequencing_data/pseudomonas_gm41/SRR491287_1_val_1.fq.gz \
 -2 ../sequencing_data/pseudomonas_gm41/SRR491287_2_val_2.fq.gz
