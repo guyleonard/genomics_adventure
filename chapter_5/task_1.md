@@ -1,6 +1,6 @@
 # Chapter 5 - Hybrid *de novo* Assembly
 
-You will have seen that even with good coverage and a relatively long (300bp) paired end Illumina dataset - the assembly we get is still fairly fragmented. Our ​ E.coli example assembles into 78
+You will have seen that even with good coverage and a relatively long (300bp) paired end Illumina dataset - the assembly we get is still fairly fragmented. Our E.coli example assembles into 78
 contigs and the largest contig is around 10% of the genome size. Why is this?
 
 One possible reason would be that regions of the original genome were not sequenced, or sequenced at too low a coverage to assemble correctly. Regions of the genome will occur with different frequencies in the library that was sequenced - You can see this in the variation of coverage when you did the alignment. This can be due to inherent biases in the preparation and the random nature of the process.
