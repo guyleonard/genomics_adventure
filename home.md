@@ -18,7 +18,13 @@ cd genomics_adventure
 ### Software
 This section will create the 'environment' :package: in which we will be having our adventure, this allows us to keep all the software in one place for easy access and repeatability (e.g. you may wish to run different versions of software for other analyses, you can do that in other environments). We won't explore each of the programs that we will install right now, but the adventure will explain each as we get to them.
 
-:ant: This time you may copy and paste, one-by-one, the commands below:
+:ant: The easiest route is to create the environment from the included `environment.yml` file:
+```bash
+conda env create -f environment.yml
+conda activate genomics_adventure
+```
+
+If you prefer to build the environment manually, copy and paste the commands below one-by-one:
 ```bash
 # Make sure we are up to date
 conda update -n base conda
@@ -36,7 +42,7 @@ conda config --add channels conda-forge
 # Install the software
 conda install -c bioconda bcftools=1.12 bedtools blast bwa ea-utils emboss fastqc igv igvtools pfam_scan qualimap quast=5.0.2 samtools=1.12 seqtk spades sra-tools trim-galore vcftools
 ```
-If conda is being a PITA, then you might like to try 'mamba' which runs much faster and more smoothly (conda install -c conda-forge mamba). 
+If conda is being a PITA, then you might like to try 'mamba' which runs much faster and more smoothly (`conda install -c conda-forge mamba`).
 
 Make sure that the environment is manually activated everytime you come back to this adventure. You should see '(genomics_adventure)' before your normal terminal prompt. If it is not activated, use the 'activate' command from above.
 

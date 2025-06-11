@@ -1,0 +1,25 @@
+name: genomics_adventure
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - bcftools=1.12
+  - bedtools
+  - blast
+  - bwa
+  - ea-utils
+  - emboss
+  - fastqc
+  - igv
+  - igvtools
+  - pfam_scan
+  - qualimap
+  - quast=5.0.2
+  - samtools=1.12
+  - seqtk
+  - spades
+  - sra-tools
+  - trim-galore
+  - vcftools

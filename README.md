@@ -37,6 +37,16 @@ bwa mem -t 4 \
 
 The tutorial (sorry adventure), like any good story, is designed to be long and you likely won't finish it in less than 3 hours or even in one sitting. Don't worry though, you can always come back to it anytime!
 
+### Setup
+All software used in this adventure can be installed via [conda](https://docs.conda.io).
+This repository provides an `environment.yml` file with the required packages.
+Create the environment and activate it with:
+
+```bash
+conda env create -f environment.yml
+conda activate genomics_adventure
+```
+
 <p align="center">:dragon_face: Shall we begin? - Daenerys Targaryen :dragon_face:</p>
 
 ## Chapter 1: Once Upon a Time...
