@@ -61,6 +61,11 @@ To convert them we will use the [bamtofastq](https://bedtools.readthedocs.io/en/
 bedtools bamtofastq -i unmapped.bam -fq unmapped_r1.fastq -fq2 unmapped_r2.fastq
 ```
 
+Alternatively, you can do the conversion using `samtools fastq`:
+```bash
+samtools fastq -1 unmapped_r1.fastq -2 unmapped_r2.fastq unmapped.bam
+```
+
 Nicely done! Now lets head over to Task 2.
 
 # Go to [Task 2](https://github.com/guyleonard/genomics_adventure/blob/release/chapter_3/task_2.md)
