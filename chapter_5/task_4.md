@@ -32,7 +32,7 @@ quast.py --output-dir quast contigs.fasta
 cat quast/report.txt
 ```
 
-If you ran the assembly command - outside of the workhop - you may get slightly different results here, as SPAdes uses a random seed.
+If you ran the assembly command - outside of the workshop - you may get slightly different results here, as SPAdes uses a random seed.
 ```
 Assembly                    contigs
 # contigs (>= 0 bp)         612    
