@@ -2,7 +2,7 @@
 
 Load your assembled genome - click on "Genome - Load from File..."
 
-Make sure you get the contigs.fasta from the "hybrid" asembly (igv remembers the previous directory which may contain similar files.)
+Make sure you get the contigs.fasta from the "hybrid" assembly (igv remembers the previous directory which may contain similar files.)
 
 Now load your 2 alignment files - click on "Load from File..." and then select pseudo.pacbio.sorted.bam and pseudo.illumina.sorted.bam
 

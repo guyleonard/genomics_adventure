@@ -1,5 +1,5 @@
 # Create a Hybrid Assembly
-Now will execute the same command, but this time include the longer PacBio reads to see the effect it has on our assembly.
+Now we will execute the same command, but this time include the longer PacBio reads to see the effect it has on our assembly.
 
 Return to the pseudomonas directory:
 ```bash
@@ -8,7 +8,7 @@ cd /home/zoo/zool2474/genomics_adventure/pseudomonas
 Again, this assembly will take too long for now, but it's here for reference anyway.
 
 :cat: :cat:
-Woah déjà vu. :sunglasses:
+Woah, déjà vu!
 
 :warning: do not run the assembly :warning:
 ```bash
@@ -34,7 +34,7 @@ quast.py --output-dir quast ../illumina_only/contigs.fasta contigs.fasta
 cat quast/report.txt
 ```
 
-If you ran the assembly command - outside of the workhop - you may get slightly different results here, as SPAdes uses a random seed.
+If you ran the assembly command - outside of the workshop - you may get slightly different results here, as SPAdes uses a random seed.
 ```
 Assembly                    illumina_only_contigs  hybrid_contigs
 # contigs (>= 0 bp)         612                    265           

@@ -7,7 +7,7 @@ trim_galore --paired --fastqc --gzip --cores 4 --length 100 \
 SRR491287_1.fastq.gz SRR491287_2.fastq.gz
 ```
 
-You can check the number of filtered reads using "grep –c" and the quality of trimmed reads with fastqc if you want.
+You can check the number of filtered reads using "grep -c" and the quality of trimmed reads with fastqc if you want.
 
 For our next trick we want to keep the long reads from PacBio even though they are of lower quality. We are relying
 on the assembler to use them appropriately...
