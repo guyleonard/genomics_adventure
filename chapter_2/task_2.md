@@ -5,6 +5,14 @@ Note: Typically when submitting Illumina data to NCBI or EBI you would submit th
 
 We are going to use the program '[Trim Galore!](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)' :mag: to adaptor trim and QC our data. There are many other programs that can do this, see below for examples, but this one is our current favourite - because it is actually a script that 'wraps' two programs together: '[cutadapt](https://cutadapt.readthedocs.io/en/stable/)' :mag: and '[fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)' :mag:.
 
+Another handy option is [fastp](https://github.com/OpenGene/fastp), which performs adaptor trimming, quality filtering and report generation all in a single step. It can serve as an all‑in‑one alternative to running separate tools. A typical command for processing paired-end reads is shown below:
+```bash
+fastp -i read_1.fastq.gz -I read_2.fastq.gz \
+      -o read_1_trimmed.fq.gz -O read_2_trimmed.fq.gz \
+      -h fastp.html -j fastp.json -w 4
+```
+
+
 ## Other QC Programs
 A list (by no means exhaustive) of some of the other most common adaptor trimming and QC programs:
 
