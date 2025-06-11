@@ -30,7 +30,7 @@ One big advantage is that it is not just a pure assembler - it is a suite of pro
 
 SPAdes runs the modules that are required for a particular dataset and it produces the assembly with a minimum of preparation and parameter selection - making it very straightforward to produce a decent assembly. As with everything in bioinformatics you should try to assess the results critically and understand the implications for further analysis.
 
-A pretty old overview of how SPAdes differs from 'velvet', a very old assembly program, can be found [here](http://thegenomefactory.blogspot.co.uk/2013/08/how-spades-differs-from-velvet.html). Nonetheless, it outlines the overall process quite nicely:
+A detailed overview of how SPAdes differs from Velvet is provided in the [SPAdes publication](https://doi.org/10.1089/cmb.2012.0021). It outlines the overall process quite nicely:
 
 1. Read error correction based on k-mer frequencies using ​BayesHammer.
 2. De Bruijn graph assembly at ​multiple ​k-mer sizes, not just a single fixed one.
