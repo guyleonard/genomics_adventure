@@ -31,6 +31,20 @@ Check that the number of entries in both fastq files is the same. Also check tha
 ## Task 2b - Evaluate QC
 Back to some familiar territory! Use the fastqc program to look at the statistics and QC for the ​unaligned_r1.fastq and unaligned_r2.fastq​ files.
 
+While fastqc provides a useful summary of read quality, you can also use the
+[fastp](https://github.com/OpenGene/fastp) program to trim low quality bases,
+remove adapter sequences and generate its own QC reports all in one step.
+Running `fastp` on the paired reads could look like this:
+
+```bash
+fastp -i unaligned_r1.fastq -I unaligned_r2.fastq \
+      -o trimmed_r1.fastq -O trimmed_r2.fastq \
+      -h fastp_report.html -j fastp_report.json
+```
+
+This command produces trimmed output files and both HTML and JSON reports
+describing the quality of the reads after processing.
+
 Do these look reasonably good? Remember, some reads will fail to map to the reference because they are poor quality, so the average scores will be lower than the initial fastqc report we did in the mapping task. The aim here is to see if it looks as though there are reads of reasonable quality which did not map.
 
 Assuming these reads look ok to you, we will proceed with preparing them for de novo assembly!
