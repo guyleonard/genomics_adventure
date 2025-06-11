@@ -1,4 +1,4 @@
-Firstly, we need to install some common software, and download some data to help us on our way. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)':mag:, which will allow us to easily install lots of common bioinformatics software in a special 'environment' (think of it like a box :package:) without the need for admin access or other complications. For the data, we will download this from some publiic repositories.
+Firstly, we need to install some common software, and download some data to help us on our way. For the software we will use a program called '[conda](https://docs.conda.io/en/latest/)':mag:, which will allow us to easily install lots of common bioinformatics software in a special 'environment' (think of it like a box :package:) without the need for admin access or other complications. For the data, we will download this from some public repositories.
 
 NB - If you are attending the Workshop on Genomics then 'conda', the software and all data is already installed for you! So you can continue to the next section called ['Adventure Time'](https://github.com/guyleonard/genomics_adventure#adventure-time) :smiley:. Although you might like to read the next bit just for reference.
 
@@ -52,7 +52,7 @@ We will need to retrieve several sets of data for our adventure, this is similar
 We will be working with the bacterial species *Escherichia coli* as it is a relatively small genome (which makes it easy for the timings of this tutorial), but the techniques you will learn here can be applied to any smaller or larger, and/or Eukaryotic genomes too!
 
 #### Sequencing Data
-Back at your home institute you will likely retrieve your data from either the institute's sequencing service or a private outside provider. However, there is also a wealth :moneybag: of sequenced genomic data stored in publically accesible repositories such as NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are also where you will be required to deposit your sequencing efforts during publication.
+Back at your home institute you will likely retrieve your data from either the institute's sequencing service or a private outside provider. However, there is also a wealth :moneybag: of sequenced genomic data stored in publicly accessible repositories such as NCBI's [SRA](https://www.ncbi.nlm.nih.gov/sra) or EMBL-EBI's [ENA](https://www.ebi.ac.uk/ena). These portals are also where you will be required to deposit your sequencing efforts during publication.
 
 For this adventure we will be downloading and processing raw sequencing data. Please note that some sequencing services may provide trimmed or quality assessed reads as part of their standard service, however it is up to you whether you want to use that data directly or process the raw data yourself. Always ask: are their methods directly suited to your analysis needs?
 
@@ -67,7 +67,7 @@ NB - These commands may take a little bit of time to complete depending on your 
 # make a directory for the data and move there
 mkdir -p sequencing_data/ecoli && cd sequencing_data/ecoli
 
-# eiether
+# either
 # fastq-dump from NCBI - slow
 fastq-dump --split-files --origfmt --gzip SRR857279
 
@@ -100,7 +100,7 @@ We will access the reference data from the National Center for Biotechnology Inf
 
 There is a lot of information on this page, but the main pieces of information we are interested in are; the genome in [FASTA](https://en.wikipedia.org/wiki/FASTA_format) format, and the gene annotations in [GFF](https://en.wikipedia.org/wiki/General_feature_format) format. Can you see where these are? :eyes:
 
-We will now download the data, as we are working with the command line we have already copied the links to the data below for you :slightly_smiling_face:. Using the '[wget](https://www.gnu.org/software/wget/)':mag: command we can download files directly from the web to our local dicrectory. The files are '*gzipped*', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted during the transfer. We will also need to *unzip* them with the program '[gunzip](https://linux.die.net/man/1/gunzip)':mag:.
+We will now download the data, as we are working with the command line we have already copied the links to the data below for you :slightly_smiling_face:. Using the '[wget](https://www.gnu.org/software/wget/)':mag: command we can download files directly from the web to our local directory. The files are '*gzipped*', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted during the transfer. We will also need to *unzip* them with the program '[gunzip](https://linux.die.net/man/1/gunzip)':mag:.
 
 :squirrel: This time you may copy and paste, one-by-one, the commands below:
 ```bash
