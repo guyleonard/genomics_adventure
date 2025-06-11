@@ -27,6 +27,18 @@ bedtools coverage \
 -b ecoli_mapped_namesort_fixmate_sort_markdup_subsampled.bam > gene_coverage.txt
 ```
 
+As an alternative to **BEDTools**, you can use `samtools coverage` which tends to
+have a lighter memory footprint. It can produce similar per-feature summaries
+directly from your BAM file and the reference annotations. A comparable command
+to generate per‑gene coverage would be:
+
+```bash
+samtools coverage -b \
+  ~/workshop_materials/genomics_adventure/reference_sequences/ecoli/GCF_000005845.2_ASM584v2_genomic.gff \
+  ecoli_mapped_namesort_fixmate_sort_markdup_subsampled.bam \
+  > gene_coverage_samtools.txt
+```
+
 This should now only take a minute or so. Take a look and you will see that the output contains one row per annotated gene, whereby the 13th (and final) column contains the proportion of the gene that is covered by reads from our sequencing. 1.00 means the gene is 100% covered and 0.00 means there is no coverage. Of course, in our case, it could be anywhere up to 50% more coverage than is reported due to our subsampling, but that doesn't matter in order to find any missing genes!
 
 Therefore, if we 'sort' our data by the 13th column we can see which genes are missing:
