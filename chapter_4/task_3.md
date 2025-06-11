@@ -80,6 +80,13 @@ firefox bamqc/qualimapReport.html
 nano bamqc/genome_results.txt
 ```
 
+Another quick way to summarise coverage per contig is to use `samtools coverage`.
+This command outputs coverage statistics directly from the BAM file:
+
+```bash
+samtools coverage contigs_mapped_sorted.bam > coverage.txt
+```
+
 Go to either the "Chromosome stats" section if you opened the '.html' or the "Coverage per contig" section from the text file. We can see that the larger of our contigs have a mean coverage of around 160 - which is what we would expect from our original alignment.
 
 If you notice very carefully :wink:, there is one contig which has a size of 46899 - this is very very close to the size (46850) of the main contig we found in the unmapped reads assembly - another good indication that it is a separate sequence (remember we suspected it was a plasmid) and not integrated into a chromosome. We can double check this with a quick blast search...
