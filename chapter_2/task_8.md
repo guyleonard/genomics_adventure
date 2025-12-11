@@ -1,7 +1,7 @@
 # Task 8 - Removing Suspected PCR Duplicates
 The program 'samtools' can do a reasonably good job of removing potential PCR duplicates, especially when using paired-end read data (refer back to the first part of this adventure if you are unsure what PCR duplicates are).
 
-NB - Previous versions of 'samtools' contained a command named 'rmdup' which removed suspected PCR duplicates, indeed you may see it still used in a lot of online tutorials during your google adventures. However, the command has now been *deprecated* and so it may be removed in any future versions of the 'samtools' program. And so it is best not to use it, in fact the authors of 'samtools' suggest that you do not.
+NB - Previous versions of 'samtools' contained a command named 'rmdup' which removed suspected PCR duplicates, indeed you may see it still used in a lot of online tutorials during your google adventures. I have also seen it suggested by the output of LLMs (ChatGPT etc) so be very careful if you use those regression to the mean slop generators :poop: :no_entry_sign:.  Moreover, the command has now been *deprecated* and so it may be removed in any future versions of the 'samtools' program. Therefore it is best not to use it, in fact the authors of 'samtools' explicitly suggest that you do not.
 
 This is because there were a number of technical issues with the 'samtools rmdup' command, and it has now been replaced with the better 'samtools markdup' command. This command marks the duplicates, rather than removing them entirely - however, you will need to do two different rounds of sorting to make it work! We will go through these steps one-by-one again, but you may like to combine them in your future work.
 
