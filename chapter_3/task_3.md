@@ -17,7 +17,7 @@ spades.py --careful -o spades_assembly -1 unmapped_r1.fastq -2 unmapped_r2.fastq
 
 We are running the SPAdes assembly pipeline and specifying the "--careful" option to run a mismatch correction algorithm to reduce the number of errors; put the output in the "-o spades_assembly" directory and the read libraries (-2 and -2) to assemble. Just because SPAdes does a lot for you does not mean you should not try to understand the process...
 
-A detailed description of the SPAdes workflow and its advantages can be found in the [SPAdes manual](https://cab.spbu.ru/files/release3.15.5/manual.html). It outlines the process quite nicely:
+A detailed description of the SPAdes workflow and its advantages can be found in the [SPAdes manual](https://ablab.github.io/spades/). It outlines the process quite nicely:
 
 1. Read error correction based on k-mer frequencies using ​BayesHammer.
 2. De Bruijn graph assembly at ​multiple ​k-mer sizes, not just a single fixed one.
