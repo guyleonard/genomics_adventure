@@ -51,7 +51,7 @@ Back at your home institute you will likely retrieve your data from either the i
 
 The raw data that we will use for the *E. coli* genome is available from [NCBI](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=ERR2789854) or [EMBL-EBI](https://www.ebi.ac.uk/ena/data/view/ERR2789854) with the accession ERR2789854 (they are also archived at the [DDBJ-DRA](https://www.ddbj.nig.ac.jp/dra/index-e.html) too). This is the same data but it is mirrored between the sites, however each site has a different way of accessing the data. We will focus on NCBI and EMBL-EBI for now.
 
-With NCBI you need to use a tool called '[fastq-dump](https://ncbi.github.io/sra-tools/fastq-dump.html)' :mag: , which given an accession and several other options will download the 'fastq' data files - it can be notoriously tricky and difficult at times and has some issues with downloading PacBio data. You can give it a try below if you wish, however the EMBL-EBI downloads will be much faster for this tutorial, so we strongly suggest you start there.
+With NCBI you need to use a tool called '[fastq-dump](https://rnnh.github.io/bioinfo-notebook/docs/fastq-dump.html)' :mag: , which given an accession and several other options will download the 'fastq' data files - it can be notoriously tricky and difficult at times and has some issues with downloading PacBio data. You can give it a try below if you wish, however the EMBL-EBI downloads will be much faster for this tutorial, so we strongly suggest you start there.
 
 At EMBL-EBI they provide direct links to the 'fastq' files that were submitted to the archive ("Submitted files (FTP)"), and so you can use tools such as 'wget' or 'curl' to retrieve them.
 
