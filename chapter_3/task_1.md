@@ -42,7 +42,7 @@ Now, using the "Decoding SAM flags" tool, can you figure out what flag number we
 
 Now that we have identified the correct bit flag, we can go ahead with filtering of the BAM file from Chapter 2, here using samtools.
 ```bash
-samtools view -b -f 12 ../sequencing_data/ecoli/mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam -o unmapped.bam
+samtools view -b -f 12 ../mapping_to_reference/ecoli_mapped_namesort_fixmate_sort_markdup.bam -o unmapped.bam
 ```
 
 This command outputs a BAM file "-b" and filters only those with a corresponding bit flag of "-f 12".

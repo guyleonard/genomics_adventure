@@ -37,7 +37,7 @@ remove adapter sequences and generate its own QC reports all in one step.
 Running `fastp` on the paired reads could look like this:
 
 ```bash
-fastp -i unaligned_r1.fastq -I unaligned_r2.fastq \
+fastp -i unmapped_r1.fastq -I unmapped_r2.fastq \
       -o trimmed_r1.fastq -O trimmed_r2.fastq \
       -h fastp_report.html -j fastp_report.json
 ```
