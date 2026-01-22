@@ -15,7 +15,7 @@ cd ~/workshop_materials/genomics_adventure
 
 mkdir denovo_assembly && cd denovo_assembly
 
-ln -s ../../precomputed/denovo_assembly/assembly .
+ln -s ../precomputed/denovo_assembly/assembly .
 ```
 
 The command you would use to run SPAdes is this (do not run, it would take ~3 hours):
